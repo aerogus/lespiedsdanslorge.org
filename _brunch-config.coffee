@@ -5,6 +5,9 @@ exports.config =
     stylesheets:
       joinTo:
         'css/derfest.css': /^app\/styles\/derfest.styl/
+    #javascripts:
+    #  joinTo:
+        #'js/derfest.js': /^app\/scripts/
   plugins:
     postcss:
       processors: [

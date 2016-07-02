@@ -1,11 +1,24 @@
 {
+  "name": "derfest",
+  "description": "Der'Fest website",
+  "author": "Guillaume Seznec",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production"
+  },
   "dependencies": {
     "after-brunch": "0.0.5",
-    "auto-reload-brunch": "^2.0.0",
+    "auto-reload-brunch": "^2.7.1",
     "autoprefixer": "^6.3.6",
-    "brunch": "^1.8.3",
-    "clean-css-brunch": ">= 1.0 < 1.8",
-    "css-brunch": ">= 1.0 < 1.8",
+    "brunch": "^2.8.2",
+    "clean-css-brunch": "^1.7.2",
+    "css-brunch": "^1.7.0",
+    "jaded-brunch": "^2.3.0",
     "postcss-assets": "^4.1.0",
     "postcss-brunch": "^0.5.0",
     "stylus-brunch": "^1.8.1"
