@@ -1,4 +1,4 @@
-doctype
+doctype html
 html
   head
     meta(charset='utf-8')
@@ -9,6 +9,28 @@ html
     link(rel='stylesheet', href='css/derfest.css')
   body
 
-    p Hello world! This is HTML5 Boilerplate.
+    header
+      h2 Festival AD'HOC 15 octobre 2016
+      h1 Der'Fest #1
+      p Parking du Breuil / Epinay-sur-Orge
+
+    nav.menu
+      ul
+        li Programmation
+          ul
+            li Artistes
+            li Grande Scène
+            li Petite Scène
+        li Accès
+          ul
+            li Plan du Festival
+            li Transports
+        li Partenaires
 
     script(src='js/derfest.js')
+    script.
+      document.addEventListener("DOMContentLoaded", function(event) {
+        require('app').init();
+        //var app = require('app');
+        //app.init();
+      });
