@@ -9,7 +9,7 @@ module.exports =
       joinTo:
         'css/derfest.css': /^app\/styles\/derfest.styl/
   plugins:
-    jaded:
+    jadeddisabled:
       staticPatterns: /^app\/views\/(.+)\.jade$/
     postcss:
       processors: [

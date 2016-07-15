@@ -5,7 +5,7 @@ module.exports = [
     require('artistes/pandravox'),
     require('artistes/polarpolarpolarpolar'),
     require('artistes/pricklypearl'),
-    require('artistes/resonnance'),
+    require('artistes/resonance'),
     require('artistes/smokeybandits'),
     require('artistes/sozik')
 ];

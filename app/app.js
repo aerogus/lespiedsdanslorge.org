@@ -67,10 +67,8 @@ var App = {
         return this.tpl_petite_scene();
       case '/partenaires':
         return '<p>Les partenaires</p>';
-        break;
       default:
         return '<p>unknown page</p>';
-        break;
     }
   },
 
@@ -84,10 +82,13 @@ var App = {
   },
 
   /**
-   *
+   * liste des artistes triés par horaire
    */
   tpl_artistes: function () {
-    var artistes = require('artistes');   
+    var artistes = require('artistes');
+    artistes.sort(function (a, b) {
+      return a.horaire < b.horaire;
+    });
     return 'artistes';
   },
 
@@ -95,8 +96,12 @@ var App = {
    *
    */
   tpl_grande_scene: function () {
-    var artistes = require('artistes').filter(function (obj) {
+    var artistes = require('artistes')
+    artistes.filter(function (obj) {
       return obj.scene === 'grande';
+    });
+    artistes.sort(function (a, b) {
+      return a.horaire < b.horaire;
     });
     console.log(artistes);
     return 'grande scene';
@@ -106,8 +111,12 @@ var App = {
    *
    */
   tpl_petite_scene: function () {
-    var artistes = require('artistes').filter(function (obj) {
+    var artistes = require('artistes');
+    artistes.filter(function (obj) {
       return obj.scene === 'petite';
+    });
+    artistes.sort(function (a, b) {
+      return a.horaire < b.horaire;
     });
     console.log(artistes);
     return 'petite scene';

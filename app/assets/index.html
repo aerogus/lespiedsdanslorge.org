@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Der'Fest</title>
-    <meta name="description" content="Le dernier festival de l année">
+    <meta name="description" content="Le dernier festival de l'année">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700">
     <link rel="stylesheet" href="css/derfest.css">
   </head>
   <body>
@@ -19,20 +20,33 @@
       <ul>
         <li>Programmation
           <ul>
-            <li>Artistes</li>
-            <li>Grande Scène</li>
-            <li>Petite Scène</li>
+            <li><a href="/artistes">Artistes</a></li>
+            <li><a href="/grande-scene">Grande Scène</a></li>
+            <li><a href="/petite-scene">Petite Scène</a></li>
           </ul>
         </li>
         <li>Accès
           <ul>
-            <li>Plan du Festival</li>
-            <li>Transports</li>
+            <li><a href="/plan">Plan du Festival</a></li>
+            <li><a href="/transports">Transports</a></li>
           </ul>
         </li>
         <li>Partenaires</li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
       </ul>
     </nav>
+    <section class="main-content">
+      <div class="page artiste">
+      </div>
+      <div class="page partenaires">
+      </div>
+    </section>
+    <footer>
+      <p>Crédits: AD'HOC</p>
+    </footer>
     <script src="js/derfest.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function(event) {
