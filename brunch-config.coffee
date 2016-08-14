@@ -8,8 +8,8 @@ module.exports =
         'js/vendor.js': /^(?!app)/
     stylesheets:
       joinTo:
-        'css/app.css': /^app\/styles\/app.styl/
-        'css/sass.css': /^app\/styles\/sass.scss/
+        'css/_app.css': /^app\/styles\/app.styl/
+        'css/app.css': /^app\/styles\/app.scss/
         'css/vendor.css': /^(?!app)/
   plugins:
     sass:

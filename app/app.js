@@ -2,124 +2,149 @@
 
 var App = {
 
-  route: '',
-
-  UI: {
-    main: document.getElementById('main-content')
-  },
+  GMAP_KEY: 'AIzaSyBW8wt3QH0k1e_oV9ue_jE8-5AOUX9OnOY',
 
   init: function () {
-    var _this = this;
     console.log('App.init');
-    this.route = window.location.pathname;
-    console.log(this.route);
-    this.UI.main.innerHTML = this.get_page(this.route);
 
-    // intercepte les clicks sur les liens
-    document.addEventListener('click', function (e) {
-      var e = window.e || e;
-      if (e.target.tagName !== 'A') {
-        return;
-      }
+    $(document).foundation();
+
+    var _this = this;
+
+    this.init_artistes();
+    this.init_artiste();
+    this.init_grande_scene();
+    this.init_petite_scene();
+    this.init_map();
+
+    // smooth scrollTo
+    $('a[href^="#"]').click(function (e) {
       e.preventDefault();
-      console.log('click to ' + e.target.href);
-      window.history.pushState('', '', e.target.href);
-      _this.UI.main.innerHTML = _this.get_page(e.target.href);
-    }, false);
+      $('html,body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 'fast');
+    });
 
   },
 
   /**
-   * @param string name
-   * @return string
+   * Charge la section Artistes
    */
-  get_page: function (name) {
-    name.replace('http://localhost:3333', '');
-    name.replace('http://derfest.eu', '');
-    console.log('get_page ' + name);
-    switch (name) {
-      case '/':
-        return '<p>coucou accueil</p>';
-        break;
-      case '/artistes/lesdyvettesdenface':
-        return this.tpl_artiste('lesdyvettesdenface');
-      case '/artistes/oddfiction':
-        return this.tpl_artiste('oddfiction');
-      case '/artistes/mayavibes':
-        return this.tpl_artiste('mayavibes');
-      case '/artistes/pandravox':
-        return this.tpl_artiste('pandravox');
-      case '/artistes/polarpolarpolarpolar':
-        return this.tpl_artiste('polarpolarpolarpolar');
-      case '/artistes/pricklypearl':
-        return this.tpl_artiste('pricklypearl');
-      case '/artistes/resonnance':
-        return this.tpl_artiste('resonnance');
-      case '/artistes/smokeybandits':
-        return this.tpl_artiste('smokeybandits');
-      case '/artistes/sozik':
-        return this.tpl_artiste('sozik');
-      case '/artistes':
-        return this.tpl_artistes();
-      case '/grande-scene':
-        return this.tpl_grande_scene();
-      case '/petite-scene':
-        return this.tpl_petite_scene();
-      case '/partenaires':
-        return '<p>Les partenaires</p>';
-      default:
-        return '<p>unknown page</p>';
+  init_artistes: function () {
+    var artistes = require('artistes');
+
+    // filtre grande scène
+    artistes = artistes.filter(function (obj) {
+      return obj.scene === 'grande' || obj.scene === 'petite';
+    });
+
+    // tri alphabétique
+    artistes.sort(function (a, b) {
+      return a.name > b.name;
+    });
+
+    var list = $('<div class="row"/>');
+    artistes.forEach(function (e) {
+      list.append('<div class="small-6 medium-4 columns artiste">\
+        <a data-open="' + e.id + '">\
+          <img src="' + e.photo + '"/>\
+          <h4 class="button">' + e.name + '</h4>\
+        </a>');
+    });
+
+    $('#artistes-content').append(list);
+  },
+
+  /**
+   * Charge la section Grande Scène
+   */
+  init_grande_scene: function () {
+    var artistes = require('artistes');
+
+    // filtre grande scène
+    artistes = artistes.filter(function (obj) {
+      return obj.scene === 'grande';
+    });
+
+    // tri chronologique
+    artistes = artistes.sort(function (a, b) {
+      return a.horaire > b.horaire;
+    });
+
+    var list = $('<div class="row"/>');
+    artistes.forEach(function (e) {
+      list.append('<div class="small-6 medium-4 columns artiste">\
+        <a data-open="' + e.id + '">\
+          <img src="' + e.photo + '"/>\
+          <h4 class="button">' + e.name + ' ' + e.horaire + '</h4>\
+        </a>');
+    });
+
+    $('#grande-scene-content').append(list);
+  },
+
+  /**
+   * Charge la section Petite Scène
+   */
+  init_petite_scene: function () {
+    var artistes = require('artistes');
+
+    // filtre petite scène
+    artistes = artistes.filter(function (obj) {
+      return obj.scene === 'petite';
+    });
+
+    // tri chronologique
+    artistes = artistes.sort(function (a, b) {
+      return a.horaire > b.horaire;
+    });
+
+    var list = $('<div class="row"/>');
+    artistes.forEach(function (e) {
+      list.append('<div class="small-6 medium-4 columns artiste">\
+        <a data-open="' + e.id + '">\
+          <img src="' + e.photo + '"/>\
+          <h4 class="button">' + e.name + ' ' + e.horaire + '</h4>\
+        </a>');
+    });
+
+    $('#petite-scene-content').append(list);
+  },
+
+  /**
+   *
+   */
+  init_map: function () {
+    var s = document.createElement('script');
+    s.src = 'https://maps.googleapis.com/maps/api/js?key=' + this.GMAP_KEY;
+    document.head.appendChild(s);
+    s.onload = function () {
+      var myOptions = {
+        zoom: 16,
+        center: new google.maps.LatLng(48.66943944555655, 2.3234067073791653),
+        mapTypeId: google.maps.MapTypeId.HYBRID
+      };
+      var map = new google.maps.Map(document.getElementById('map'), myOptions);
+      var marker = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(48.66943944555655,2.3234067073791653)
+      });
     }
   },
 
   /**
-   * @param string id
-   * @return string
-   */
-  tpl_artiste: function (id) {
-    var data = require('artistes/' + id);
-    return '<h2>' + data.name + '</h2>' + '<p>' + data.description.replace('\n', '<br>') + '</p>';
-  },
-
-  /**
-   * liste des artistes triés par horaire
-   */
-  tpl_artistes: function () {
-    var artistes = require('artistes');
-    artistes.sort(function (a, b) {
-      return a.horaire < b.horaire;
-    });
-    return 'artistes';
-  },
-
-  /**
    *
    */
-  tpl_grande_scene: function () {
-    var artistes = require('artistes')
-    artistes.filter(function (obj) {
-      return obj.scene === 'grande';
-    });
-    artistes.sort(function (a, b) {
-      return a.horaire < b.horaire;
-    });
-    console.log(artistes);
-    return 'grande scene';
-  },
-
-  /**
-   *
-   */
-  tpl_petite_scene: function () {
+  init_artiste: function () {
     var artistes = require('artistes');
-    artistes.filter(function (obj) {
-      return obj.scene === 'petite';
+    artistes.forEach(function (obj) {
+      var content = '<div id="' + obj.id + '" class="large reveal" data-reveal>\
+        <h4>' + obj.name + '</h4>\
+        <p>' + obj.description.replace('\n', '<br>') + '</p>\
+        <button class="close-button" data-close aria-label="Close modal" type="button">\
+          <span aria-hidden="true">&times;</span>\
+        </button>';
+        $('#artiste-content').append(content);
     });
-    artistes.sort(function (a, b) {
-      return a.horaire < b.horaire;
-    });
-    console.log(artistes);
-    return 'petite scene';
+
   }
 
 };

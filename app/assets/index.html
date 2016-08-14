@@ -1,55 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Der'Fest</title>
     <meta name="description" content="Le dernier festival de l'année">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <header>
-      <h2>Festival AD'HOC 15 octobre 2016</h2>
-      <h1>Der'Fest #1</h1>
-      <p>Parking du Breuil / Epinay-sur-Orge</p>
-    </header>
-    <nav>
-      <ul class="menu aling-right">
-        <li>Programmation
-          <ul>
-            <li><a href="/artistes">Artistes</a></li>
-            <li><a href="/grande-scene">Grande Scène</a></li>
-            <li><a href="/petite-scene">Petite Scène</a></li>
-            <li><a href="/village-associatif">Village Associatif</a></li>
+
+    <div class="top-bar">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="main-menu" data-hide-for="medium">
+          <button class="menu-icon light" type="button" data-toggle></button>
+        </span>
+        <strong>Der'Fest</strong>
+      </div>
+      <div id="main-menu">
+        <div class="top-bar-right">
+          <ul class="menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
+            <li>
+              <a href="#festival">Le Festival</a>
+            </li>
+            <li>
+              <a href="#programmation">Programmation</a>
+              <ul class="menu vertical">
+                <li><a href="#artistes">Artistes</a></li>
+                <li><a href="#grande-scene">Grande Scène</a></li>
+                <li><a href="#petite-scene">Petite Scène</a></li>
+                <li><a href="#village-associatif">Village Associatif</a></li>
+              </ul>
+            </li>
+            <li><a href="#news">News</a></li>
+            <li>
+              <a href="#pratique">Pratique</a>
+              <ul class="menu vertical">
+                <li><a href="#acces">Accès</a></li>
+                <li><a href="#benevolat">Bénévolat</a></li>
+              </ul>
+            </li>
+            <li><a href="#partenaires">Partenaires</a></li>
           </ul>
-        </li>
-        <li>Accès
-          <ul>
-            <li><a href="/plan">Plan du Festival</a></li>
-            <li><a href="/transports">Transports</a></li>
-          </ul>
-        </li>
-        <li>Partenaires</li>
-          <ul>
-            <li></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-    <div id="main-content">
-      <section class="main-content">
-        <div class="page artiste">
         </div>
-        <div class="page partenaires">
-        </div>
-      </section>
+      </div>
     </div>
+
+    <section class="illustration">
+      <h2>15 octobre 2016</h2>
+      <p>Parking du Breuil / Epinay-sur-Orge</p>
+    </section>
+
+    <section id="festival">
+      <h2>Le Festival</h2>
+      <p>Partant du constat que l'association AD'HOC et ses valeurs ne cadrent pas avec les événements en plein air de la ville d'Epinay Sur Orge (Brandous, fête foraine, brocante…) : nous avons décidé de créer notre propre manifestation où les groupes de musiques actuelles et groupes émergents pourraient s'épanouir avec un volume sonore approprié et l'image d'un événement en adéquation avec la leur.</p>
+      <p>Alors que l'association a l'expérience de ce type de soirée en ayant été partenaire de la Fête de la Zic locale à Saulx les Chartreux (2003 à 2006) ou du Fet'estival de Villemoisson (depuis 2008), il était temps que pour ses 20 ans, AD'HOC organise son propre festival : Le DER'FEST'!</p>
+      <p>Le format : Le 15 octobre, la mairie d'Epinay Sur Orge met à notre disposition le Parking du Breuil. L'événement est gratuit, accessible de 18h30 à minuit pour 5 heures de spectacle en continu. Des groupes joueront en alternance sur 2 scènes et le public pourra flâner dans le village associatif où ils y trouveront des expositions, des performances, la buvette et un foodtruck.
+      <p>Les objectifs : Continuité des visées de l'association :</p>
+      <ul>
+      	<li>Défense des musiques actuelles</li>
+      	<li>Donner les moyens aux artistes de se produire</li>
+      	<li>Une démarche d'éducation populaire centrée sur l'échange et le partage des compétences</li>
+        <li>Formation épanouissante voire qualifiante des bénévoles</li>
+      </ul>
+      <p>Objectifs propres associés à l'événement :</p>
+      <ul>
+      	<li>Accessibilité à tous par la gratuité de l'entrée</li>
+      	<li>Visée jeunesse par la gratuité mais aussi la présence d'acteurs de prévention</li>
+        <li>Ouverture d'esprit sur les autres formes d'art via la programmation du village expositions/performances</li>
+        <li>Élargissement de l’action culturelle et sociale au sein de la commune</li>
+      </ul>
+    </section>
+
+    <section id="programmation">
+      <h2>Programmation</h2>
+
+      <h3 id="artistes">Artistes</h3>
+      <div id="artistes-content"></div>
+      <div id="artiste-content"></div>
+
+      <h3 id="grande-scene">Grande Scène</h3>
+      <div id="grande-scene-content"></div>
+
+      <h3 id="petite-scene">Petite Scène</h3>
+      <div id="petite-scene-content"></div>
+
+      <h3 id="village-associatif">Village Associatif</h3>
+      <div id="village-associatif-content"></div>
+    </section>
+
+    <section id="news">
+    </section>
+
+    <section id="pratique">
+      <h2>Pratique</h2>
+      <h3 id="acces">Accès</h3>
+      <h4>Où se déroule le Der'Fest ?</h4>
+      <p>Le Der'Fest se déroule à Epinay-sur-Orge dans l'Essonne, voie des prés, sur le parking du Breuil, entre le stade de football du Breuil et le gymnase Alain Mimoun.</p>
+      <div id="map" style="width: 100%; height: 250px"></div>
+      inclure plan GoogleMaps
+
+      48°40'09.9"N 2°19'24.0"E
+      48.669427, 2.323340
+      <h3 id="benevolat">Bénévolat</h3>
+      <p>La Team AD'HOC, même si nous sommes sur-motivés, a toujours besoin de petites pattes pour compléter l'équipe.</p>
+      <p>Si tu aimes la musique, si tu aimes le bénévolat, si tu aimes servir des coups à boire, et bien tu peux dores et déjà nous écrire un petit mot à contact@adhocmusic.com ou nous appeler au 06 32 74 86 58</p>
+      <p>Nous cherchons des petites mains pour l'installation, pour la communication, pour la buvette… Et pour ceux qui ont besoin de missions précises, voici quelques annonces auxquelles vous pouvez postuler :</p>
+      <ul>
+        <li>#bénévolat [1]: AD’HOC recrute des poseurs d’affiches sur panneaux d’affichage libre de la commune. Durée de la mission: 1 après-midi. Matériel fourni. A partir de maintenant. Détails en MP.</li>
+        <li>#bénévolat [2]: AD’HOC recrute des poseurs d’affiches dans les commerces de la ville. Durée de la mission: 1 après-midi. Matériel fourni. A partir de maintenant. Détails en MP.</li>
+        <li>#bénévolat [3]: AD’HOC recrute des poseurs d’affiches le 10/11/2016. Durée de la mission 1 soirée. Matériel fourni. Détails en MP.</li>
+        <li>#bénévolat [4]: AD’HOC recrute des distributeurs de flyers aux lycées Prévert et Corot. Dates à négocier en fonction de votre emploi du temps. Dès maintenant. Durée d’1 mission 3/4 d’heure.Détails en MP.</li>
+        <li>#bénévolat [5] : AD'HOC recrute des gens motivés pour installer le village associatif. Durée de la mission : l'après-midi du 15/11/2016. Vous ferez partie du Staff. Détails en MP.</li>
+        <li>#bénévolat [6] : AD'HOC recrute des médiateurs jeunesse, pour assurer la sérénité du site. Durée de la mission : la soirée du 15/11/2016. Vous ferez partie du Staff et serez briefé par l'équipe sur ses valeurs et ses objectifs au cours d'une réunion la semaine de l'événement. Détails en MP.</li>
+      </ul>
+    </section>
+
+    <section id="pertenaires">
+    </section>
+
     <footer>
       <p>Crédits: AD'HOC</p>
     </footer>
+
     <script src="js/vendor.js"></script>
     <script src="js/app.js"></script>
     <script>
@@ -57,5 +131,6 @@
         require('app').init();
       });
     </script>
+
   </body>
 </html>
