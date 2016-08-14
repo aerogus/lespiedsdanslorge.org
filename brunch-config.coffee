@@ -4,16 +4,22 @@ module.exports =
   files:
     javascripts:
       joinTo:
-        'js/derfest.js': /^app/
+        'js/app.js': /^app/
+        'js/vendor.js': /^(?!app)/
     stylesheets:
       joinTo:
-        'css/derfest.css': /^app\/styles\/derfest.styl/
+        'css/app.css': /^app\/styles\/app.styl/
+        'css/sass.css': /^app\/styles\/sass.scss/
+        'css/vendor.css': /^(?!app)/
   plugins:
-    jadeddisabled:
-      staticPatterns: /^app\/views\/(.+)\.jade$/
+    sass:
+      options:
+        includePaths: [
+          'bower_components/foundation-sites/scss'
+        ]
     postcss:
       processors: [
         # permet inline() en css
         require('postcss-assets')
-        require('autoprefixer')(['last 8 versions'])
+        require('autoprefixer')(['last 2 versions', 'ie >= 9', 'and_chr >= 2.3'])
       ]

@@ -1,7 +1,7 @@
 {
   "name": "derfest",
   "description": "Der'Fest website",
-  "author": "Guillaume Seznec",
+  "author": "Guillaume Seznec <guillaume.seznec@gmail.com>",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -18,9 +18,9 @@
     "brunch": "^2.8.2",
     "clean-css-brunch": "^1.7.2",
     "css-brunch": "^1.7.0",
-    "jaded-brunch": "^2.3.0",
     "postcss-assets": "^4.1.0",
     "postcss-brunch": "^0.5.0",
+    "sass-brunch": "^2.6.3",
     "stylus-brunch": "^1.8.1"
   }
 }

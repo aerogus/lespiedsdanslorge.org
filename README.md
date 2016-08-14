@@ -129,3 +129,9 @@ webapp avec mode offline
 
 sites références :
 http://www.downloadfestival.fr/
+
+
+Installation :
+mkdir derfest
+cd derfest
+git clone git@bitbucket.org:adhocmusic/derfest.git .
