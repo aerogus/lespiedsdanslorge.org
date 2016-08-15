@@ -10,9 +10,10 @@
 @import 'foundation';
 
 // fouzy tout
-@include foundation-everything;
+@include foundation-everything(true);
 
 // à la carte
+/*
 @include foundation-global-styles;
 @include foundation-grid;
 @include foundation-menu;
@@ -25,6 +26,7 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+*/
 
 /**
  * webfonts
@@ -87,11 +89,30 @@ h1,h2,h3,h4 {
 .artiste {
   text-align: center;
   h4 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     width: 100%;
   }
 }
+
+.rer, .rerc {
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid;
+  font-weight: bold;
+}
+.rer {
+  color: #164b9c;
+  padding: 3px 0;
+  font-size: 14px;
+}
+.rerc {
+  color: #eac81c;
+  padding: 0px 7px;
+}
+
 footer {
   background-color: #292933;
-  padding: 40px;
+  color: #fefefe;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
 }

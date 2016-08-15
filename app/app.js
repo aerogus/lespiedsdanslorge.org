@@ -102,7 +102,8 @@ var App = {
       list.append('<div class="small-6 medium-4 columns artiste">\
         <a data-open="' + e.id + '">\
           <img src="' + e.photo + '"/>\
-          <h4 class="button">' + e.name + ' ' + e.horaire + '</h4>\
+          <p><strong>' + e.horaire + '</strong></p>\
+          <h4 class="button">' + e.name + '</h4>\
         </a>');
     });
 
@@ -136,18 +137,24 @@ var App = {
   },
 
   /**
-   *
+   * fiches artistes
    */
   init_artiste: function () {
     var artistes = require('artistes');
     artistes.forEach(function (obj) {
       var content = '<div id="' + obj.id + '" class="large reveal" data-reveal>\
+        <img src="' + obj.photo + '" width="480" height="360" style="float: left; padding-right: 10px; padding-bottom: 10px">\
         <h4>' + obj.name + '</h4>\
+        <p><strong>' + obj.style + '</strong></p>\
+        <p>Scène: <strong>' + obj.scene + '</strong> - Horaire: <strong>' + obj.horaire + '</strong></p>\
+        <p><a href="' + obj.facebook + '">Facebook</a></p>\
         <p>' + obj.description.replace('\n', '<br>') + '</p>\
         <button class="close-button" data-close aria-label="Close modal" type="button">\
           <span aria-hidden="true">&times;</span>\
-        </button>';
+        </button>\
+        </div>';
         $('#artiste-content').append(content);
+        var reveal = new Foundation.Reveal($('#' + obj.id));
     });
 
   }

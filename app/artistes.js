@@ -118,7 +118,7 @@ Les concerts de Prickly Pearl invitent le public à partager l’émotion de dou
   {
     id: 'smokeybandits',
     name: "Smokey Bandits",
-    style: '',
+    style: 'Rock Groove',
     photo: '/img/artistes/smokeybandits.jpg',
     video: '',
     scene: 'grande',
