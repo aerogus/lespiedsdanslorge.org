@@ -114,20 +114,25 @@ var App = {
    */
   init_map: function () {
     var s = document.createElement('script');
-    s.src = 'https://maps.googleapis.com/maps/api/js?key=' + this.GMAP_KEY;
+    s.src = 'https://maps.googleapis.com/maps/api/js?key=' + this.GMAP_KEY + '&callback=app.init_gmap';
     document.head.appendChild(s);
-    s.onload = function () {
-      var myOptions = {
-        zoom: 16,
-        center: new google.maps.LatLng(48.66943944555655, 2.3234067073791653),
-        mapTypeId: google.maps.MapTypeId.HYBRID
-      };
-      var map = new google.maps.Map(document.getElementById('map'), myOptions);
-      var marker = new google.maps.Marker({
-        map: map,
-        position: new google.maps.LatLng(48.66943944555655,2.3234067073791653)
-      });
-    }
+  },
+
+  /**
+   *
+   */
+  init_gmap: function () {
+    console.log('init gmap');
+    var myOptions = {
+      zoom: 16,
+      center: new google.maps.LatLng(48.66943944555655, 2.3234067073791653),
+      mapTypeId: google.maps.MapTypeId.HYBRID
+    };
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      map: map,
+      position: new google.maps.LatLng(48.66943944555655,2.3234067073791653)
+    });
   },
 
   /**
