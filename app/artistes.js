@@ -52,7 +52,7 @@ Après leur spectacle "Les p'tits bouts d'femmes font leur cabaret" (2011) et le
     horaire: '19:30',
     url: "http://www.so-zik.fr/",
     facebook: "https://www.facebook.com/OddFiction/",
-    description: `"Odd Fiction" est un groupe basé principalement sur le métal, mais il se voit constamment diversifié par les différentes influences d'autres styles musicaux tels que le post-rock ou la funk. Les structures des morceaux, ainsi que les morceaux eux-mêmes, sont livrées à diverses expérimentations créant une atmosphère propre à la logique du groupe.`
+    description: `De la grosse disto, une touche de post rock, une pointe de jazz, Odd Fiction est un groupe de métal progressif instrumental qui brise les frontières de la musique en alliant brutal et finesse, créant une fiction pour le moins étrange. Cette bête hideuse, hybride musical, créé des atmosphères tantôt violentes, tantôt planante, parfois clownesque, installant dans l'espace sonore un non sens absurde, bien vite rattrapé par des grooves métal à s'en décrocher la tête. Mais ne fuyez pas l'antre de la bête, car c'est à l'intérieur qu'on y entend la douce musique de ses cris lugubres...`
   },
   {
     id: 'pandravox',
@@ -125,7 +125,7 @@ Les concerts de Prickly Pearl invitent le public à partager l’émotion de dou
     horaire: '20:30',
     url: "",
     facebook: "https://www.facebook.com/smokeybanditsband/",
-    description: `"Smokey Bandits c'est avant tout du rock ! Un groupe énergique, groovy aux influences multiples !`
+    description: `Smokey Bandits c'est avant tout du rock ! Un groupe énergique, groovy aux influences multiples !`
   },
   {
     id: 'sozik',
