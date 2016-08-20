@@ -21,7 +21,7 @@ Après leur spectacle "Les p'tits bouts d'femmes font leur cabaret" (2011) et le
     photo: '/img/artistes/lesdyvettesdenface.jpg',
     video: '',
     scene: 'petite',
-    horaire: '18:30',
+    horaire: '19:00',
     url: "http://www.lesdyvettesdenface.fr/",
     facebook: "https://www.facebook.com/LesDyvettesDenFace/",
     description: `"Les Dyvettes d'en Face" est un groupe vocal de 4 chanteuses à l'univers Jazzy originaire de l'Essonne.
@@ -109,7 +109,7 @@ Les concerts de Prickly Pearl invitent le public à partager l’émotion de dou
     photo: '/img/artistes/resonance.jpg',
     video: 'https://www.youtube.com/watch?v=1HfFqDTr5A4',
     scene: 'petite',
-    horaire: '19:00',
+    horaire: '20:00',
     url: "https://resonance-fr.bandcamp.com",
     facebook: "https://www.facebook.com/resonancerock",
     twitter: "https://twitter.com/Resonancerock",

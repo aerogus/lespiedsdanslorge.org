@@ -13,8 +13,9 @@ var App = {
 
     this.init_artistes();
     this.init_artiste();
-    this.init_grande_scene();
-    this.init_petite_scene();
+    this.init_planning();
+    //this.init_grande_scene();
+    //this.init_petite_scene();
     this.init_map();
 
     // smooth scrollTo
@@ -31,7 +32,7 @@ var App = {
   init_artistes: function () {
     var artistes = require('artistes');
 
-    // filtre grande scène
+    // filtre grande scène ou petite scène
     artistes = artistes.filter(function (obj) {
       return obj.scene === 'grande' || obj.scene === 'petite';
     });
@@ -51,6 +52,41 @@ var App = {
     });
 
     $('#artistes-content').append(list);
+  },
+
+  /**
+   *
+   */
+  init_planning: function () {
+    var artistes = require('artistes');
+
+    // filtre grande scène ou petite scène
+    artistes = artistes.filter(function (obj) {
+      return obj.scene === 'grande' || obj.scene === 'petite';
+    });
+
+    // tri chronologique
+    artistes.sort(function (a, b) {
+      return a.horaire > b.horaire;
+    });
+
+    var table = $('#planning-table');
+    var tbody = $('<tbody/>');
+    artistes.forEach(function (artiste) {
+      var tr = $('<tr/>');
+      tr.append($('<th/>', {
+        text: artiste.horaire
+      }))
+      .append($('<td/>', {
+        html: artiste.scene === 'petite' ? '<a data-open="' + artiste.id + '">' + artiste.name + '</a>' : ''
+      }))
+      .append($('<td/>', {
+        html: artiste.scene === 'grande' ? '<a data-open="' + artiste.id + '">' + artiste.name + '</a>' : ''
+      }));
+      tbody.append(tr);
+    });
+
+    table.append(tbody);
   },
 
   /**
@@ -124,12 +160,13 @@ var App = {
    */
   init_gmap: function () {
     console.log('init gmap');
-    var myOptions = {
+    var options = {
       zoom: 16,
       center: new google.maps.LatLng(48.66943944555655, 2.3234067073791653),
-      mapTypeId: google.maps.MapTypeId.HYBRID
+      mapTypeId: google.maps.MapTypeId.HYBRID,
+      scrollwheel: false
     };
-    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var map = new google.maps.Map(document.getElementById('map'), options);
     var marker = new google.maps.Marker({
       map: map,
       position: new google.maps.LatLng(48.66943944555655,2.3234067073791653)
