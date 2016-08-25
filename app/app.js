@@ -37,11 +37,13 @@ var App = {
 
     var list = $('<div class="row"/>');
     artistes.forEach(function (e) {
-      list.append('<div class="small-6 medium-4 columns artiste">\
+      var div = '<div class="small-6 medium-4 columns artiste">\
         <a data-open="' + e.id + '">\
           <img src="' + e.photo + '"/>\
           <h4 class="button">' + e.name + '</h4>\
-        </a>');
+        </a>\
+      </div>';
+      list.append(div);
     });
 
     $('#artistes-content').append(list);

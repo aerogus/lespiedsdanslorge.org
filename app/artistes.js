@@ -22,7 +22,7 @@ Après leur spectacle "Les p'tits bouts d'femmes font leur cabaret" (2011) et le
     soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252147507&amp;color=0066cc"></iframe>',
     video: '',
     scene: 'petite',
-    horaire: '19:00',
+    horaire: '20:00',
     url: "http://www.lesdyvettesdenface.fr/",
     facebook: "https://www.facebook.com/LesDyvettesDenFace/",
     description: `"Les Dyvettes d'en Face" est un groupe vocal de 4 chanteuses à l'univers Jazzy originaire de l'Essonne.
@@ -42,7 +42,7 @@ Après leur spectacle "Les p'tits bouts d'femmes font leur cabaret" (2011) et le
     url: "http://maya-vibes.com/",
     facebook: "https://www.facebook.com/Mayavibes", // maya.vibes.71, ProfessorX.ManagerMayaVibes
     description: `En 2011, "Maya" se fait repérer par une équipe de musiciens qui lui propose de travailler ensemble. En 2012, ils sortent leur premier titre intitulé Sweety, un mélange audacieux de musiques latines sur fond de reggae ragga. Aujourd’hui, ils collaborent toujours ensemble et ont construit une véritable équipe d’artistes, musiciens, vidéastes autour d’un projet commun : la production du premier album de Maya Vibes.
-  En 2013 sort «HITS OK», la seconde mixtape de Maya, sur laquelle il pose ses textes sur des instrumentales hip hop et reggae. Il y invite des artistes de l’Essonne et de la région parisienne tels que Poizon, Scars, Taly ou encore Volodia du collectif Phases Cachées.`,
+  En 2013 sort «HITS OK», la seconde mixtape de Maya, sur laquelle il pose ses textes sur des instrumentales hip hop et reggae. Il y invite des artistes de l’Essonne et de la région parisienne tels que Poizon, Scars, Taly ou encore Volodia du collectif Phases Cachées.`
   },
   {
     id: 'oddfiction',
@@ -52,7 +52,7 @@ Après leur spectacle "Les p'tits bouts d'femmes font leur cabaret" (2011) et le
     video: '',
     scene: 'grande',
     horaire: '19:30',
-    url: "http://www.so-zik.fr/",
+    url: "",
     facebook: "https://www.facebook.com/OddFiction/",
     description: `De la grosse disto, une touche de post rock, une pointe de jazz, Odd Fiction est un groupe de métal progressif instrumental qui brise les frontières de la musique en alliant brutal et finesse, créant une fiction pour le moins étrange. Cette bête hideuse, hybride musical, créé des atmosphères tantôt violentes, tantôt planante, parfois clownesque, installant dans l'espace sonore un non sens absurde, bien vite rattrapé par des grooves métal à s'en décrocher la tête. Mais ne fuyez pas l'antre de la bête, car c'est à l'intérieur qu'on y entend la douce musique de ses cris lugubres...`
   },
@@ -92,17 +92,17 @@ Une musique progressante, à facettes, patiemment cultivée au fil des saisons, 
     scene: 'grande',
     horaire: '21:40',
     url: "http://pricklypearl.wix.com/website",
+    soundclound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/6455041&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false",
     facebook: "https://www.facebook.com/PricklyPearl/",
-    description: `Le Projet "Prickly Pearl" débute en 2011.
-Il germe d'abord dans l'esprit de Loïc, qui après diverses expériences, veut revenir à ses premières amours aux sources de la musique populaire américaine.
-Sa rencontre avec Carole est comme une évidence, envoûtés par sa voix grave aux accents ‘Soul’.
-Ensemble, ils vont ciseler et modeler les morceaux et définir la musique de Prickly Pearl, une Folk hydride aux racines multiples Country, Jazz, Blues, Soul ...
-Dès leurs premiers passages dans les clubs, ils rencontrent un public enthousiaste qui les encourage à poursuivre et leur fait prendre conscience de l'aspect fédérateur de leur musique. Puis des salles de concert s’agrandissent : le Sentier des Halles et le Batofar.
-En septembre 2012, Christian, batteur, les rejoint, l’alchimie est immédiate, Prickly Pearl prend une autre dimension avec derrière les fûts, ce percussionniste sensible et virtuose capable de grooves endiablés ou d'ambiances veloutées .
+    description: `Le Projet Prickly Pearl débute en 2011. Loïc, après diverses expériences, veut revenir à ses premières amours aux sources de la musique populaire américaine.
+Sa rencontre avec Carole, à la voix grave et aux accents "Soul", est comme une évidence. Ensemble, ils vont ciseler et modeler les morceaux et définir les bases de la musique de Prickly Pearl: une Folk hybride aux racines multiples Country, Jazz, Blues, Soul.
+Dès leurs premiers passages dans les clubs, ils rencontrent un public enthousiaste, qui les encourage à poursuivre, et leur fait prendre conscience de l'aspect fédérateur de leur musique. Puis les salles de concert s’agrandissent : le Sentier des Halles et le Batofar.
 Afin d'accompagner le développement de ce projet, l'association Prickly Records voit le jour en Octobre 2012.
-En Mai 2013, Laurent vient compléter et donner plus de cohérence à l'ensemble du projet avec sa basse et ses choeurs veloutés.
-Les concerts de Prickly Pearl invitent le public à partager l’émotion de douces ballades et l’énergie grisante de rythmiques percutantes . Celui-ci dira souvent repartir avec des mélodies plein la tête.
-….Très vite vous vous surprendrez à siffler un air de Prickly Pearl….`
+Autour de Carole et Loïc plusieurs musiciens se joignent à l'aventure et Prickly Pearl trouve un équilibre artistique avec l'arrivée de Christian à la batterie et Laurent à la basse en 2013. C'est ainsi que l'éclectisme des inspirations de Prickly Pearl prend définitivement forme, ajoutant une pointe de Rock et de Pop à cette formation qui ne s'interdit plus rien.
+Bien que Christian les quitte en 2015, l'univers qu'ils ont créé ensemble demeure jusqu'à aujourd'hui l'empreinte de Prickly Pearl.
+Les mélodies et l’émotion véhiculées par Prickly Pearl vous accompagnent longtemps à ce qu'en dit le Public.
+Très vite vous vous surprendrez à siffler un air de Prickly Pearl...
+La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.`
   },
   {
     id: 'resonance',
@@ -111,7 +111,7 @@ Les concerts de Prickly Pearl invitent le public à partager l’émotion de dou
     photo: '/img/artistes/resonance.jpg',
     video: 'https://www.youtube.com/watch?v=1HfFqDTr5A4',
     scene: 'petite',
-    horaire: '20:00',
+    horaire: '19:00',
     url: "https://resonance-fr.bandcamp.com",
     facebook: "https://www.facebook.com/resonancerock",
     twitter: "https://twitter.com/Resonancerock",
