@@ -126,10 +126,17 @@ var App = {
         <p>' + obj.description.replace('\n', '<br>') + '</p>\
         <button class="close-button" data-close aria-label="Close modal" type="button">\
           <span aria-hidden="true">&times;</span>\
-        </button>\
+        </button>';
+
+      if(obj.video) {
+        content += '<div class="flex-video widescreen">\
+          <iframe width="1280" height="720" src="' + obj.video + '" frameborder="0" allowfullscreen></iframe>\
         </div>';
-        $('#artiste-content').append(content);
-        var reveal = new Foundation.Reveal($('#' + obj.id));
+      }
+
+      content += '</div>';
+      $('#artiste-content').append(content);
+      var reveal = new Foundation.Reveal($('#' + obj.id));
     });
 
   },
