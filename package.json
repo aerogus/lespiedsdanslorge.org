@@ -13,14 +13,13 @@
   },
   "dependencies": {
     "after-brunch": "0.0.5",
-    "auto-reload-brunch": "^2.7.1",
-    "autoprefixer": "^6.3.6",
-    "brunch": "^2.8.2",
-    "clean-css-brunch": "^1.7.2",
-    "css-brunch": "^1.7.0",
-    "postcss-assets": "^4.1.0",
-    "postcss-brunch": "^0.5.0",
-    "sass-brunch": "^2.6.3",
-    "stylus-brunch": "^1.8.1"
+    "auto-reload-brunch": "2.7.1",
+    "autoprefixer": "7.1.1",
+    "brunch": "2.10.9",
+    "clean-css-brunch": "2.10.0",
+    "postcss-assets": "4.1.0",
+    "postcss-brunch": "0.5.0",
+    "sass-brunch": "2.10.4",
+    "stylus-brunch": "2.10.0"
   }
 }
