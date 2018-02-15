@@ -2,9 +2,9 @@
   "name": "derfest",
   "version": "1.0.0",
   "authors": [
-    "Guillaume Seznec <guillaume.seznec@gmail.com>"
+    "Guillaume Seznec <guillaume@seznec.fr>"
   ],
-  "description": "DER'Fest Website",
+  "description": "Site du festival AD'HOC 2018",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -14,6 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "foundation-sites": "^6.2.3"
+    "foundation-sites": "6.4.3"
   }
 }

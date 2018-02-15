@@ -23,7 +23,7 @@ var App = {
    * Charge la section Artistes
    */
   init_artistes: function () {
-    var artistes = require('artistes');
+    let artistes = require('artistes');
 
     // filtre grande scène ou petite scène
     artistes = artistes.filter(function (obj) {
@@ -88,7 +88,7 @@ var App = {
    * insertion du script Google Maps
    */
   init_map: function () {
-    var s = document.createElement('script');
+    let s = document.createElement('script');
     s.src = 'https://maps.googleapis.com/maps/api/js?key=' + this.gmap.api_key + '&callback=' + this.gmap.callback;
     document.head.appendChild(s);
   },
