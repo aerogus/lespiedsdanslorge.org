@@ -1,6 +1,6 @@
 {
-  "name": "derfest",
-  "description": "Site du Festival AD'HOC 2018",
+  "name": "lespiedsdanslorge.org",
+  "description": "Site du Festival AD'HOC Les Pieds dans l'Orge 2018",
   "author": "Guillaume Seznec <guillaume@seznec.fr>",
   "version": "0.0.1",
   "repository": {
@@ -14,7 +14,7 @@
   "dependencies": {
     "after-brunch": "0.0.5",
     "auto-reload-brunch": "2.7.1",
-    "autoprefixer": "8.0.0",
+    "autoprefixer": "8.1.0",
     "brunch": "2.10.12",
     "clean-css-brunch": "2.10.0",
     "postcss-assets": "5.0.0",
