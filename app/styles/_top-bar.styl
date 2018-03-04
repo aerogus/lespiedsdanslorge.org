@@ -18,10 +18,11 @@
     margin 0 auto
 
     .top-bar-title
-      padding 0 3.5rem
       margin-right auto
       font-size 2.4rem
       white-space nowrap
+      h1
+        margin 0
 
     .top-bar-burger
       display none
@@ -36,33 +37,43 @@
       color white
       text-transform uppercase
       font-size 1.6rem
-      > ul > li
-        display inline-block
-        position relative
-        white-space nowrap
-        &:hover
-          background #fff
-          color #292929
-        > a
-          padding 0 1.25rem
-          line-height 4rem
-        > ul
-          position absolute
-          display none
-          background #292933
-          color #fff
-        &:hover
+      font-family 'DK Longreach'
+      > ul
+        margin-bottom 0
+        > li
+          display inline-block
+          position relative
+          white-space nowrap
+          &:hover
+            background green
+            > a
+              color #292933
+            > ul
+              list-style-type none
+              padding 0
+              z-index 100
+              display block
+              li
+                a
+                  color green
+                  display inline-block
+                  padding .25rem 1.25rem
           > ul
-            z-index 100
-            display block
+            position absolute
+            display none
+            background #292933
+            color #fff
             li
               display block
               &:hover
-                background #fff
+                background green
                 color #292933
-              a
-                display inline-block
-                padding .25rem 1.25rem
+                a
+                  color #292933
+          > a
+            color green
+            padding 0 1.25rem
+            line-height 4rem
 
     @media screen and (max-width: 680px)
 
