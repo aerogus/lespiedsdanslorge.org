@@ -10,7 +10,6 @@ var App = {
   },
 
   init: function () {
-    $(document).foundation();
     this.init_artistes();
     this.init_fiches_artistes();
     this.init_planning();
@@ -127,7 +126,6 @@ var App = {
 
       content += '</div>';
       $('#artiste-content').append(content);
-      let reveal = new Foundation.Reveal($('#' + obj.id));
     });
 
   },
