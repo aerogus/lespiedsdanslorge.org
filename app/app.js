@@ -1,20 +1,36 @@
 "use strict";
 
-var App = {
+module.exports = {
 
   gmap: {
     api_key: 'AIzaSyBW8wt3QH0k1e_oV9ue_jE8-5AOUX9OnOY',
-    callback: 'app.init_gmap',
+    callback: 'app.gmap_cb',
     lat: 48.66943944555655,
     lng: 2.3234067073791653
   },
 
   init: function () {
+    this.init_responsive_menu();
     this.init_artistes();
     this.init_fiches_artistes();
     this.init_planning();
     this.init_map();
     this.init_smooth_scroll();
+  },
+
+  init_responsive_menu: function () {
+    let menuSelected = false;
+    $('#btn-burger').click(function() {
+      if (!menuSelected) {
+        $(this).addClass('selected');
+        $('.top-menu').addClass('selected');
+        menuSelected = true;
+      } else {
+        $(this).removeClass('selected')
+        $('.top-menu').removeClass('selected');
+        menuSelected = false;
+      }
+    });
   },
 
   /**
@@ -29,9 +45,9 @@ var App = {
     // tri alphabétique
     artistes.sort((a, b) => a.name > b.name);
 
-    let list = $('<div class="row"/>');
+    let list = $('<div class="grid-3-small-2 has-gutter-l"/>');
     artistes.forEach(e => {
-      let div = '<div class="small-6 medium-4 columns artiste">\
+      let div = '<div class="artiste">\
         <a data-open="' + e.id + '">\
           <img src="' + e.photo + '"/>\
           <h4 class="button">' + e.name + '</h4>\
@@ -41,6 +57,13 @@ var App = {
     });
 
     $('#artistes-content').append(list);
+
+    $('.artiste a').click(e => {
+      e.preventDefault();
+      console.log('clic sur ' + $(e.currentTarget).data('open'));
+      $('.modal').hide();
+      $('#' + $(e.currentTarget).data('open')).show();
+    })
   },
 
   /**
@@ -84,9 +107,9 @@ var App = {
   },
 
   /**
-   * Initialisation de la Google Map
+   * Callbacl d'initialisation de la Google Map
    */
-  init_gmap: function () {
+  gmap_cb: function () {
     let parking = new google.maps.LatLng(this.gmap.lat, this.gmap.lng);
     let options = {
       zoom: 16,
@@ -106,28 +129,46 @@ var App = {
    */
   init_fiches_artistes: function () {
     let artistes = require('artistes');
-    artistes.forEach(function (obj) {
-      let content = '<div id="' + obj.id + '" class="large reveal" data-reveal>\
+    artistes.forEach(obj => {
+      let content = '<div class="modal" id="' + obj.id + '">\
         <img src="' + obj.photo + '" width="480" height="360" style="float: left; padding-right: 10px; padding-bottom: 10px">\
         <h4>' + obj.name + '</h4>\
         <p><strong>' + obj.style + '</strong></p>\
-        <p>Scène: <strong>' + obj.scene + '</strong> - Horaire: <strong>' + obj.horaire + '</strong></p>\
-        <p><a href="' + obj.facebook + '">Facebook</a></p>\
-        <p>' + obj.description.replace('\n', '<br>') + '</p>\
-        <button class="close-button" data-close aria-label="Close modal" type="button">\
-          <span aria-hidden="true">&times;</span>\
-        </button>';
+        <p>Scène: <strong>' + obj.scene + '</strong> - Horaire: <strong>' + obj.horaire + '</strong></p>';
 
+      if (obj.facebook) {
+        content += '<a class="badge social facebook" href="' + obj.facebook + '"><img src="/img/social/facebook.svg"/></a>';
+      }
+
+      if (obj.twitter) {
+        content += '<a class="badge social twitter" href="' + obj.twitter + '"><img src="/img/social/twitter.svg"/></a>';
+      }
+
+      content += '<p>' + obj.description.replace('\n', '<br>') + '</p>\
+        <button class="close-button">Fermer</button>';
+/*
       if (obj.video) {
-        content += '<div class="flex-video widescreen">\
+        content += '<div class="fluid-video">\
           <iframe width="1280" height="720" src="' + obj.video + '" frameborder="0" allowfullscreen></iframe>\
         </div>';
       }
-
+*/
       content += '</div>';
       $('#artiste-content').append(content);
     });
 
+    $('.close-button').click(e => {
+      $(e.currentTarget).parent().hide();
+    })
+
+  },
+
+  show_modal: function (id) {
+    $(id).show();
+  },
+
+  hide_modal: function (id) {
+    $(id).hide();
   },
 
   /**
@@ -135,12 +176,10 @@ var App = {
    */
   init_smooth_scroll: function () {
     // lien vers les ancres internes
-    $('a[href^="#"]').click(e => {
+    $('a[href^="#"]').on('click', e => {
       e.preventDefault();
-      $('html,body').animate({ scrollTop: $(e.currentTarget).attr('href').offset().top }, 'fast');
+      $('html,body').animate({ scrollTop: $(e.currentTarget.hash).offset().top - 40 }, 'fast');
     });
   }
 
 };
-
-module.exports = App;

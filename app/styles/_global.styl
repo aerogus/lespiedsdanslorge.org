@@ -1,43 +1,34 @@
 html,
 body
-  font-family 'Open Sans', sans-serif
-  background-color yellow
+  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  background-color light_yellow
   background-image url(/img/aquarelle.jpg)
+  color #292933
   -moz-osx-font-smoothing grayscale
   -webkit-font-smoothing antialiased /* fix bold mac osx */
 
+.main-content
+  margin-top 4rem
+
 section
   padding 1.6rem
-
-/**
- * Pouetance
- */
-
-.illustration
-  padding 20% 0
-  color rgba(255,255,255,0.8)
-  text-align center
-  background url(/img/bg.jpg) no-repeat 50% 80% / cover
-  font-weight bold
-  h2
-    font-size 2.4rem
-    color rgba(255,255,255,0)
-  p
-    font-size 2.0rem
-    color rgba(255,255,255,0)
 
 h1,
 h2,
 h3,
 h4
   font-family 'DK Longreach', sans-serif
-  color yellow
+  color dark_blue
 
 .artiste
   text-align center
-  h4
-    font-size 1.2rem
+  h4.button
+    font-family 'DK Longreach', sans-serif
+    font-size 1.6rem
+    color light_yellow
+    text-transform uppercase
     width 100%
+    background-color dark_blue
 
 .rer,
 .rerc
@@ -65,3 +56,5 @@ footer
   color #fefefe
   text-align center
   padding 2rem 1rem 1rem 1rem
+  a
+    color #fefefe
