@@ -11,7 +11,7 @@
     "start": "brunch watch --server",
     "prod": "brunch build --production"
   },
-  "dependencies": {
+  "devDependencies": {
     "after-brunch": "0.0.5",
     "auto-reload-brunch": "2.7.1",
     "autoprefixer": "8.1.0",
@@ -19,7 +19,6 @@
     "clean-css-brunch": "2.10.0",
     "postcss-assets": "5.0.0",
     "postcss-brunch": "2.1.0",
-    "sass-brunch": "2.10.4",
     "stylus-brunch": "2.10.0"
   }
 }

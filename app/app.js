@@ -4,19 +4,18 @@ var App = {
 
   gmap: {
     api_key: 'AIzaSyBW8wt3QH0k1e_oV9ue_jE8-5AOUX9OnOY',
-    callback: 'app.init_gmap'
+    callback: 'app.init_gmap',
+    lat: 48.66943944555655,
+    lng: 2.3234067073791653
   },
 
   init: function () {
-
     $(document).foundation();
-
     this.init_artistes();
     this.init_fiches_artistes();
     this.init_planning();
     this.init_map();
     this.init_smooth_scroll();
-
   },
 
   /**
@@ -26,18 +25,14 @@ var App = {
     let artistes = require('artistes');
 
     // filtre grande scène ou petite scène
-    artistes = artistes.filter(function (obj) {
-      return obj.scene === 'grande' || obj.scene === 'petite';
-    });
+    artistes = artistes.filter(obj => (obj.scene === 'grande' || obj.scene === 'petite'));
 
     // tri alphabétique
-    artistes.sort(function (a, b) {
-      return a.name > b.name;
-    });
+    artistes.sort((a, b) => a.name > b.name);
 
-    var list = $('<div class="row"/>');
-    artistes.forEach(function (e) {
-      var div = '<div class="small-6 medium-4 columns artiste">\
+    let list = $('<div class="row"/>');
+    artistes.forEach(e => {
+      let div = '<div class="small-6 medium-4 columns artiste">\
         <a data-open="' + e.id + '">\
           <img src="' + e.photo + '"/>\
           <h4 class="button">' + e.name + '</h4>\
@@ -53,22 +48,18 @@ var App = {
    * Tableau des horaires
    */
   init_planning: function () {
-    var artistes = require('artistes');
+    let artistes = require('artistes');
 
     // filtre grande scène ou petite scène
-    artistes = artistes.filter(function (obj) {
-      return obj.scene === 'grande' || obj.scene === 'petite';
-    });
+    artistes = artistes.filter(obj => obj.scene === 'grande' || obj.scene === 'petite');
 
     // tri chronologique
-    artistes.sort(function (a, b) {
-      return a.horaire > b.horaire;
-    });
+    artistes.sort((a, b) => a.horaire > b.horaire);
 
-    var table = $('#planning-table');
-    var tbody = $('<tbody/>');
-    artistes.forEach(function (artiste) {
-      var tr = $('<tr/>');
+    let table = $('#planning-table');
+    let tbody = $('<tbody/>');
+    artistes.forEach(artiste => {
+      let tr = $('<tr/>');
       tr.append($('<th/>', {
         text: artiste.horaire
       }))
@@ -97,15 +88,15 @@ var App = {
    * Initialisation de la Google Map
    */
   init_gmap: function () {
-    var parking = new google.maps.LatLng(48.66943944555655, 2.3234067073791653);
-    var options = {
+    let parking = new google.maps.LatLng(this.gmap.lat, this.gmap.lng);
+    let options = {
       zoom: 16,
       center: parking,
       mapTypeId: google.maps.MapTypeId.HYBRID,
       scrollwheel: false
     };
-    var map = new google.maps.Map(document.getElementById('map'), options);
-    var marker = new google.maps.Marker({
+    let map = new google.maps.Map(document.getElementById('map'), options);
+    let marker = new google.maps.Marker({
       map: map,
       position: parking
     });
@@ -115,9 +106,9 @@ var App = {
    * génération des fiches artistes
    */
   init_fiches_artistes: function () {
-    var artistes = require('artistes');
+    let artistes = require('artistes');
     artistes.forEach(function (obj) {
-      var content = '<div id="' + obj.id + '" class="large reveal" data-reveal>\
+      let content = '<div id="' + obj.id + '" class="large reveal" data-reveal>\
         <img src="' + obj.photo + '" width="480" height="360" style="float: left; padding-right: 10px; padding-bottom: 10px">\
         <h4>' + obj.name + '</h4>\
         <p><strong>' + obj.style + '</strong></p>\
@@ -128,7 +119,7 @@ var App = {
           <span aria-hidden="true">&times;</span>\
         </button>';
 
-      if(obj.video) {
+      if (obj.video) {
         content += '<div class="flex-video widescreen">\
           <iframe width="1280" height="720" src="' + obj.video + '" frameborder="0" allowfullscreen></iframe>\
         </div>';
@@ -136,7 +127,7 @@ var App = {
 
       content += '</div>';
       $('#artiste-content').append(content);
-      var reveal = new Foundation.Reveal($('#' + obj.id));
+      let reveal = new Foundation.Reveal($('#' + obj.id));
     });
 
   },
@@ -146,9 +137,9 @@ var App = {
    */
   init_smooth_scroll: function () {
     // lien vers les ancres internes
-    $('a[href^="#"]').click(function (e) {
+    $('a[href^="#"]').click(e => {
       e.preventDefault();
-      $('html,body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 'fast');
+      $('html,body').animate({ scrollTop: $(e.currentTarget).attr('href').offset().top }, 'fast');
     });
   }
 

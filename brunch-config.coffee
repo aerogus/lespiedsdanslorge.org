@@ -5,18 +5,10 @@ module.exports =
     javascripts:
       joinTo:
         'js/app.js': /^app/
-        'js/vendor.js': /^(?!app)/
     stylesheets:
       joinTo:
-        'css/_app.css': /^app\/styles\/app.styl/
-        'css/app.css': /^app\/styles\/app.scss/
-        'css/vendor.css': /^(?!app)/
+        'css/app.css': /^app\/styles\/app.styl/
   plugins:
-    sass:
-      options:
-        includePaths: [
-          'bower_components/foundation-sites/scss'
-        ]
     postcss:
       processors: [
         # permet inline() en css

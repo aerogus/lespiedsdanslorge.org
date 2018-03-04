@@ -1,44 +1,42 @@
 module.exports = [
   {
-    id: 'avb',
-    name: "A.V.B.",
-    style: "Penture",
-    photo: '/img/artistes/avb.jpg',
-    video: '',
-    scene: 'village',
+    id: 'thestalls',
+    name: "The Stalls",
+    style: "Hard Rock",
+    photo: '/img/artistes/thestalls.jpg',
+    video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
+    scene: 'grande',
     horaire: '',
     url: "",
-    facebook: "",
+    facebook: "https://www.facebook.com/thestalls/",
+    twitter: "https://twitter.com/tweetthestalls",
+    description: `The Stalls a choisi de fouiller les racines du rock en privilégiant les bons vieux sons vintages des guitares et des drums pour s'exprimer. Halte aux synthés et aux ordinateurs, place aux riffs saignants et à l'énergie pure. Fans d'authenticité, venez d'urgence découvrir The Stalls...`
+  },
+  {
+    id: 'daari',
+    name: "DAäRI",
+    style: "Electro",
+    photo: '/img/artistes/daari.jpg',
+    video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
+    scene: 'grande',
+    horaire: '',
+    url: "",
+    facebook: "https://www.facebook.com/pg/daariproject",
     twitter: "",
     description: ``
   },
   {
-    id: 'lesdyvettesdenface',
-    name: "Les Dyvettes D'en Face",
-    style: "Quatuor vocal",
-    photo: '/img/artistes/lesdyvettesdenface.jpg',
-    soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252147507&amp;color=0066cc"></iframe>',
-    video: 'https://www.youtube-nocookie.com/embed/mtZRQkkEntg',
-    scene: 'petite',
-    horaire: '20:00',
-    url: "http://www.lesdyvettesdenface.fr/",
-    facebook: "https://www.facebook.com/LesDyvettesDenFace/",
-    description: `Les Dyvettes d'en face est un groupe vocal de quatre chanteuses et amies d'enfance, originaires la vallée de l'Yvette (91). Elles ont sorti début 2016 un premier EP "Les Dyvettes d'en Face et leurs amis" sur lequel elles proposent leurs compositions en featuring avec des instrumentistes. C'est en live que vous pouvez découvrir ces morceaux dans leur version originale ! Les Dyvettes vous proposent un spectacle de chant a capella aux couleurs jazz, mêlant avec humour et élégance reprises et compositions, dans une mise en scène pétillante, pleine d'émotions, de plaisir et de swing!`
-  },
-  {
-    id: 'mayavibes',
-    name: "Maya Vibes",
-    style: 'Reggae',
-    photo: '/img/artistes/mayavibes.jpg',
-    soundcloud: '<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/3838188&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>',
-    video: 'https://www.youtube-nocookie.com/embed/28vpnzbTSBQ',
-    scene: 'petite',
-    horaire: '22:25',
-    url: "http://maya-vibes.com/",
-    facebook: "https://www.facebook.com/Mayavibes", // maya.vibes.71, ProfessorX.ManagerMayaVibes
-    twitter: "https://twitter.com/MayaVibes",
-    description: `En 2011, "Maya" se fait repérer par une équipe de musiciens qui lui propose de travailler ensemble. En 2012, ils sortent leur premier titre intitulé Sweety, un mélange audacieux de musiques latines sur fond de reggae ragga. Aujourd’hui, ils collaborent toujours ensemble et ont construit une véritable équipe d’artistes, musiciens, vidéastes autour d’un projet commun : la production du premier album de Maya Vibes.
-  En 2013 sort «HITS OK», la seconde mixtape de Maya, sur laquelle il pose ses textes sur des instrumentales hip hop et reggae. Il y invite des artistes de l’Essonne et de la région parisienne tels que Poizon, Scars, Taly ou encore Volodia du collectif Phases Cachées.`
+    id: 'seriousstuff',
+    name: "Serious Stuff",
+    style: "Groove",
+    photo: '/img/artistes/seriousstuff.jpg',
+    video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
+    scene: 'grande',
+    horaire: '',
+    url: "",
+    facebook: "https://www.facebook.com/seriousstuffmusic/",
+    twitter: "https://twitter.com/tweetthestalls",
+    description: `Serious Stuff est un groupe de 7 musiciens de la région parisienne qui jouent pour le plaisir et visent à produire une musique Groovy de qualité sans se prendre trop au sérieux ! Leur répertoire est un mélange de compositions et de reprises aux influences variées : Parfois Blues-Rock ou plus orienté Funk, Soul, Jazz voire Reggae, ils ne veulent pas se mettre de barrières stylistiques trop rigides. Leur dénominateur commun est le GROOVE. Vous savez, ce petit truc qui vous donne inconsciemment envie de taper du pied et bouger votre corps !`
   },
   {
     id: 'oddfiction',
@@ -52,20 +50,6 @@ module.exports = [
     facebook: "https://www.facebook.com/OddFiction/",
     twitter: "",
     description: `De la grosse disto, une touche de post rock, une pointe de jazz, Odd Fiction est un groupe de métal progressif instrumental qui brise les frontières de la musique en alliant brutal et finesse, créant une fiction pour le moins étrange. Cette bête hideuse, hybride musical, créé des atmosphères tantôt violentes, tantôt planante, parfois clownesque, installant dans l'espace sonore un non sens absurde, bien vite rattrapé par des grooves métal à s'en décrocher la tête. Mais ne fuyez pas l'antre de la bête, car c'est à l'intérieur qu'on y entend la douce musique de ses cris lugubres...`
-  },
-  {
-    id: 'pandravox',
-    name: "PandraVox",
-    style: 'Trip hop Rock Alternative',
-    photo: '/img/artistes/pandravox.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/BiUyrfaJlk8',
-    scene: 'petite',
-    horaire: '21:00',
-    url: "http://www.pandravox.com/",
-    facebook: "https://www.facebook.com/pandravoxetc/",
-    twitter: "https://twitter.com/pandravox",
-    description: `Portés par les textes et la voix puissante et cristalline de leur chanteuse, les 4 musiciens de Pandra Vox conjuguent dans leur cabinet de curiosités trip hop, électro organique, parcelles jazzy et énergie rock.
-    Suite à leur EP « Hope is still available », sorti en octobre 2015, bien accueilli par le public et la presse (Rock&Folk, Skriber, Longueur d'Ondes, WATM...) et une série de dates en France et en Allemagne (Bus Palladium, Dame de Canton, Trois Baudets, Scène du Canal, Maison Pop de Montreuil sous le nom de Danaïad...), Pandra Vox prépare son nouvel opus. À l'image de son live, sensible et bouillonnant.`
   },
   {
     id: 'polarpolarpolarpolar',
@@ -119,19 +103,6 @@ La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.`
     description: `Ce groupe féminin de Palaiseau ne s’encombre pas d’un quatuor rock classique. Ni de textes anglais pour imiter les modèles du genre. A elles seules, Virginie et Cécilia forment un duo guitare-chant/batterie de pop française grungy, doux-amer et électrique. A l’image de ses rythmiques déterminées, Résonance n’y va pas par quatre chemins pour faire entendre ses histoires du quotidien. Le chant francophone trouve un équilibre délicat sur des accords à la Cobain.`
   },
   {
-    id: 'smokeybandits',
-    name: "Smokey Bandits",
-    style: 'Rock Groove',
-    photo: '/img/artistes/smokeybandits.jpg',
-    video: '',
-    scene: 'grande',
-    horaire: '20:30',
-    url: "",
-    facebook: "https://www.facebook.com/smokeybanditsband/",
-    twitter: "",
-    description: `Smokey Bandits c'est avant tout du rock ! Un groupe énergique, groovy aux influences multiples !`
-  },
-  {
     id: 'sozik',
     name: "SOZIK",
     style: 'Jazz Rock Pop',
@@ -141,6 +112,19 @@ La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.`
     horaire: '18:30',
     url: "http://www.so-zik.fr/",
     facebook: "https://www.facebook.com/sozik91/",
+    twitter: "",
+    description: `"SOZIK" propose un enseignement musical inédit, axé sur la création. Venez apprendre un instrument, à composer et à enregistrer vos propres morceaux !`
+  },
+  {
+    id: 'conservatoire',
+    name: "Conservatoire d'Épinay-sur-Orge",
+    style: 'Jazz Rock Pop',
+    photo: '/img/artistes/conservatoire.jpg',
+    video: '',
+    scene: 'grande',
+    horaire: '18:30',
+    url: "https://sites.google.com/site/conservatoireepinaysurorge2/",
+    facebook: "https://www.facebook.com/ConservatoireEpinaySurOrge/",
     twitter: "",
     description: `"SOZIK" propose un enseignement musical inédit, axé sur la création. Venez apprendre un instrument, à composer et à enregistrer vos propres morceaux !`
   }
