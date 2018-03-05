@@ -16,6 +16,13 @@ module.exports = {
     this.init_planning();
     this.init_map();
     this.init_smooth_scroll();
+
+    $(document).keyup(function (e) {
+      if (e.keyCode == 27) {
+        $('.modal-content').hide();
+        $('.modal').hide();
+      }
+    });
   },
 
   init_responsive_menu: function () {
@@ -61,7 +68,8 @@ module.exports = {
     $('.artiste a').click(e => {
       e.preventDefault();
       console.log('clic sur ' + $(e.currentTarget).data('open'));
-      $('.modal').hide();
+$('.modal').show();
+      $('.modal-content').hide();
       $('#' + $(e.currentTarget).data('open')).show();
     })
   },
@@ -130,7 +138,7 @@ module.exports = {
   init_fiches_artistes: function () {
     let artistes = require('artistes');
     artistes.forEach(obj => {
-      let content = '<div class="modal" id="' + obj.id + '">\
+      let content = '<div class="clearfix modal-content" id="' + obj.id + '">\
         <img src="' + obj.photo + '" width="480" height="360" style="float: left; padding-right: 10px; padding-bottom: 10px">\
         <h4>' + obj.name + '</h4>\
         <p><strong>' + obj.style + '</strong></p>\
@@ -139,36 +147,47 @@ module.exports = {
       if (obj.facebook) {
         content += '<a class="badge social facebook" href="' + obj.facebook + '"><img src="/img/social/facebook.svg"/></a>';
       }
-
       if (obj.twitter) {
         content += '<a class="badge social twitter" href="' + obj.twitter + '"><img src="/img/social/twitter.svg"/></a>';
       }
+      if (obj.youtube) {
+        content += '<a class="badge social youtube" href="' + obj.youtube + '"><img src="/img/social/youtube.svg"/></a>';
+      }
+      if (obj.instagram) {
+        content += '<a class="badge social instagram" href="' + obj.instagram + '"><img src="/img/social/instagram.svg"/></a>';
+      }
+      if (obj.bandcamp) {
+        content += '<a class="badge social bandcamp" href="' + obj.bandcamp + '"><img src="/img/social/bandcamp.svg"/></a>';
+      }
 
       content += '<p>' + obj.description.replace('\n', '<br>') + '</p>\
-        <button class="close-button">Fermer</button>';
-/*
+        <button class="close-button">X</button>';
+
       if (obj.video) {
         content += '<div class="fluid-video">\
           <iframe width="1280" height="720" src="' + obj.video + '" frameborder="0" allowfullscreen></iframe>\
         </div>';
       }
-*/
+
       content += '</div>';
       $('#artiste-content').append(content);
     });
 
     $('.close-button').click(e => {
       $(e.currentTarget).parent().hide();
+      $('.modal').hide();
     })
 
   },
 
   show_modal: function (id) {
+    $('.modal').show();
     $(id).show();
   },
 
   hide_modal: function (id) {
     $(id).hide();
+    $('.modal').hide();
   },
 
   /**

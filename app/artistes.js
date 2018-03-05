@@ -43,7 +43,7 @@ module.exports = [
     name: "Serious Stuff",
     style: "Groove",
     photo: '/img/artistes/seriousstuff.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
+    video: '',
     scene: 'grande',
     horaire: '19:30',
     url: "",
@@ -78,7 +78,7 @@ La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.`
     name: "Odd Fiction",
     style: 'Métal Progressif',
     photo: '/img/artistes/oddfiction.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/cgpRxv-xJA8',
+    video: '',
     scene: 'grande',
     horaire: '20:40',
     url: "",
@@ -91,7 +91,7 @@ La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.`
     name: "Abracadabra",
     style: "",
     photo: '/img/artistes/abracadabra.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
+    video: '',
     scene: 'petite',
     horaire: '21:20',
     url: "",
@@ -100,18 +100,33 @@ La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.`
     description: ``
   },
   {
+    id: 'imparfait',
+    name: "Imparfait",
+    style: 'Rock Urbain',
+    photo: '/img/artistes/imparfait.jpg',
+    video: 'https://www.youtube-nocookie.com/embed/ADdyuhP2beA',
+    scene: 'grande',
+    horaire: '21:55',
+    facebook: "https://www.facebook.com/imparfait.musique/",
+    instagram: "https://www.instagram.com/imparfait.musique/",
+    youtube: "https://www.youtube.com/channel/UCy64QcCYWahu4CA8xchSHWA",
+    description: `IMPARFAIT c'est quatre personnalités, un groupe, une énergie fédératrice. Sur scène le quatuor délivre un rock brut et sans concession`
+  },
+  {
     id: 'martycanfly',
     name: "Marty Can Fly",
     style: "8bits Cheap Tunes",
     photo: '/img/artistes/martycanfly.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
+    video: '',
     scene: 'petite',
     horaire: '22:35',
     url: "",
     facebook: "https://www.facebook.com/martycanfly/",
     bandcamp: "https://martycanfly.bandcamp.com/",
     twitter: "https://twitter.com/marty_can_fly",
-    description: `The Stalls a choisi de fouiller les racines du rock en privilégiant les bons vieux sons vintages des guitares et des drums pour s'exprimer. Halte aux synthés et aux ordinateurs, place aux riffs saignants et à l'énergie pure. Fans d'authenticité, venez d'urgence découvrir The Stalls...`
+    youtube: "https://www.youtube.com/channel/UC8SIiHIw-A4_siEiCdh_fBg",
+    description: `Marty Can Fly mélange Power-Pop et 8-Bit-Rock, et vous propose un spectacle bon-enfant qui vous plongera dans une ambiance musicale décalée, inspirée du cinéma, de la télévision et des jeux vidéo.
+    Ce cocktail sonore délirant mélangeant retro et Rock-Chiptune est assurément joyeux et surprenant.`
   },
   {
     id: 'thestalls',
