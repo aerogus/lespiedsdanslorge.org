@@ -8,10 +8,13 @@ body
   -webkit-font-smoothing antialiased /* fix bold mac osx */
 
 .main-content
-  margin-top 4rem
+  margin-top 4rem /* = hauteur menu */
+  margin-left auto
+  margin-right auto
+  max-width 1360px
 
 section
-  padding 1.6rem
+  padding 1.6rem .5rem
 
 h1,
 h2,
@@ -22,6 +25,11 @@ h4
 
 .artiste
   text-align center
+  a
+    cursor pointer
+    img
+      width 100%
+      height auto
   h4.button
     font-family 'DK Longreach', sans-serif
     font-size 1.6rem

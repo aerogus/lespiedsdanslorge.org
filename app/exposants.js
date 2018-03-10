@@ -1,12 +1,12 @@
 module.exports = [
   {
     id: '',
-    name: "",
+    name: '',
     style: '',
     photo: '',
-    url: "",
-    facebook: "",
-    twitter: "",
-    description: ``
-  }
+    url: '',
+    facebook: '',
+    twitter: '',
+    description: '',
+  },
 ];
