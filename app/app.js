@@ -128,28 +128,32 @@ function gmapCallback() {
 function initFichesArtistes() {
   dbArtistes.forEach((obj) => {
     let content = `<div class="clearfix modal-content" id="${obj.id}">
+      <div class="bfc">
       <img src="${obj.photo}" width="480" height="360" style="float:left;padding-right:10px;padding-bottom:10px">
       <h4>${obj.name}</h4>
       <p><strong>${obj.style}</strong></p>
-      <p>Scène: <strong>${obj.scene}</strong> - Horaire: <strong>${obj.horaire}</strong></p>`;
+      <p>Scène: <strong>${obj.scene}</strong></p>`;
 
-    if (obj.facebook) {
-      content += `<a class="badge social facebook" href="${obj.facebook}"><img src="/img/social/facebook.svg"/></a>`;
+    if (obj.links.site) {
+      content += `<a class="badge social site" href="${obj.links.site}" target="_blank" title="lien vers le site"><img src="/img/social/site.svg" alt=""/></a>`;
     }
-    if (obj.twitter) {
-      content += `<a class="badge social twitter" href="${obj.twitter}"><img src="/img/social/twitter.svg"/></a>`;
+    if (obj.links.facebook) {
+      content += `<a class="badge social facebook" href="${obj.links.facebook}" target="_blank" title="lien vers le Facebook"><img src="/img/social/facebook.svg"/></a>`;
     }
-    if (obj.youtube) {
-      content += `<a class="badge social youtube" href="${obj.youtube}"><img src="/img/social/youtube.svg"/></a>`;
+    if (obj.links.twitter) {
+      content += `<a class="badge social twitter" href="${obj.links.twitter}" target="_blank" title="lien vers le Twitter"><img src="/img/social/twitter.svg"/></a>`;
     }
-    if (obj.instagram) {
-      content += `<a class="badge social instagram" href="${obj.instagram}"><img src="/img/social/instagram.svg"/></a>`;
+    if (obj.links.youtube) {
+      content += `<a class="badge social youtube" href="${obj.links.youtube}" target="_blank" title="lien vers le YouTube"><img src="/img/social/youtube.svg"/></a>`;
     }
-    if (obj.bandcamp) {
-      content += `<a class="badge social bandcamp" href="${obj.bandcamp}"><img src="/img/social/bandcamp.svg"/></a>`;
+    if (obj.links.instagram) {
+      content += `<a class="badge social instagram" href="${obj.links.instagram}" target="_blank" title="lien vers le Instagram"><img src="/img/social/instagram.svg"/></a>`;
+    }
+    if (obj.links.bandcamp) {
+      content += `<a class="badge social bandcamp" href="${obj.links.bandcamp}" target="_blank" title="lien vers le bandcamp"><img src="/img/social/bandcamp.svg"/></a>`;
     }
 
-    content += `<p>${obj.description.replace('\n', '<br>')}</p>
+    content += `<p>${obj.description.replace('\n', '<br>')}</p></div>
       <button class="close-button">X</button>`;
 
     if (obj.video) {
