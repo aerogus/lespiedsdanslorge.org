@@ -30,8 +30,8 @@
               <li>
                 <a href="#programmation">Programmation</a>
                 <ul>
+                  <li><a href="#affiche">Affiche</a></li>
                   <li><a href="#artistes">Artistes</a></li>
-                  <li><a href="#planning">Planning</a></li>
                   <li><a href="#village-associatif">Village Associatif</a></li>
                 </ul>
               </li>
@@ -43,7 +43,6 @@
                 <ul>
                   <li><a href="#plan">Plan du site</a></li>
                   <li><a href="#acces">Accès</a></li>
-                  <li><a href="#meteo">Météo</a></li>
                   <li><a href="#benevolat">Bénévolat</a></li>
                 </ul>
               </li>
@@ -56,110 +55,101 @@
 
     <div class="main-content">
 
-    <section id="programmation">
-      <h2>Programmation</h2>
+      <section id="affiche">
+        <div class="grid-2-small-1 has-gutter-l">
+          <div><img src="/img/affiche-recto.jpg" alt="Les Pieds dans l'Orge"/></div>
+          <div><img src="/img/affiche-verso.jpg" alt="Les Pieds dans l'Orge"/></div>
+        </div>
+      </section>
 
-      <h3 id="artistes">Artistes</h3>
-      <div id="artistes-content"></div>
-      <div class="modal" id="artiste-content"></div>
+      <section id="programmation">
+        <h2 id="programmation">Programmation</h2>
 
-      <h3 id="planning">Planning</h3>
-      <table id="planning-table">
-        <caption>Planning de passage des groupes</caption>
-        <thead>
-          <tr>
-            <th width="50"></th>
-            <th width="200">Petite Scène</th>
-            <th width="200">Grande Scène</th>
-          </tr>
-        </thead>
-        <tbody id="table-body">
-        </tbody>
-      </table>
+        <h3 id="artistes">Artistes</h3>
+        <div id="artistes-content"></div>
+        <div class="modal" id="artiste-content"></div>
 
-      <h3 id="village-associatif">Village Associatif</h3>
-      <div id="village-associatif-content">Le village sera composé de plusieurs stands d’artistes (peinture, scuplture), ainsi qu’un pôle prévention. Une buvette sera à disposition ainsi qu’un foodtruck.</div>
+        <h3 id="village-associatif">Village Associatif</h3>
+        <div id="village-associatif-content">Le village sera composé de plusieurs stands d’artistes (peinture, scuplture), ainsi qu’un pôle prévention. Une buvette sera à disposition ainsi qu’un foodtruck.</div>
+      </section>
 
-    </section>
+      <section id="festival">
+        <h2>Le Festival</h2>
+        <p>Partant du constat que l’association AD’HOC et ses valeurs ne cadrent pas avec les événements en plein air de la ville d’Épinay-sur-Orge (Brandous, fête foraine, brocante…) : nous avons décidé de créer notre propre manifestation où les groupes de musiques actuelles et groupes émergents pourraient s’épanouir avec un volume sonore approprié et l’image d’un événement en adéquation avec la leur.</p>
+        <p>Alors que l’association a l’expérience de ce type de soirée en ayant été partenaire de la Fête de la Zic locale à Saulx les Chartreux (2003 à 2006) ou du Fet’estival de Villemoisson (depuis 2008), il était temps que pour ses 20 ans, AD’HOC organise son propre festival, et il aura comme nom Les Pieds dans l’Orge !</p>
+        <p>Le format : Le 26 mai, la mairie d’Épinay-sur-Orge met à notre disposition le Parking du Breuil. L’événement est gratuit, accessible de 18h00 à minuit pour 6 heures de spectacle en continu. Des groupes joueront en alternance sur 2 scènes et le public pourra flâner dans le village associatif où ils y trouveront des expositions, des performances, la buvette et un foodtruck.
+        <p>Les objectifs : Continuité des visées de l’association :</p>
+        <ul>
+          <li>Défense des musiques actuelles</li>
+          <li>Donner les moyens aux artistes de se produire</li>
+          <li>Une démarche d’éducation populaire centrée sur l’échange et le partage des compétences</li>
+          <li>Formation épanouissante voire qualifiante des bénévoles</li>
+        </ul>
+        <p>Objectifs propres associés à l’événement :</p>
+        <ul>
+          <li>Accessibilité à tous par la gratuité de l’entrée</li>
+          <li>Visée jeunesse par la gratuité mais aussi la présence d’acteurs de prévention</li>
+          <li>Ouverture d’esprit sur les autres formes d’art via la programmation du village expositions/performances</li>
+          <li>Élargissement de l’action culturelle et sociale au sein de la commune</li>
+        </ul>
+      </section>
 
-    <section id="festival">
-      <h2>Le Festival</h2>
-      <p>Partant du constat que l’association AD’HOC et ses valeurs ne cadrent pas avec les événements en plein air de la ville d’Épinay-sur-Orge (Brandous, fête foraine, brocante…) : nous avons décidé de créer notre propre manifestation où les groupes de musiques actuelles et groupes émergents pourraient s’épanouir avec un volume sonore approprié et l’image d’un événement en adéquation avec la leur.</p>
-      <p>Alors que l’association a l’expérience de ce type de soirée en ayant été partenaire de la Fête de la Zic locale à Saulx les Chartreux (2003 à 2006) ou du Fet’estival de Villemoisson (depuis 2008), il était temps que pour ses 20 ans, AD’HOC organise son propre festival, et il aura comme nom Les Pieds dans l’Orge !</p>
-      <p>Le format : Le 26 mai, la mairie d’Épinay-sur-Orge met à notre disposition le Parking du Breuil. L’événement est gratuit, accessible de 18h00 à minuit pour 6 heures de spectacle en continu. Des groupes joueront en alternance sur 2 scènes et le public pourra flâner dans le village associatif où ils y trouveront des expositions, des performances, la buvette et un foodtruck.
-      <p>Les objectifs : Continuité des visées de l’association :</p>
-      <ul>
-        <li>Défense des musiques actuelles</li>
-        <li>Donner les moyens aux artistes de se produire</li>
-        <li>Une démarche d’éducation populaire centrée sur l’échange et le partage des compétences</li>
-        <li>Formation épanouissante voire qualifiante des bénévoles</li>
-      </ul>
-      <p>Objectifs propres associés à l’événement :</p>
-      <ul>
-        <li>Accessibilité à tous par la gratuité de l’entrée</li>
-        <li>Visée jeunesse par la gratuité mais aussi la présence d’acteurs de prévention</li>
-        <li>Ouverture d’esprit sur les autres formes d’art via la programmation du village expositions/performances</li>
-        <li>Élargissement de l’action culturelle et sociale au sein de la commune</li>
-      </ul>
-    </section>
+      <section id="pratique">
+        <h2>Pratique</h2>
 
-    <section id="pratique">
-      <h2>Pratique</h2>
+        <h3 id="plan">Plan du site</h3>
+        <div class="txtcenter">
+          <img src="/img/plan-du-site.png" alt="Plan du site">
+        </div>
 
-      <h3 id="plan">Plan du site</h3>
-      <div class="txtcenter">
-        <img src="/img/plan-du-site.png" alt="Plan du site">
-      </div>
+        <h3 id="acces">Accès</h3>
+        <h4>Où se déroule le Festival Les Pieds dans l’Orge ?</h4>
+        <p>Le Festival Les Pieds dans l’Orge se déroule à Épinay-sur-Orge dans l’Essonne, voie des prés, sur le parking du Breuil, entre le stade de football du Breuil et le gymnase Alain Mimoun.</p>
+        <p>Les coordonnées GPS du site sont <strong>48°40'09.9"N 2°19'24.0"E</strong></p>
+        <div id="map" style="width: 100%; height: 250px"></div>
 
-      <h3 id="acces">Accès</h3>
-      <h4>Où se déroule le Festival Les Pieds dans l’Orge ?</h4>
-      <p>Le Festival Les Pieds dans l’Orge se déroule à Épinay-sur-Orge dans l’Essonne, voie des prés, sur le parking du Breuil, entre le stade de football du Breuil et le gymnase Alain Mimoun.</p>
-      <p>Les coordonnées GPS du site sont <strong>48°40'09.9"N 2°19'24.0"E</strong></p>
-      <div id="map" style="width: 100%; height: 250px"></div>
+        <h4>Transports en commun</h4>
+        <p>Épinay-sur-Orge est déservie par la ligne <span class="rerc">C</span> du <span class="rer">RER</span> via 2 stations :</p>
+        <ul>
+          <li>Épinay-sur-Orge</li>
+          <li>Petit Vaux</li>
+        </ul>
 
-      <h4>Transports en commun</h4>
-      <p>Épinay-sur-Orge est déservie par la ligne <span class="rerc">C</span> du <span class="rer">RER</span> via 2 stations :</p>
-      <ul>
-        <li>Épinay-sur-Orge</li>
-        <li>Petit Vaux</li>
-      </ul>
+        <h4>En Auto</h4>
+        <ul>
+          <li>Accès par la A6, sortie Savigny-sur-Orge</li>
+          <li>Accès par la N20, sortie Ballainvilliers</li>
+        </ul>
 
-      <h4>En Auto</h4>
-      <ul>
-        <li>Accès par la A6, sortie Savigny-sur-Orge</li>
-        <li>Accès par la N20, sortie Ballainvilliers</li>
-      </ul>
+        <h4>A pieds</h4>
+        <p>C’est plus long ...</p>
 
-      <h4>A pieds</h4>
-      <p>C’est plus long ...</p>
+        <h3 id="benevolat">Bénévolat</h3>
+        <p>La Team AD’HOC, même si nous sommes sur-motivés, a toujours besoin de petites pattes pour compléter l’équipe.</p>
+        <p>Si tu aimes la musique, si tu aimes le bénévolat, si tu aimes servir des coups à boire, et bien tu peux dores et déjà nous écrire un petit mot à <a href="mailto:contact@adhocmusic.com">contact@adhocmusic.com</a> ou nous appeler au <a href="tel:+33632748658">06 32 74 86 58</a></p>
+        <p>Nous cherchons des petites mains pour l’installation, pour la communication, pour la buvette… Et pour ceux qui ont besoin de missions précises, voici quelques annonces auxquelles vous pouvez postuler :</p>
+        <ul>
+          <li>#bénévolat [1]: AD’HOC recrute des poseurs d’affiches sur panneaux d’affichage libre de la commune. Durée de la mission: 1 après-midi. Matériel fourni. A partir de maintenant. Détails en MP.</li>
+          <li>#bénévolat [2]: AD’HOC recrute des poseurs d’affiches dans les commerces de la ville. Durée de la mission: 1 après-midi. Matériel fourni. A partir de maintenant. Détails en MP.</li>
+          <li>#bénévolat [3]: AD’HOC recrute des poseurs d’affiches le xx/05/2018. Durée de la mission 1 soirée. Matériel fourni. Détails en MP.</li>
+          <li>#bénévolat [4]: AD’HOC recrute des distributeurs de flyers aux lycées Prévert et Corot. Dates à négocier en fonction de votre emploi du temps. Dès maintenant. Durée d’1 mission 3/4 d’heure. Détails en MP.</li>
+          <li>#bénévolat [5]: AD’HOC recrute des gens motivés pour installer le village associatif. Durée de la mission : l’après-midi du 26/05/2018. Vous ferez partie du Staff. Détails en MP.</li>
+          <li>#bénévolat [6]: AD’HOC recrute des médiateurs jeunesse, pour assurer la sérénité du site. Durée de la mission : la soirée du 26/06/2018. Vous ferez partie du Staff et serez briefé par l’équipe sur ses valeurs et ses objectifs au cours d’une réunion la semaine de l’événement. Détails en MP.</li>
+        </ul>
+      </section>
 
-      <h3 id="meteo">Météo</h3>
-      <img src="#" width="650" height="250" style="display:block;margin:0 auto"/>
+      <section id="partenaires">
+        <h2>Partenaires</h2>
+        Cet événement ne pourrait pas se dérouler sans nos partenaires:
+        <ul>
+          <li>La <a href="http://www.ville-epinay-sur-orge.fr"><strong>Mairie d’Épinay-sur-Orge</strong></a> bien sur, qui nous prête pour l’occasion cet espace connu des spinoliens pour accueillir le bal et feu de la saint Jean (fête des Brandous) et plus anciennement des cinémas en plein air. </li>
+          <li>Le <a href="https://www.facebook.com/clubadosPAJ.VSO/"><strong>Club-Ado PAJ de Villemoisson sur Orge</strong></a>, grands organisateurs du <a href="http://fetestival.adhocmusic.com">Fet’Estival</a> depuis plus de 10 ans, et qui nous offrent leur précieuse aide technique et logistique.</li>
+          <li>Le <a href="https://www.creditmutuel.fr"><strong>Crédit Mutuel d’Épinay-sur-Orge</strong></a> qui nous a décerné le <a href="https://www.facebook.com/adhocmusic/photos/a.401098546612207.101822.161908907197840/740441012677957/">2ème prix du "challenge départemental"</a> qui récompensait les 3 meilleurs projets associatifs spinoliens œuvrant pour la solidarité et la jeunesse.</li>
+          <li>La Radio <a href="https://www.ouifm.fr"><strong>OÜI FM</strong></a> qui soutient nos actions depuis près de 5 ans</li>
+        </ul>
+      </section>
 
-      <h3 id="benevolat">Bénévolat</h3>
-      <p>La Team AD’HOC, même si nous sommes sur-motivés, a toujours besoin de petites pattes pour compléter l’équipe.</p>
-      <p>Si tu aimes la musique, si tu aimes le bénévolat, si tu aimes servir des coups à boire, et bien tu peux dores et déjà nous écrire un petit mot à <a href="mailto:contact@adhocmusic.com">contact@adhocmusic.com</a> ou nous appeler au <a href="tel:+33632748658">06 32 74 86 58</a></p>
-      <p>Nous cherchons des petites mains pour l’installation, pour la communication, pour la buvette… Et pour ceux qui ont besoin de missions précises, voici quelques annonces auxquelles vous pouvez postuler :</p>
-      <ul>
-        <li>#bénévolat [1]: AD’HOC recrute des poseurs d’affiches sur panneaux d’affichage libre de la commune. Durée de la mission: 1 après-midi. Matériel fourni. A partir de maintenant. Détails en MP.</li>
-        <li>#bénévolat [2]: AD’HOC recrute des poseurs d’affiches dans les commerces de la ville. Durée de la mission: 1 après-midi. Matériel fourni. A partir de maintenant. Détails en MP.</li>
-        <li>#bénévolat [3]: AD’HOC recrute des poseurs d’affiches le xx/05/2018. Durée de la mission 1 soirée. Matériel fourni. Détails en MP.</li>
-        <li>#bénévolat [4]: AD’HOC recrute des distributeurs de flyers aux lycées Prévert et Corot. Dates à négocier en fonction de votre emploi du temps. Dès maintenant. Durée d’1 mission 3/4 d’heure. Détails en MP.</li>
-        <li>#bénévolat [5]: AD’HOC recrute des gens motivés pour installer le village associatif. Durée de la mission : l’après-midi du 26/05/2018. Vous ferez partie du Staff. Détails en MP.</li>
-        <li>#bénévolat [6]: AD’HOC recrute des médiateurs jeunesse, pour assurer la sérénité du site. Durée de la mission : la soirée du 26/06/2018. Vous ferez partie du Staff et serez briefé par l’équipe sur ses valeurs et ses objectifs au cours d’une réunion la semaine de l’événement. Détails en MP.</li>
-      </ul>
-    </section>
-
-    <section id="partenaires">
-      <h2>Partenaires</h2>
-      Cet événement ne pourrait pas se dérouler sans nos partenaires:
-      <ul>
-        <li>La <a href="http://www.ville-epinay-sur-orge.fr"><strong>Mairie d’Épinay-sur-Orge</strong></a> bien sur, qui nous prête pour l’occasion cet espace connu des spinoliens pour accueillir le bal et feu de la saint Jean (fête des Brandous) et plus anciennement des cinémas en plein air. </li>
-        <li>Le <a href="https://www.facebook.com/clubadosPAJ.VSO/"><strong>Club-Ado PAJ de Villemoisson sur Orge</strong></a>, grands organisateurs du <a href="http://fetestival.adhocmusic.com">Fet’Estival</a> depuis plus de 10 ans, et qui nous offrent leur précieuse aide technique et logistique.</li>
-        <li>Le <a href="https://www.creditmutuel.fr"><strong>Crédit Mutuel d’Épinay-sur-Orge</strong></a> qui nous a décerné le <a href="https://www.facebook.com/adhocmusic/photos/a.401098546612207.101822.161908907197840/740441012677957/">2ème prix du "challenge départemental"</a> qui récompensait les 3 meilleurs projets associatifs spinoliens œuvrant pour la solidarité et la jeunesse.</li>
-        <li>La Radio <a href="https://www.ouifm.fr"><strong>OÜI FM</strong></a> qui soutient nos actions depuis près de 5 ans</li>
-      </ul>
-    </section>
+    </div>
 
     <footer>
       <p>Les Pieds dans l’Orge est un événement organisé par l’<a href="https://www.adhocmusic.com">association AD’HOC</a> - 8 rue de l’église - 91360 Épinay-sur-Orge</p>
@@ -168,8 +158,6 @@
         <a class="badge social twitter" href="https://twitter.com/adhocmusic"><img src="/img/social/twitter.svg"></a>
       </p>
     </footer>
-
-    </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/app.js"></script>
