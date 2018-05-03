@@ -1,7 +1,7 @@
 /* globals $, google, document */
 
 const dbArtistes = require('./artistes');
-// const dbExposants = require('./exposants');
+const dbVillage = require('./village');
 
 const gmap =
 {
@@ -16,8 +16,7 @@ function buildModal(obj) {
   <div class="bfc">
   <img src="${obj.photo}" width="480" height="360" style="float:left;padding-right:10px;padding-bottom:10px">
   <h4>${obj.name}</h4>
-  <p><strong>${obj.style}</strong></p>
-  <p>Scène: <strong>${obj.scene}</strong></p>`;
+  <p><strong>${obj.style}</strong></p>`;
 
   if (obj.links.site) {
     content += `<a class="badge social site" href="${obj.links.site}" target="_blank" title="lien vers le site"><img src="/img/social/site.svg" alt=""/></a>`;
@@ -76,8 +75,8 @@ function handleModalControls() {
  */
 function showModal(id) {
   if (!id) return;
-  const artiste = dbArtistes.filter(obj => (obj.id === id))[0];
-  buildModal(artiste);
+  const obj = dbArtistes.filter(obj => (obj.id === id))[0] || dbVillage.filter(obj => (obj.id === id))[0];
+  buildModal(obj);
   handleModalControls();
   $('.modal').show(); // affiche le fond
   $('.modal-content').hide(); // ferme les autres
@@ -103,8 +102,7 @@ function initResponsiveMenu() {
  * Charge la section Artistes
  */
 function initArtistes() {
-  // filtre grande scène ou petite scène
-  const artistes = dbArtistes.filter(obj => (obj.scene === 'grande' || obj.scene === 'petite'));
+  const artistes = dbArtistes;
   // tri alphabétique
   artistes.sort((a, b) => a.name > b.name);
   const list = $('<div class="grid-3-small-2 has-gutter-l"/>');
@@ -118,6 +116,30 @@ function initArtistes() {
     list.append(div);
   });
   $('#artistes-content').append(list);
+  $('.artiste a').click((e) => {
+    e.preventDefault();
+    showModal(e.currentTarget.dataset.open);
+  });
+}
+
+/**
+ * Charge la section Village
+ */
+function initVillage() {
+  const village = dbVillage;
+  // tri alphabétique
+  village.sort((a, b) => a.name > b.name);
+  const list = $('<div class="grid-3-small-2 has-gutter-l"/>');
+  village.forEach((e) => {
+    const div = `<div class="artiste">
+      <a data-open="${e.id}">
+        <img src="${e.photo}"/>
+        <h4 class="button">${e.name}</h4>
+      </a>
+    </div>`;
+    list.append(div);
+  });
+  $('#village-content').append(list);
   $('.artiste a').click((e) => {
     e.preventDefault();
     showModal(e.currentTarget.dataset.open);
@@ -165,7 +187,7 @@ function initSmoothScroll() {
 function init() {
   initResponsiveMenu();
   initArtistes();
-  //initPlanning();
+  initVillage();
   initMap();
   initSmoothScroll();
   handleModalControls();
