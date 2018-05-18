@@ -4,6 +4,7 @@ module.exports = [
     name: 'Conservatoire d’Épinay-sur-Orge',
     style: 'Jazz Rock Pop',
     description: `
+L’atelier musiques actuelles du conservatoire proposera un set qu’il a travaillé durant l’année.
     `,
     photo: '/img/artistes/conservatoire.jpg',
     video: '',
@@ -46,9 +47,8 @@ Ce groupe féminin de Palaiseau ne s’encombre pas d’un quatuor rock classiqu
     name: 'Serious Stuff',
     style: 'Groove',
     description: `
-Serious Stuff est un groupe de 7 musiciens de la région parisienne qui jouent pour le plaisir et visent à produire une musique Groovy de qualité sans se prendre trop au sérieux !
-Leur répertoire est un mélange de compositions et de reprises aux influences variées : Parfois Blues-Rock ou plus orienté Funk, Soul, Jazz voire Reggae, ils ne veulent pas se mettre de barrières stylistiques trop rigides.
-Leur dénominateur commun est le GROOVE. Vous savez, ce petit truc qui vous donne inconsciemment envie de taper du pied et bouger votre corps !
+La chanteuse Jaya à la voix très Soul et ses musiciens éclectiques forment Serious Stuff, un groupe créé en 2011 et basé à Savigny-sur-Orge. Ils reviennent sur scène avec leurs dernières compositions pour vous faire vibrer et danser !
+Serious Stuff joue une musique Groovy de qualité qui plaira autant aux danseurs qu’aux plus mélomanes d’entre vous. Leur répertoire essentiellement Funk-Soul, mais aussi Blues-Jazz, rassemble autour d’un dénominateur commun : le GROOVE. Vous savez, ce petit quelque chose qui vous donne inconsciemment envie de bouger votre corps !
     `,
     photo: '/img/artistes/seriousstuff.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fseriousstuffmusic%2Fvideos%2F608402309350030%2F&show_text=0&width=560&mute=0',
