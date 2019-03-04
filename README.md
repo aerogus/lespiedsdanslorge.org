@@ -1,6 +1,6 @@
-# Site DER'FEST
+# Site du Festival les Pieds dans l'Orge
 
-url: derfest.adhocmusic.com /// derfest.fr ?
+url: https://lespiedsdanslorge.org
 
 ## Todo
 
@@ -9,6 +9,7 @@ trouver image meteo en https
 Décompte ?
 
 title = DER'FEST 15 Octobre 2016 Epinay-sur-Orge
+
 ## Programmation
 
 Prog télécgargeable pdf ?
@@ -136,9 +137,9 @@ http://www.downloadfestival.fr/
 
 
 Installation :
-mkdir derfest
-cd derfest
-git clone git@bitbucket.org:adhocmusic/derfest.git .
+mkdir /var/www/lespiedsdanslorge.org
+cd /var/www/lespiedsdanslorge.org
+git clone git@bitbucket.org:adhocmusic/lespiedsdanslorge.org.git .
 
 Code soundcloud exemple :
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/6455041&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>"
