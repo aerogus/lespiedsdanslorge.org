@@ -28,48 +28,42 @@ SOZIK propose un enseignement musical inédit, axé sur la création. Venez appr
     },
   },
   {
-    id: 'resonance',
-    name: 'Résonance',
-    style: 'Pop rock alternatif',
+    id: 'digitalpourpre',
+    name: 'Digital Pourpre',
+    style: 'Wor(l)d Groove',
     description: `
-Ce groupe féminin de Palaiseau ne s’encombre pas d’un quatuor rock classique. Ni de textes anglais pour imiter les modèles du genre. A elles seules, Virginie et Cécilia forment un duo guitare-chant/batterie de pop française grungy, doux-amer et électrique. A l’image de ses rythmiques déterminées, Résonance n’y va pas par quatre chemins pour faire entendre ses histoires du quotidien. Le chant francophone trouve un équilibre délicat sur des accords à la Cobain.
+‘Spectaculaire et dangereuse’, ‘fabuleuse et vénéneuse’, ‘puissante et toxique’, tels sont les renoms de la digitale pourpre… le reflet de nos vices ?
+Power trio enraciné sur les textes de Piolémik, Digital Pourpre s’entend comme une fable ironique, un conte satirique, un trash onirique… Une prose poétique, une ode à la vie…
+D’une composition à l’autre, humour acidulé frotte avec amour passionné, sur des mélodies permissives et cadencées, qui poussent à la débauche de nos sens.
     `,
-    photo: '/img/artistes/resonance.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/1HfFqDTr5A4',
+    photo: '/img/artistes/digitalpourpre.jpg',
+    video: 'https://www.youtube-nocookie.com/embed/RGowGYr6vHs',
     links: {
-      site: 'https://resonance-fr.bandcamp.com',
-      facebook: 'https://www.facebook.com/resonancerock',
-      twitter: 'https://twitter.com/Resonancerock',
+      site: 'http://www.digitalpourpre.com',
+      facebook: 'https://www.facebook.com/DigitalPourpre',
+      bandcamp: 'https://digitalpourpre.bandcamp.com',
     },
   },
   {
-    id: 'seriousstuff',
-    name: 'Serious Stuff',
-    style: 'Groove',
+    id: 'rhymer13x7',
+    name: 'Rhymer13x7',
+    style: 'Rap Fr',
     description: `
-La chanteuse Jaya à la voix très Soul et ses musiciens éclectiques forment Serious Stuff, un groupe créé en 2011 et basé à Savigny-sur-Orge. Ils reviennent sur scène avec leurs dernières compositions pour vous faire vibrer et danser !
-Serious Stuff joue une musique Groovy de qualité qui plaira autant aux danseurs qu’aux plus mélomanes d’entre vous. Leur répertoire essentiellement Funk-Soul, mais aussi Blues-Jazz, rassemble autour d’un dénominateur commun : le GROOVE. Vous savez, ce petit quelque chose qui vous donne inconsciemment envie de bouger votre corps !
+Rappeur FR
     `,
-    photo: '/img/artistes/seriousstuff.jpg',
+    photo: '/img/artistes/rhymer13x7.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fseriousstuffmusic%2Fvideos%2F608402309350030%2F&show_text=0&width=560&mute=0',
     links: {
-      facebook: 'https://www.facebook.com/seriousstuffmusic/',
+      facebook: 'https://www.facebook.com/rhymerdoctor',
+      site: 'https://fanlink.to/Rhymer13x7',
     },
   },
   {
-    id: 'pricklypearl',
-    name: 'Prickly Pearl',
-    style: 'Pop Folk',
+    id: 'grotteprod',
+    name: 'Grotte Prod',
+    style: 'Rap Fr',
     description: `
-Le Projet Prickly Pearl débute en 2011. Loïc, après diverses expériences, veut revenir à ses premières amours aux sources de la musique populaire américaine.
-Sa rencontre avec Carole, à la voix grave et aux accents "Soul", est comme une évidence. Ensemble, ils vont ciseler et modeler les morceaux et définir les bases de la musique de Prickly Pearl: une Folk hybride aux racines multiples Country, Jazz, Blues, Soul.
-Dès leurs premiers passages dans les clubs, ils rencontrent un public enthousiaste, qui les encourage à poursuivre, et leur fait prendre conscience de l’aspect fédérateur de leur musique. Puis les salles de concert s’agrandissent : le Sentier des Halles et le Batofar.
-Afin d’accompagner le développement de ce projet, l’association Prickly Records voit le jour en Octobre 2012.
-Autour de Carole et Loïc plusieurs musiciens se joignent à l’aventure et Prickly Pearl trouve un équilibre artistique avec l’arrivée de Christian à la batterie et Laurent à la basse en 2013. C’est ainsi que l’éclectisme des inspirations de Prickly Pearl prend définitivement forme, ajoutant une pointe de Rock et de Pop à cette formation qui ne s’interdit plus rien.
-Bien que Christian les quitte en 2015, l’univers qu’ils ont créé ensemble demeure jusqu’à aujourd’hui l’empreinte de Prickly Pearl.
-Les mélodies et l’émotion véhiculées par Prickly Pearl vous accompagnent longtemps à ce qu’en dit le Public.
-Très vite vous vous surprendrez à siffler un air de Prickly Pearl…
-La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.
+Collectif de rappeurs du 91
     `,
     photo: '/img/artistes/pricklypearl.jpg',
     video: 'https://www.youtube-nocookie.com/embed/oPEEF5zrh0I',
@@ -81,13 +75,16 @@ La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.
     },
   },
   {
-    id: 'oddfiction',
-    name: 'Odd Fiction',
-    style: 'Métal Progressif',
+    id: 'whicoskyla',
+    name: 'Whico Skyla',
+    style: 'Rock / Pop Rock',
     description: `
-Odd Fiction est une agence de voyage spécialisée dans l’exploration de paysages sonores. Véritables aventuriers du son, nous vous offrons le choix de visiter les contrées musicales les plus diverses : Funkalousie, Métaland, Rockproguistan, Experigascar… Ainsi, il vous est possible de choisir parmi une grande variété de climats mélodiques, mais aussi d’activités : Head-Banging extrême dans les blasts glacés Métalandais, Slow romantique dans l’ambiance lumineuse de Post-Rock city, ou courses de quad à 200 BPM dans les carrières rocailleuses de la République de Noise. Alors n’hésitez pas à embarquer pour un voyage unique au monde, fort en dissonances et rythmiques ambiguës, dont personne encore n’est jamais revenu.
+Whico Skyla est un groupe de rock de Paris. Premier EP mixé par Arnaud Bascuñana.
+Monté en 2016, le groupe s'est produit plus de 20 fois dès la première année, allant jusqu'à Namur en Belgique pour les Fêtes de Wallonie.
+Le premier EP "Many ways" dont est extrait le titre "Stuck on you" est disponible sur le site internet www.whicoskyla.com
+WHICO SKYLA c'est du rock teinté de pop, des sourires et de la sueur, des mélodies ciselées, des cris dans la soie… pas de formatage, pas de calcul, des émotions en transmission, et des souvenirs plein la tête.
     `,
-    photo: '/img/artistes/oddfiction.jpg',
+    photo: '/img/artistes/whicoskyla.jpg',
     video: 'https://www.youtube-nocookie.com/embed/BGeb9ppDMZs',
     links: {
       site: 'http://www.oddfiction.fr/',
@@ -96,27 +93,29 @@ Odd Fiction est une agence de voyage spécialisée dans l’exploration de paysa
     },
   },
   {
-    id: 'abracadabra',
-    name: 'Abracadabra',
-    style: 'Jazz Fusion',
+    id: 'salvatorium',
+    name: 'Salvatorium',
+    style: 'Metal',
     description: `
-Les membres du groupe/collectif se sont rencontré naturellement dans differentes JAM sessions (du nord de l’Essonne), dans les théatre, les salles municipales, des salles à manger, des duplex, des soirées garage... FARID et TRISTAN jouaient ensemble de "l’afro-reggae music" dans le groupe Djame Salam (gagnant de differents concours LADIAM, passages FR3 etc...) Tristan, chanteur a réalisé une centaine de videoclips dans les années 2000.
-La musique ouverte d’esprit est le dénominateur commun et ce qui motive chaque musicien c’est donc fort de notre expérience à tous, surtout en region parisienne, que nous avons décidé de porter un projet ensemble.
+Influencé par le Heavy et le Thrash d’avant 2000 avec des groupes comme Iron Maiden, Metallica ou Rage Against The Machine, Salvatorium est un groupe de 4 membres. Au départ simple groupe de reprises, ils cherchent maintenant à montrer ce dont ils sont capables en composant leurs propres interprétations du genre musical qu’ils défendent.
     `,
-    photo: '/img/artistes/abracadabra.jpg',
+    photo: '/img/artistes/salvatorium.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1689859227982570%2Fvideos%2F1775594402742385%2F&show_text=0&width=560&mute=0',
     links: {
       facebook: 'https://www.facebook.com/Abracadabra-1689859227982570',
     },
   },
   {
-    id: 'imparfait',
-    name: 'Imparfait',
-    style: 'Rock Urbain',
+    id: 'duberman',
+    name: 'Duberman',
+    style: 'Power Dub Electro Rock',
     description: `
-IMPARFAIT c’est quatre personnalités, un groupe, une énergie fédératrice. Sur scène le quatuor délivre un rock brut et sans concession.
+Duberman est né d'une rencontre entre musiciens évoluant dans différents univers musicaux (ska, hip-hop, hardcore).
+Leur son prend forme aux confluents du dub, du rock et de l'électronique; faisant évoluer une musique instrumentale intense qui s'est affirmé au long des 50 concerts effectués aux côtés des grands noms du dub français (High Tone, Kaly, Brain Damage, Kaophonic Tribu, Lab°, DUbians).
+Quatre ans après la naissance du groupe, les cinq musiciens franchissent les portes du studio afin de poursuivre ce qu'ils avaient entamé avec K-MA, leurs première démo.
+Pas de barrière, juste une envie de jouer du dub et de le faire bien.
     `,
-    photo: '/img/artistes/imparfait.jpg',
+    photo: '/img/artistes/duberman.jpg',
     video: 'https://www.youtube-nocookie.com/embed/ADdyuhP2beA',
     links: {
       facebook: 'https://www.facebook.com/imparfait.musique/',
@@ -125,38 +124,51 @@ IMPARFAIT c’est quatre personnalités, un groupe, une énergie fédératrice. 
     },
   },
   {
-    id: 'martycanfly',
-    name: 'Marty Can Fly',
-    style: '8bits Cheap Tunes',
+    id: 'kraken',
+    name: 'Kraken',
+    style: 'Jazz Ska, musique des Balkans',
     description: `
 Marty Can Fly mélange Power-Pop et 8-Bit-Rock, et vous propose un spectacle bon-enfant qui vous plongera dans une ambiance musicale décalée, inspirée du cinéma, de la télévision et des jeux vidéo.
 Ce cocktail sonore délirant mélangeant retro et Rock-Chiptune est assurément joyeux et surprenant.
     `,
-    photo: '/img/artistes/martycanfly.jpg',
+    photo: '/img/artistes/kraken.jpg',
     video: 'https://www.youtube-nocookie.com/embed/MbP5cJEDHsk',
     links: {
-      facebook: 'https://www.facebook.com/martycanfly/',
-      bandcamp: 'https://martycanfly.bandcamp.com/',
-      twitter: 'https://twitter.com/marty_can_fly',
-      youtube: 'https://www.youtube.com/channel/UC8SIiHIw-A4_siEiCdh_fBg',
+      facebook: 'https://www.facebook.com/Krakengrooveband',
     },
   },
   {
-    id: 'thestalls',
-    name: 'The Stalls',
-    style: 'Hard Rock',
+    id: 'zantek',
+    name: 'Zantek',
+    style: 'Chanson Rock',
     description: `
-The Stalls a choisi de fouiller les racines du rock en privilégiant les bons vieux sons vintages des guitares et des drums pour s’exprimer. Halte aux synthés et aux ordinateurs, place aux riffs saignants et à l’énergie pure. Fans d’authenticité, venez d’urgence découvrir The Stalls…
+"Chanson Rock", c'est ainsi que s'auto-qualifie Zantek.
+Après avoir chassé les fantômes en solo, chassé la solitude en duo, Zantek a décidé de chasser le naturel en power trio.
+Armé d'une section rythmique au galop (Nico/Micka), une guitare rageuse en étendard, Zantek défend une écriture ciselée, au son d'un rock précis et énergique.
+Parmis les influences multiples, on notera Bashung, Noir Désir, Miossec, Deportivo..
     `,
-    photo: '/img/artistes/thestalls.jpg',
+    photo: '/img/artistes/zantek.jpg',
     video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
     links: {
-      site: 'http://the-stalls.com/',
-      facebook: 'https://www.facebook.com/thestalls/',
-      twitter: 'https://twitter.com/tweetthestalls',
-      instagram: 'https://www.instagram.com/thestalls/',
-      soundcloud: 'https://soundcloud.com/the-stalls-official/',
-      youtube: 'https://www.youtube.com/user/TheStallsOfficial',
+      site: 'http://www.zantek.fr',
+      facebook: 'https://www.facebook.com/zantekmusic',
+      youtube: 'https://youtu.be/gHOXv1HApJ8',
+    },
+  },
+  {
+    id: 'arthedone',
+    name: 'Arthédone',
+    style: 'Pop Fr',
+    description: `
+Artiste Pop Fr
+    `,
+    photo: '/img/artistes/arthedone.jpg',
+    video: 'https://www.youtube-nocookie.com/embed/77QDFXC5p5o',
+    links: {
+      facebook: 'https://www.facebook.com/arthedone.music',
+      twitter: 'https://twitter.com/arthedone',
+      instagram: 'https://www.instagram.com/arthedone',
+      youtube: 'https://www.youtube.com/c/ARTHEDONE',
     },
   },
 ];
