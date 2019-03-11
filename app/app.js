@@ -3,8 +3,7 @@
 const dbArtistes = require('./artistes');
 const dbVillage = require('./village');
 
-const gmap =
-{
+const gmap = {
   api_key: 'AIzaSyBW8wt3QH0k1e_oV9ue_jE8-5AOUX9OnOY',
   callback: 'app.gmapCallback',
   lat: 48.66943944555655,

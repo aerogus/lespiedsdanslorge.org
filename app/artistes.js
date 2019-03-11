@@ -10,8 +10,8 @@ L’atelier musiques actuelles du conservatoire proposera un set qu’il a trava
     video: '',
     links: {
       site: 'https://sites.google.com/site/conservatoireepinaysurorge2/',
-      facebook: 'https://www.facebook.com/ConservatoireEpinaySurOrge/'
-    }
+      facebook: 'https://www.facebook.com/ConservatoireEpinaySurOrge/',
+    },
   },
   {
     id: 'sozik',
@@ -24,8 +24,8 @@ SOZIK propose un enseignement musical inédit, axé sur la création. Venez appr
     video: '',
     links: {
       site: 'http://www.so-zik.fr/',
-      facebook: 'https://www.facebook.com/sozik91/'
-    }
+      facebook: 'https://www.facebook.com/sozik91/',
+    },
   },
   {
     id: 'resonance',
@@ -39,8 +39,8 @@ Ce groupe féminin de Palaiseau ne s’encombre pas d’un quatuor rock classiqu
     links: {
       site: 'https://resonance-fr.bandcamp.com',
       facebook: 'https://www.facebook.com/resonancerock',
-      twitter: 'https://twitter.com/Resonancerock'
-    }
+      twitter: 'https://twitter.com/Resonancerock',
+    },
   },
   {
     id: 'seriousstuff',
@@ -53,8 +53,8 @@ Serious Stuff joue une musique Groovy de qualité qui plaira autant aux danseurs
     photo: '/img/artistes/seriousstuff.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fseriousstuffmusic%2Fvideos%2F608402309350030%2F&show_text=0&width=560&mute=0',
     links: {
-      facebook: 'https://www.facebook.com/seriousstuffmusic/'
-    }
+      facebook: 'https://www.facebook.com/seriousstuffmusic/',
+    },
   },
   {
     id: 'pricklypearl',
@@ -77,8 +77,8 @@ La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.
       site: 'http://pricklypearl.wix.com/website',
       soundclound: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/6455041&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false',
       facebook: 'https://www.facebook.com/PricklyPearl/',
-      twitter: 'https://twitter.com/Prickly_Pearl'
-    }
+      twitter: 'https://twitter.com/Prickly_Pearl',
+    },
   },
   {
     id: 'oddfiction',
@@ -92,8 +92,8 @@ Odd Fiction est une agence de voyage spécialisée dans l’exploration de paysa
     links: {
       site: 'http://www.oddfiction.fr/',
       facebook: 'https://www.facebook.com/OddFiction/',
-      instagram: 'https://www.instagram.com/odd.fiction/'
-    }
+      instagram: 'https://www.instagram.com/odd.fiction/',
+    },
   },
   {
     id: 'abracadabra',
@@ -106,8 +106,8 @@ La musique ouverte d’esprit est le dénominateur commun et ce qui motive chaqu
     photo: '/img/artistes/abracadabra.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1689859227982570%2Fvideos%2F1775594402742385%2F&show_text=0&width=560&mute=0',
     links: {
-      facebook: 'https://www.facebook.com/Abracadabra-1689859227982570'
-    }
+      facebook: 'https://www.facebook.com/Abracadabra-1689859227982570',
+    },
   },
   {
     id: 'imparfait',
@@ -121,8 +121,8 @@ IMPARFAIT c’est quatre personnalités, un groupe, une énergie fédératrice. 
     links: {
       facebook: 'https://www.facebook.com/imparfait.musique/',
       instagram: 'https://www.instagram.com/imparfait.musique/',
-      youtube: 'https://www.youtube.com/channel/UCy64QcCYWahu4CA8xchSHWA'
-    }
+      youtube: 'https://www.youtube.com/channel/UCy64QcCYWahu4CA8xchSHWA',
+    },
   },
   {
     id: 'martycanfly',
@@ -138,8 +138,8 @@ Ce cocktail sonore délirant mélangeant retro et Rock-Chiptune est assurément 
       facebook: 'https://www.facebook.com/martycanfly/',
       bandcamp: 'https://martycanfly.bandcamp.com/',
       twitter: 'https://twitter.com/marty_can_fly',
-      youtube: 'https://www.youtube.com/channel/UC8SIiHIw-A4_siEiCdh_fBg'
-    }
+      youtube: 'https://www.youtube.com/channel/UC8SIiHIw-A4_siEiCdh_fBg',
+    },
   },
   {
     id: 'thestalls',
@@ -156,7 +156,7 @@ The Stalls a choisi de fouiller les racines du rock en privilégiant les bons vi
       twitter: 'https://twitter.com/tweetthestalls',
       instagram: 'https://www.instagram.com/thestalls/',
       soundcloud: 'https://soundcloud.com/the-stalls-official/',
-      youtube: 'https://www.youtube.com/user/TheStallsOfficial'
-    }
+      youtube: 'https://www.youtube.com/user/TheStallsOfficial',
+    },
   },
 ];

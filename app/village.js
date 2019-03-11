@@ -15,7 +15,7 @@ Ses toiles peuvent servir de décoration contemporaine.
     links: {
       site: 'http://fr.artquid.com/artist/drinedraw/sandrine-r-drinedraw.html',
       facebook: 'https://www.facebook.com/Drinedraw-1948756922052140/',
-    } 
+    },
   },
   {
     id: 'roseline-scoupe',
@@ -26,8 +26,8 @@ Ses toiles peuvent servir de décoration contemporaine.
     `,
     photo: '/img/village/roseline-scoupe.jpg',
     links: {
-      site: 'http://www.atelier-enilesor.fr/'
-    }
+      site: 'http://www.atelier-enilesor.fr/',
+    },
   },
   {
     id: 'plis-foss',
@@ -41,7 +41,7 @@ Organiser différents événements, rencontres et débats à thème, voyages, so
 Pour le festival, l’association tiendra un stand de restauration.
     `,
     links: {
-    }
+    },
   },
   {
     id: 'aides',
@@ -56,7 +56,7 @@ AIDES est une association française de lutte contre le VIH et les hépatites vi
       facebook: 'https://www.facebook.com/aides/',
       twitter: 'https://twitter.com/assoaides',
       instagram: 'https://www.instagram.com/assoaides/',
-      youtube: 'https://www.youtube.com/user/AIDES/videos'
-    }
-  }
+      youtube: 'https://www.youtube.com/user/AIDES/videos',
+    },
+  },
 ];
