@@ -1,34 +1,28 @@
-# Site du Festival les Pieds dans l'Orge
+# Festival les Pieds dans l'Orge
 
-url: https://lespiedsdanslorge.org
-
-## Todo
-
-trouver image meteo en https
-
-Décompte ?
-
-title = DER'FEST 15 Octobre 2016 Epinay-sur-Orge
+https://lespiedsdanslorge.org
 
 ## Programmation
 
-Prog télécgargeable pdf ?
+Prog téléchargeable en pdf ?
 
 ### Artistes
 
 ### Grande Scène
 
-Artiste 1 19h00
-Artiste 2 20h00
-Artiste 3 21h00
+Artiste 1 18h00
+Artiste 2 19h00
+Artiste 3 20h00
+Artiste 4 21h00
 Artiste 4 22h00
 
 ### Petite Scène
 
-Artiste 1 19h30
-Artiste 2 20h30
-Artiste 3 21h30
-Artiste 4 22h30
+Artiste 1 18h30
+Artiste 2 19h30
+Artiste 3 20h30
+Artiste 4 21h30
+Artiste 5 22h30
 
 ### Village Associatif
 
@@ -55,7 +49,7 @@ twitter wall "#derfest" ?
 
 Intéressé pour soutenir ce projet ? Nous avons besoin de bénévoles pour différentes types de tâches, avant et pendant le festival. Contactez-nous !
 
-derfest@adhocmusic.com
+contact@adhocmusic.com
 
 ### Accès
 
@@ -123,7 +117,7 @@ Crédits
 Presse
 Contact
 
-Le Der'Fest est organisé par l'association AD'HOC
+Le Festival les Pieds dans l'Orge est organisé par l'association AD'HOC
 8 rue de l'église
 91360 Epinay-sur-Orge
 contact@adhocmusic.com
@@ -143,5 +137,3 @@ git clone git@bitbucket.org:adhocmusic/lespiedsdanslorge.org.git .
 
 Code soundcloud exemple :
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/6455041&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>"
-
-

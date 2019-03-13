@@ -49,7 +49,7 @@ D’une composition à l’autre, humour acidulé frotte avec amour passionné, 
     name: 'Rhymer13x7',
     style: 'Rap Fr',
     description: `
-Rappeur FR
+Jeune rappeur de 23 ans, Rhymer a évolué depuis 6-7 dans nombre de collectifs tels que "YaH" "4Mc's" ou encore "DNA". Aujourd'hui il se concentre sur sa "carrière" solo. Son style est assez sombre mais energique. Particularité en live, il est accompagné de sa soeur comme Dj et backeuse.
     `,
     photo: '/img/artistes/rhymer13x7.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fseriousstuffmusic%2Fvideos%2F608402309350030%2F&show_text=0&width=560&mute=0',
@@ -65,7 +65,7 @@ Rappeur FR
     description: `
 Collectif de rappeurs du 91
     `,
-    photo: '/img/artistes/pricklypearl.jpg',
+    photo: '/img/artistes/grotteprod.jpg',
     video: 'https://www.youtube-nocookie.com/embed/oPEEF5zrh0I',
     links: {
       site: 'http://pricklypearl.wix.com/website',
@@ -148,11 +148,12 @@ Armé d'une section rythmique au galop (Nico/Micka), une guitare rageuse en éte
 Parmis les influences multiples, on notera Bashung, Noir Désir, Miossec, Deportivo..
     `,
     photo: '/img/artistes/zantek.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU',
+    video: 'https://www.youtube-nocookie.com/embed/gHOXv1HApJ8',
     links: {
       site: 'http://www.zantek.fr',
       facebook: 'https://www.facebook.com/zantekmusic',
       youtube: 'https://youtu.be/gHOXv1HApJ8',
+      bandcamp: 'https://zantek.bandcamp.com/',
     },
   },
   {

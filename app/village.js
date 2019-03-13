@@ -21,16 +21,15 @@ Valérie est une peintre
     `,
     photo: '/img/village/valerie-heid',
     links: {
-      site: 'http://www.atelier-enilesor.fr/',
     },
   },
   {
-    id: 'pizzalex',
-    name: 'PizzAlex',
+    id: 'coffeestrip',
+    name: 'Coffee Stip',
     style: 'Restauration',
     photo: '/img/village/pizzalex.jpg',
     description: `
-Foodtruck Pizza
+Foodtruck de crèpes et galettes
     `,
     links: {
     },
