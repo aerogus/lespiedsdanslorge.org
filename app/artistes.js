@@ -85,11 +85,13 @@ Le premier EP "Many ways" dont est extrait le titre "Stuck on you" est disponibl
 WHICO SKYLA c'est du rock teinté de pop, des sourires et de la sueur, des mélodies ciselées, des cris dans la soie… pas de formatage, pas de calcul, des émotions en transmission, et des souvenirs plein la tête.
     `,
     photo: '/img/artistes/whicoskyla.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/BGeb9ppDMZs',
+    video: 'https://www.youtube-nocookie.com/embed/swkgq1WN35w',
     links: {
-      site: 'http://www.oddfiction.fr/',
-      facebook: 'https://www.facebook.com/OddFiction/',
-      instagram: 'https://www.instagram.com/odd.fiction/',
+      site: 'http://www.whicoskyla.com',
+      facebook: 'https://www.facebook.com/whico.skyla',
+      twitter: 'https://twitter.com/whicoskyla',
+      spotify: 'https://open.spotify.com/album/1unKHN4dNp5swDKZYQZJyt',
+      itunes: 'https://itunes.apple.com/us/artist/whico-skyla/id1128703771',
     },
   },
   {
@@ -102,25 +104,24 @@ Influencé par le Heavy et le Thrash d’avant 2000 avec des groupes comme Iron 
     photo: '/img/artistes/salvatorium.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1689859227982570%2Fvideos%2F1775594402742385%2F&show_text=0&width=560&mute=0',
     links: {
-      facebook: 'https://www.facebook.com/Abracadabra-1689859227982570',
+      facebook: 'https://www.facebook.com/SalvatoriumBand',
     },
   },
   {
-    id: 'duberman',
-    name: 'Duberman',
-    style: 'Power Dub Electro Rock',
+    id: 'ecore',
+    name: 'E-Core',
+    style: 'Electro Rock',
     description: `
-Duberman est né d'une rencontre entre musiciens évoluant dans différents univers musicaux (ska, hip-hop, hardcore).
-Leur son prend forme aux confluents du dub, du rock et de l'électronique; faisant évoluer une musique instrumentale intense qui s'est affirmé au long des 50 concerts effectués aux côtés des grands noms du dub français (High Tone, Kaly, Brain Damage, Kaophonic Tribu, Lab°, DUbians).
-Quatre ans après la naissance du groupe, les cinq musiciens franchissent les portes du studio afin de poursuivre ce qu'ils avaient entamé avec K-MA, leurs première démo.
-Pas de barrière, juste une envie de jouer du dub et de le faire bien.
+E-Core est un power-trio qui s’amuse à définir son style comme de la « dense » musique. Un son globalement rock n’roll, assorti de plein de tendances qui s’entremêlent comme un précipité.
+Leur élan naturel n’est pas de suivre le mode d’emploi à la lettre, et pas non plus de rejeter systématiquement les codes établis. Non. Ce que le groupe s’emploie à faire, c’est assembler tout ça depuis son perchoir, sans cynisme, électroniser ou punkifier la sauce, s’en approprier les ingrédients comme la recette, et servir avec délice.
+Au bout du compte, c’est comme un troupeau de vachettes, ou une charge de plastic, ou le big-bang : ça finit par nous éclater.
     `,
-    photo: '/img/artistes/duberman.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/ADdyuhP2beA',
+    photo: '/img/artistes/ecore.jpg',
+    video: 'https://www.youtube-nocookie.com/embed/BYHQF6VM_Lo',
     links: {
-      facebook: 'https://www.facebook.com/imparfait.musique/',
-      instagram: 'https://www.instagram.com/imparfait.musique/',
-      youtube: 'https://www.youtube.com/channel/UCy64QcCYWahu4CA8xchSHWA',
+      site: 'http://e-core.fr',
+      facebook: 'https://www.facebook.com/ecore3012/',
+      youtube: 'https://www.youtube.com/channel/UCghTqpXXpro1OHt2V-2TSyw',
     },
   },
   {

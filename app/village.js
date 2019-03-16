@@ -4,7 +4,7 @@ module.exports = [
     name: 'Philippe Malique',
     style: 'Peinture contemporaine',
     description: `
-Philippe est un peintre
+Philippe est un peintre essonnien, spécialiste du collage, retrouvez son univers à son stand d'exposition
     `,
     photo: '/img/village/philippe-malique.jpg',
     links: {
@@ -17,21 +17,34 @@ Philippe est un peintre
     name: 'Valérie Heid',
     style: 'Peinture, fusain, masques',
     description: `
-Valérie est une peintre
+Valérie est une peintre spinolienne, elle viendra nous présenter ses créations
     `,
-    photo: '/img/village/valerie-heid',
+    photo: '/img/village/valerie-heid.jpg',
     links: {
     },
   },
   {
-    id: 'coffeestrip',
-    name: 'Coffee Stip',
+    id: 'coffees-trip',
+    name: "Coffee's Trip",
     style: 'Restauration',
-    photo: '/img/village/pizzalex.jpg',
+    photo: '/img/village/coffees-trip.jpg',
     description: `
-Foodtruck de crèpes et galettes
+Yvon Brignou, barman durant 22 ans dans l'un des plus beaux palaces du monde, hormis le professionnalisme qui découle de cette expérience, le cœur de mon engagement dans ce nouveau concept est la participation au tissage social de notre société en apportant "une atmosphère de rue" conviviale... 
     `,
     links: {
+      facebook: 'https://www.facebook.com/Coffees-Trip-573254819368106/',
+    },
+  },
+  {
+    id: 'adhoc',
+    name: "La Buvette AD'HOC",
+    style: 'restauration',
+    photo: '/img/village/buvette-adhoc.jpg',
+    description: `
+  La buvette AD'HOC
+    `,
+    links: {
+      site: 'https://adhocmusic.com',
     },
   },
   {
