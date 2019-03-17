@@ -69,17 +69,18 @@ Au bout du compte, c’est comme un troupeau de vachettes, ou une charge de plas
   {
     id: 'grotteprod',
     name: 'Grotte Prod',
-    style: 'Rap Fr',
+    style: 'Rap FR',
     description: `
-Collectif de rappeurs du 91
+Collectif de rappeurs amateurs fondé au printemps 2012. On y retrouve des profils très différents en terme de centres d’intérêts, de gouts musicaux ou encore d’expérience dans le RAP. Notre objectif est de prendre du plaisir « en famille » à essayer d’apporter une touche d’originalité et de naïveté dans cet art musical qui se prend souvent trop au sérieux...
     `,
     photo: '/img/artistes/grotteprod.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/oPEEF5zrh0I',
+    video: 'https://www.youtube-nocookie.com/embed/8kW7csEnTnc',
     links: {
-      site: 'http://pricklypearl.wix.com/website',
-      soundclound: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/6455041&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false',
-      facebook: 'https://www.facebook.com/PricklyPearl/',
-      twitter: 'https://twitter.com/Prickly_Pearl',
+      adhoc: 'https://www.adhocmusic.com/grotteprod',
+      facebook: 'https://www.facebook.com/grotteprod',
+      youtube: 'https://www.youtube.com/user/grotteprod',
+      instagram: 'https://www.instagram.com/grotteprod/',
+      soundcloud: 'https://soundcloud.com/grotteprod',
     },
   },
   {
@@ -87,9 +88,10 @@ Collectif de rappeurs du 91
     name: 'Kraken',
     style: 'Jazz Ska, musique des Balkans',
     description: `
+Formation musicale créée au CMA en 2015. KRAKEN est un groupe de "Jazz-ska" avec des sonorités balkaniques très dynamiques. A écouter sans modérations ;-)
     `,
     photo: '/img/artistes/kraken.jpg',
-    video: 'https://www.youtube-nocookie.com/embed/',
+    video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FKrakengrooveband%2Fvideos%2F564367390562689%2F&show_text=0&width=560&mute=0',
     links: {
       facebook: 'https://www.facebook.com/Krakengrooveband',
     },
@@ -130,7 +132,7 @@ SOZIK propose un enseignement musical inédit, axé sur la création. Venez appr
 Influencé par le Heavy et le Thrash d’avant 2000 avec des groupes comme Iron Maiden, Metallica ou Rage Against The Machine, Salvatorium est un groupe de 4 membres. Au départ simple groupe de reprises, ils cherchent maintenant à montrer ce dont ils sont capables en composant leurs propres interprétations du genre musical qu’ils défendent.
     `,
     photo: '/img/artistes/salvatorium.jpg',
-    video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1689859227982570%2Fvideos%2F1775594402742385%2F&show_text=0&width=560&mute=0',
+    video: 'https://videos.adhocmusic.com/videos/embed/3592b6b5-ff8e-4581-8f50-dbad67001312',
     links: {
       facebook: 'https://www.facebook.com/SalvatoriumBand',
     },
