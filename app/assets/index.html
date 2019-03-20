@@ -16,12 +16,12 @@
     <meta property="og:image" content="https://lespiedsdanslorge.org/img/cover.jpg">
     <link rel="stylesheet" href="css/app.css">
   </head>
-  <body>
+  <body id="top">
 
     <div class="top-bar">
       <div class="top-bar-inner">
         <div class="top-bar-title">
-          <h1>Les Pieds dans l’Orge</h1>
+          <a href="#top"><h1>Les Pieds dans l’Orge</h1></a>
         </div>
         <div class="top-bar-right">
           <button id="btn-burger" class="top-bar-burger">≡</button>
@@ -37,6 +37,9 @@
               </li>
               <li>
                 <a href="#festival">Le Festival</a>
+                <ul>
+                  <li><a href="#edition2018">Édition 2018</a></li>
+                </ul>
               </li>
               <li>
                 <a href="#pratique">Pratique</a>
@@ -57,16 +60,7 @@
 
       <div style="padding:0;margin:0;text-align:center">
         <a href="https://www.facebook.com/events/595916674153971/" style="display:inline-block;margin:1.6rem .8rem 0 .8rem;padding:1rem;color:#fff;background-color:#3b5998;border-radius:.5rem">Rejoindre l’événement sur Facebook</a>
-        <!--
-        <a href="https://www.ouifm.fr/festival-les-pieds-dans-lorge-le-26-mai-2018-avec-oui-fm/" style="display:inline-block;margin:1.6rem .8rem 0 .8rem;border-radius:.5rem;padding:1rem;color:#fff;background-color:#f7303c">Lire l’article paru sur ouifm.fr</a>
-        -->
       </div>
-
-      <section id="video">
-        <div class="grid-1-small-1 has-gutter-l">
-          <iframe width="560" height="315" sandbox="allow-same-origin allow-scripts" src="https://videos.adhocmusic.com/videos/embed/21d18eab-38e4-4223-8208-8ae96449152d" frameborder="0" allowfullscreen style="margin-left: auto; margin-right: auto"></iframe>
-        </div>
-      </section>
 
       <section id="affiche">
         <div class="grid-1-small-1 has-gutter-l">
@@ -138,6 +132,14 @@
         </ul>
       </section>
 
+      <section id="edition2018">
+        <h2>Édition 2018</h2>
+        <p>Retour en images sur l'édition 2018</p>
+        <div class="grid-1-small-1 has-gutter-l">
+          <iframe width="560" height="315" sandbox="allow-same-origin allow-scripts" src="https://videos.adhocmusic.com/videos/embed/21d18eab-38e4-4223-8208-8ae96449152d" frameborder="0" allowfullscreen style="margin-left: auto; margin-right: auto"></iframe>
+        </div>
+      </section>
+
       <section id="partenaires">
         <h2>Partenaires</h2>
         Cet événement ne pourrait pas se dérouler sans nos partenaires:
@@ -152,10 +154,13 @@
     </div>
 
     <footer>
-      <p>Les Pieds dans l’Orge est un événement organisé par l’<a href="https://www.adhocmusic.com">association AD’HOC</a> - 8 rue de l’église - 91360 Épinay-sur-Orge</p>
+      <p>Le festival « Les Pieds dans l’Orge » est un événement organisé par l’<a href="https://adhocmusic.com">association AD’HOC</a></p>
+      <p>8 rue de l’église - 91360 Épinay-sur-Orge</p>
       <p class="align-center">
+        <a class="badge social site" href="https://adhocmusic.com"><img src="/img/social/site.svg"></a>
         <a class="badge social facebook" href="https://facebook.com/adhocmusic"><img src="/img/social/facebook.svg"></a>
         <a class="badge social twitter" href="https://twitter.com/adhocmusic"><img src="/img/social/twitter.svg"></a>
+        <a class="badge social instagram" href="https://instagram.com/adhoc.music"><img src="/img/social/instagram.svg"></a>
       </p>
     </footer>
 

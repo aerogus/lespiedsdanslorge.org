@@ -101,7 +101,8 @@ Formation musicale créée au CMA en 2015. KRAKEN est un groupe de "Jazz-ska" av
     name: 'Rhymer13x7',
     style: 'Rap Fr',
     description: `
-Jeune rappeur de 23 ans, Rhymer a évolué depuis 6-7 dans nombre de collectifs tels que "YaH" "4Mc's" ou encore "DNA". Aujourd'hui il se concentre sur sa "carrière" solo. Son style est assez sombre mais energique. Particularité en live, il est accompagné de sa soeur comme Dj et backeuse.
+Entre rap dur et chanson auto-tunée, Rhymer13x7 vous emmène à travers ses influences à sonorités hiphop, pop, dancehall et musique du monde. S’il vous transporte au coeur d’un monde de mélancolie et de colère, un état intermédiaire et flou, c’est peut-être aussi pour faire apparaitre une lumière vive, un espoir vital et des valeurs fortes. Vous pouvez plonger sans crainte dans cet univers tempétueux. Il ne s’agit pas d’un chaos gratuit et sans fondement, mais d’une parole sensible qui cherche à faire du bien.
+En concert, Rhymer13x7 est accompagné par Jeanne FRISCH (voix, back). Ils travaillent conjointement à la mise en scène et à la dramaturgie.
     `,
     photo: '/img/artistes/rhymer13x7.jpg',
     video: 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fseriousstuffmusic%2Fvideos%2F608402309350030%2F&show_text=0&width=560&mute=0',

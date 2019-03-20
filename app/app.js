@@ -35,6 +35,9 @@ function buildModal(obj) {
   if (obj.links.bandcamp) {
     content += `<a class="badge social bandcamp" href="${obj.links.bandcamp}" target="_blank" title="lien vers le bandcamp"><img src="/img/social/bandcamp.svg"/></a>`;
   }
+  if (obj.links.soundcloud) {
+    content += `<a class="badge social soundcloud" href="${obj.links.soundcloud}" target="_blank" title="lien vers le soundcloud"><img src="/img/social/soundcloud.svg"/></a>`;
+  }
 
   content += `<p>${obj.description.replace('\n', '<br>')}</p></div>
     <button class="close-button">X</button>`;
