@@ -3,13 +3,6 @@
 const dbArtistes = require('./artistes');
 const dbVillage = require('./village');
 
-const gmap = {
-  api_key: 'AIzaSyBW8wt3QH0k1e_oV9ue_jE8-5AOUX9OnOY',
-  callback: 'app.gmapCallback',
-  lat: 48.66943944555655,
-  lng: 2.3234067073791653,
-};
-
 function buildModal(obj) {
   let content = `<div class="clearfix modal-content" id="${obj.id}">
   <div class="bfc">
@@ -154,33 +147,6 @@ function initVillage() {
 }
 
 /**
- * insertion du script Google Maps
- */
-function initMap() {
-  const s = document.createElement('script');
-  s.src = `https://maps.googleapis.com/maps/api/js?key=${gmap.api_key}&callback=${gmap.callback}`;
-  document.head.appendChild(s);
-}
-
-/**
- * Callback d'initialisation de la Google Map
- */
-function gmapCallback() {
-  const parking = new google.maps.LatLng(gmap.lat, gmap.lng);
-  const options = {
-    zoom: 16,
-    center: parking,
-    mapTypeId: google.maps.MapTypeId.HYBRID,
-    scrollwheel: false,
-  };
-  const map = new google.maps.Map(document.getElementById('map'), options);
-  const marker = new google.maps.Marker({
-    map,
-    position: parking,
-  });
-}
-
-/**
  * gestion du scrolling doux
  */
 function initSmoothScroll() {
@@ -195,12 +161,10 @@ function init() {
   initResponsiveMenu();
   initArtistes();
   initVillage();
-  initMap();
   initSmoothScroll();
   handleModalControls();
 }
 
 module.exports = {
   init,
-  gmapCallback,
 };
