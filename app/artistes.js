@@ -19,13 +19,13 @@ Des bars "underground" aux salles de spectacle, des coins du feu en solo aux con
     },
   },
   {
-    id: 'conservatoire',
-    name: 'Conservatoire d’Épinay-sur-Orge',
+    id: 'les10agers',
+    name: 'Les 10Agers',
     style: 'Jazz Rock Pop',
     description: `
-L’atelier musiques actuelles du conservatoire proposera un set qu’il a travaillé durant l’année.
+L’atelier musiques actuelles du conservatoire de musique d’Épinay-sur-Orge proposera un set qu’il a travaillé durant l’année.
     `,
-    photo: '/img/artistes/conservatoire.jpg',
+    photo: '/img/artistes/les10agers.jpg',
     video: '',
     links: {
       site: 'https://sites.google.com/site/conservatoireepinaysurorge2/',
@@ -62,6 +62,7 @@ Au bout du compte, c’est comme un troupeau de vachettes, ou une charge de plas
     video: 'https://www.youtube-nocookie.com/embed/BYHQF6VM_Lo',
     links: {
       site: 'http://e-core.fr',
+      adhoc: 'https://www.adhocmusic.com/ecore',
       facebook: 'https://www.facebook.com/ecore3012/',
       youtube: 'https://www.youtube.com/channel/UCghTqpXXpro1OHt2V-2TSyw',
     },
@@ -71,7 +72,7 @@ Au bout du compte, c’est comme un troupeau de vachettes, ou une charge de plas
     name: 'Grotte Prod',
     style: 'Rap FR',
     description: `
-Collectif de rappeurs amateurs fondé au printemps 2012. On y retrouve des profils très différents en terme de centres d’intérêts, de gouts musicaux ou encore d’expérience dans le RAP. Notre objectif est de prendre du plaisir « en famille » à essayer d’apporter une touche d’originalité et de naïveté dans cet art musical qui se prend souvent trop au sérieux...
+Collectif de rappeurs amateurs fondé au printemps 2012. On y retrouve des profils très différents en terme de centres d’intérêts, de gouts musicaux ou encore d’expérience dans le RAP. Notre objectif est de prendre du plaisir « en famille » à essayer d’apporter une touche d’originalité et de naïveté dans cet art musical qui se prend souvent trop au sérieux…
     `,
     photo: '/img/artistes/grotteprod.jpg',
     video: 'https://www.youtube-nocookie.com/embed/8kW7csEnTnc',
@@ -135,6 +136,7 @@ Influencé par le Heavy et le Thrash d’avant 2000 avec des groupes comme Iron 
     photo: '/img/artistes/salvatorium.jpg',
     video: 'https://videos.adhocmusic.com/videos/embed/3592b6b5-ff8e-4581-8f50-dbad67001312',
     links: {
+      adhoc: 'https://www.adhocmusic.com/salvatorium',
       facebook: 'https://www.facebook.com/SalvatoriumBand',
     },
   },
@@ -172,6 +174,7 @@ Parmis les influences multiples, on notera Bashung, Noir Désir, Miossec, Deport
     video: 'https://www.youtube-nocookie.com/embed/gHOXv1HApJ8',
     links: {
       site: 'http://www.zantek.fr',
+      adhoc: 'https://www.adhocmusic.com/zantek',
       facebook: 'https://www.facebook.com/zantekmusic',
       youtube: 'https://youtu.be/gHOXv1HApJ8',
       bandcamp: 'https://zantek.bandcamp.com/',

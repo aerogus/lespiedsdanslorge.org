@@ -20,6 +20,9 @@ function buildModal(obj) {
   if (obj.links.site) {
     content += `<a class="badge social site" href="${obj.links.site}" target="_blank" title="lien vers le site"><img src="/img/social/site.svg" alt=""/></a>`;
   }
+  if (obj.links.adhoc) {
+    content += `<a class="badge social adhoc" href="${obj.links.adhoc}" target="_blank" title="lien vers la fiche AD'HOC"><img src="/img/social/adhoc.svg" alt=""/></a>`;
+  }
   if (obj.links.facebook) {
     content += `<a class="badge social facebook" href="${obj.links.facebook}" target="_blank" title="lien vers le Facebook"><img src="/img/social/facebook.svg"/></a>`;
   }
@@ -111,8 +114,9 @@ function initArtistes() {
   artistes.forEach((e) => {
     const div = `<div class="artiste">
       <a data-open="${e.id}">
-        <img src="${e.photo}"/>
         <h4 class="button">${e.name}</h4>
+        <img src="${e.photo}"/>
+        <h5 class="button">${e.style}</h5>
       </a>
     </div>`;
     list.append(div);
@@ -135,8 +139,9 @@ function initVillage() {
   village.forEach((e) => {
     const div = `<div class="artiste">
       <a data-open="${e.id}">
-        <img src="${e.photo}"/>
         <h4 class="button">${e.name}</h4>
+        <img src="${e.photo}"/>
+        <h5 class="button">${e.style}</h5>
       </a>
     </div>`;
     list.append(div);

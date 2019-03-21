@@ -2,9 +2,9 @@ module.exports = [
   {
     id: 'philippe-malique',
     name: 'Philippe Malique',
-    style: 'Peinture contemporaine',
+    style: 'Collage',
     description: `
-Philippe est un peintre essonnien, spécialiste du collage, retrouvez son univers à son stand d'exposition
+Philippe est un peintre essonnien, spécialiste du collage, retrouvez son univers à son stand d’exposition
     `,
     photo: '/img/village/philippe-malique.jpg',
     links: {
@@ -17,7 +17,7 @@ Philippe est un peintre essonnien, spécialiste du collage, retrouvez son univer
     name: 'Valérie Heid',
     style: 'Peinture, fusain, masques',
     description: `
-Valérie est une peintre spinolienne, elle viendra nous présenter ses créations
+Valérie est une peintre spinolienne, elle viendra nous présenter ses créations artistiques
     `,
     photo: '/img/village/valerie-heid.jpg',
     links: {
@@ -25,23 +25,24 @@ Valérie est une peintre spinolienne, elle viendra nous présenter ses création
   },
   {
     id: 'coffees-trip',
-    name: "Coffee's Trip",
+    name: 'Coffee’s Trip',
     style: 'Restauration',
     photo: '/img/village/coffees-trip.jpg',
     description: `
-Yvon Brignou, barman durant 22 ans dans l'un des plus beaux palaces du monde, hormis le professionnalisme qui découle de cette expérience, le cœur de mon engagement dans ce nouveau concept est la participation au tissage social de notre société en apportant "une atmosphère de rue" conviviale... 
+Yvon Brignou, barman durant 22 ans dans l’un des plus beaux palaces du monde, hormis le professionnalisme qui découle de cette expérience, le cœur de mon engagement dans ce nouveau concept est la participation au tissage social de notre société en apportant "une atmosphère de rue" conviviale... 
     `,
     links: {
+      site: 'http://www.coffees-trip.com',
       facebook: 'https://www.facebook.com/Coffees-Trip-573254819368106/',
     },
   },
   {
     id: 'adhoc',
-    name: "La Buvette AD'HOC",
-    style: 'restauration',
-    photo: '/img/village/buvette-adhoc.jpg',
+    name: 'AD’HOC',
+    style: 'Buvette',
+    photo: '/img/village/adhoc.jpg',
     description: `
-  La buvette AD'HOC
+La buvette AD’HOC. Nous vous proposerons la bière bio de la brasserie artisanale de Marcoussis: la OX'Bier, ainsi que des boissons sans alcool.
     `,
     links: {
       site: 'https://adhocmusic.com',
