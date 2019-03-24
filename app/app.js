@@ -1,4 +1,4 @@
-/* globals $, google, document */
+/* globals $, document */
 
 const dbArtistes = require('./artistes');
 const dbVillage = require('./village');
