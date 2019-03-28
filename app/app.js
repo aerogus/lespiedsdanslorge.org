@@ -3,17 +3,20 @@
 const db = require('./db.json');
 
 function buildModal(obj) {
+  let photo;
+  if (obj.type === 'artiste') {
+    photo = `/img/artistes/${obj.id}.jpg`;
+  } else {
+    photo = `/img/village/${obj.id}.jpg`;
+  }
   let content = `<div class="clearfix modal-content" id="${obj.id}">
   <div class="bfc">
-  <img src="${obj.photo}" width="480" height="360" style="float:left;padding-right:10px;padding-bottom:10px">
+  <img src="${photo}" width="480" height="270" style="float:left;padding-right:10px;padding-bottom:10px">
   <h4>${obj.name}</h4>
   <p><strong>${obj.style}</strong></p>`;
 
-  obj.links.keys.forEach((key) => {
-    // for (const key in obj.links) {
-    // if (obj.links.hasOwnProperty(key)) {
+  Object.keys(obj.links).forEach((key) => {
     content += `<a class="badge social ${key}" href="${obj.links[key]}" target="_blank" title="lien vers ${key}"><img src="/img/social/${key}.svg" alt=""/></a>`;
-    // }
   });
 
   content += `<p>${obj.description.replace('\n', '<br>')}</p></div>
