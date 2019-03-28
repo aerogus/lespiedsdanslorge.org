@@ -1,7 +1,6 @@
 /* globals $, document */
 
-const dbArtistes = require('./artistes');
-const dbVillage = require('./village');
+const db = require('./db.json');
 
 function buildModal(obj) {
   let content = `<div class="clearfix modal-content" id="${obj.id}">
@@ -10,30 +9,12 @@ function buildModal(obj) {
   <h4>${obj.name}</h4>
   <p><strong>${obj.style}</strong></p>`;
 
-  if (obj.links.site) {
-    content += `<a class="badge social site" href="${obj.links.site}" target="_blank" title="lien vers le site"><img src="/img/social/site.svg" alt=""/></a>`;
-  }
-  if (obj.links.adhoc) {
-    content += `<a class="badge social adhoc" href="${obj.links.adhoc}" target="_blank" title="lien vers la fiche AD'HOC"><img src="/img/social/adhoc.svg" alt=""/></a>`;
-  }
-  if (obj.links.facebook) {
-    content += `<a class="badge social facebook" href="${obj.links.facebook}" target="_blank" title="lien vers le Facebook"><img src="/img/social/facebook.svg"/></a>`;
-  }
-  if (obj.links.twitter) {
-    content += `<a class="badge social twitter" href="${obj.links.twitter}" target="_blank" title="lien vers le Twitter"><img src="/img/social/twitter.svg"/></a>`;
-  }
-  if (obj.links.youtube) {
-    content += `<a class="badge social youtube" href="${obj.links.youtube}" target="_blank" title="lien vers le YouTube"><img src="/img/social/youtube.svg"/></a>`;
-  }
-  if (obj.links.instagram) {
-    content += `<a class="badge social instagram" href="${obj.links.instagram}" target="_blank" title="lien vers le Instagram"><img src="/img/social/instagram.svg"/></a>`;
-  }
-  if (obj.links.bandcamp) {
-    content += `<a class="badge social bandcamp" href="${obj.links.bandcamp}" target="_blank" title="lien vers le bandcamp"><img src="/img/social/bandcamp.svg"/></a>`;
-  }
-  if (obj.links.soundcloud) {
-    content += `<a class="badge social soundcloud" href="${obj.links.soundcloud}" target="_blank" title="lien vers le soundcloud"><img src="/img/social/soundcloud.svg"/></a>`;
-  }
+  obj.links.keys.forEach((key) => {
+    // for (const key in obj.links) {
+    // if (obj.links.hasOwnProperty(key)) {
+    content += `<a class="badge social ${key}" href="${obj.links[key]}" target="_blank" title="lien vers ${key}"><img src="/img/social/${key}.svg" alt=""/></a>`;
+    // }
+  });
 
   content += `<p>${obj.description.replace('\n', '<br>')}</p></div>
     <button class="close-button">X</button>`;
@@ -73,7 +54,7 @@ function handleModalControls() {
  */
 function showModal(id) {
   if (!id) return;
-  const obj = dbArtistes.filter(obj => (obj.id === id))[0] || dbVillage.filter(obj => (obj.id === id))[0];
+  const obj = db.filter(item => (item.id === id))[0];
   buildModal(obj);
   handleModalControls();
   $('.modal').show(); // affiche le fond
@@ -100,7 +81,7 @@ function initResponsiveMenu() {
  * Charge la section Artistes
  */
 function initArtistes() {
-  const artistes = dbArtistes;
+  const artistes = db.filter(obj => (obj.type === 'artiste'));
   // tri alphabétique
   artistes.sort((a, b) => a.name > b.name);
   const list = $('<div class="grid-3-small-2 has-gutter-l"/>');
@@ -108,7 +89,7 @@ function initArtistes() {
     const div = `<div class="artiste">
       <a data-open="${e.id}">
         <h4 class="button">${e.name}</h4>
-        <img src="${e.photo}"/>
+        <img src="/img/artistes/${e.id}.jpg"/>
         <h5 class="button">${e.style}</h5>
       </a>
     </div>`;
@@ -125,7 +106,7 @@ function initArtistes() {
  * Charge la section Village
  */
 function initVillage() {
-  const village = dbVillage;
+  const village = db.filter(obj => (obj.type === 'village'));
   // tri alphabétique
   village.sort((a, b) => a.name > b.name);
   const list = $('<div class="grid-3-small-2 has-gutter-l"/>');
@@ -133,7 +114,7 @@ function initVillage() {
     const div = `<div class="artiste">
       <a data-open="${e.id}">
         <h4 class="button">${e.name}</h4>
-        <img src="${e.photo}"/>
+        <img src="/img/village/${e.id}.jpg"/>
         <h5 class="button">${e.style}</h5>
       </a>
     </div>`;
