@@ -1,6 +1,6 @@
 {
   "name": "lespiedsdanslorge.org",
-  "description": "Site du Festival AD'HOC Les Pieds dans l'Orge 2018",
+  "description": "Site du Festival AD'HOC Les Pieds dans l'Orge",
   "author": "Guillaume Seznec <guillaume@seznec.fr>",
   "version": "0.0.1",
   "repository": {
@@ -18,7 +18,7 @@
     "babel-brunch": "7.0.1",
     "brunch": "2.10.17",
     "clean-css-brunch": "2.10.0",
-    "eslint": "5.15.3",
+    "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.16.0",
     "postcss-assets": "5.0.0",
