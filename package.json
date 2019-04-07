@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "build": "brunch build --production",
+    "deploy": "scp -r public/* gus@ns1.adhocmusic.com:/var/www/lespiedsdanslorge.org",
+    "clean": "rm -Rf public"
   },
   "devDependencies": {
     "after-brunch": "0.0.5",
