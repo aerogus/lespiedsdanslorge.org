@@ -86,7 +86,7 @@ function initResponsiveMenu() {
 function initArtistes() {
   const artistes = db.filter(obj => (obj.type === 'artiste'));
   // tri alphabétique
-  artistes.sort((a, b) => a.name > b.name);
+  // artistes.sort((a, b) => a.name > b.name);
   const list = $('<div class="grid-3-small-2 has-gutter-l"/>');
   artistes.forEach((e) => {
     const div = `<div class="artiste">
@@ -111,7 +111,7 @@ function initArtistes() {
 function initVillage() {
   const village = db.filter(obj => (obj.type === 'village'));
   // tri alphabétique
-  village.sort((a, b) => a.name > b.name);
+  // village.sort((a, b) => a.name > b.name);
   const list = $('<div class="grid-3-small-2 has-gutter-l"/>');
   village.forEach((e) => {
     const div = `<div class="artiste">

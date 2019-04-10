@@ -15,18 +15,6 @@
     }
   },
   {
-    "id": "les-10agers",
-    "type": "artiste",
-    "name": "Les 10Agers",
-    "style": "Jazz Rock Pop",
-    "description": "L’atelier musiques actuelles du conservatoire de musique d’Épinay-sur-Orge proposera un set qu’il a travaillé durant l’année.",
-    "video": "",
-    "links": {
-      "site": "https://sites.google.com/site/conservatoireepinaysurorge2/",
-      "facebook": "https://www.facebook.com/ConservatoireEpinaySurOrge/"
-    }
-  },
-  {
     "id": "digital-pourpre",
     "type": "artiste",
     "name": "Digital Pourpre",
@@ -77,6 +65,18 @@
     "video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FKrakengrooveband%2Fvideos%2F564367390562689%2F&show_text=0&width=560&mute=0",
     "links": {
       "facebook": "https://www.facebook.com/Krakengrooveband"
+    }
+  },
+  {
+    "id": "les-10agers",
+    "type": "artiste",
+    "name": "Les 10Agers / Les Beginnerz",
+    "style": "Jazz Rock Pop",
+    "description": "L’atelier musiques actuelles du conservatoire de musique d’Épinay-sur-Orge proposera un set qu’il a travaillé durant l’année.",
+    "video": "",
+    "links": {
+      "site": "https://sites.google.com/site/conservatoireepinaysurorge2/",
+      "facebook": "https://www.facebook.com/ConservatoireEpinaySurOrge/"
     }
   },
   {
@@ -180,17 +180,6 @@
     }
   },
   {
-    "id": "adhoc",
-    "type": "village",
-    "name": "AD’HOC",
-    "style": "Buvette",
-    "description": "La buvette AD’HOC. Nous vous proposerons la bière bio de la brasserie artisanale de Marcoussis: la OX'Bier, ainsi que des boissons sans alcool.",
-    "video": "",
-    "links": {
-      "site": "https://adhocmusic.com"
-    }
-  },
-  {
     "id": "aides",
     "type": "village",
     "name": "AIDES",
@@ -203,6 +192,17 @@
       "twitter": "https://twitter.com/assoaides",
       "instagram": "https://www.instagram.com/assoaides/",
       "youtube": "https://www.youtube.com/user/AIDES/videos"
+    }
+  },
+  {
+    "id": "adhoc",
+    "type": "village",
+    "name": "AD’HOC",
+    "style": "Buvette",
+    "description": "La buvette AD’HOC. Nous vous proposerons la bière bio de la brasserie artisanale de Marcoussis: la OX'Bier, ainsi que des boissons sans alcool.",
+    "video": "",
+    "links": {
+      "site": "https://adhocmusic.com"
     }
   }
 ]
