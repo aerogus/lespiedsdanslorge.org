@@ -13,5 +13,5 @@ module.exports =
       processors: [
         # permet inline() en css
         require('postcss-assets')
-        require('autoprefixer')(['last 2 versions', 'ie >= 9', 'and_chr >= 2.3'])
+        require('autoprefixer')(['last 8 versions', 'ie >= 9', 'and_chr >= 2.3'])
       ]

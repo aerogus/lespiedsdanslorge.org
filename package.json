@@ -1,6 +1,6 @@
 {
   "name": "lespiedsdanslorge.org",
-  "description": "Site du Festival AD'HOC Les Pieds dans l'Orge",
+  "description": "Site du Festival Les Pieds dans l'Orge",
   "author": "Guillaume Seznec <guillaume@seznec.fr>",
   "version": "0.0.1",
   "repository": {
@@ -10,13 +10,13 @@
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production",
-    "deploy": "scp -r public/* gus@ns1.adhocmusic.com:/var/www/lespiedsdanslorge.org",
+    "deploy": "scp -P 444 -r public/* gus@ns1.adhocmusic.com:/var/www/lespiedsdanslorge.org",
     "clean": "rm -Rf public"
   },
   "devDependencies": {
     "after-brunch": "0.0.5",
     "auto-reload-brunch": "2.7.1",
-    "autoprefixer": "9.5.0",
+    "autoprefixer": "9.5.1",
     "babel-brunch": "7.0.1",
     "brunch": "2.10.17",
     "clean-css-brunch": "2.10.0",
