@@ -168,6 +168,18 @@
     }
   },
   {
+    "id": "shiry-avny",
+    "type": "village",
+    "name": "Shiry Avny",
+    "style": "Graff",
+    "description": "Shiry est diplômée en communication visuelle et en art plastique à Haifa (Israel) Loin de sa mère israélienne, et de sa langue maternelle, Shiry vit dans une culture mixte en France, tout en fréquentant régulièrement l’Académie de la Grande Chaumière à Paris pour les dessins de modèle vivant.<br/>Voyageuse, Shiry créé des performances artistiques dans les rues de Rome, Venise, Barcelone, Haïfa, et Paris, en se transformant elle-même en une reine de plastique géante, faite avec des matières récupérées dans les rues comme le plastique ou le polystyrène.<br/>En 2005, inspirée de l’artiste urbaine Misstic, Shiry crée le pochoir Shiribu, portrait d’elle et de son amour et l’installe dans les rues de Haifa.<br/>Depuis 2015 elle créé des mamans africaines qui portent leurs enfants sur le dos, elles symbolisent la force de la maman, des femmes, de la puissance qui marche silencieusement dans les rues de Paris ou de la banlieue et qui donne de l’amour et de la douceur ; arrive également une image de couple et le portrait de son fils aîné.",
+    "video": "",
+    "links": {
+      "site": "http://www.shiryavny.com",
+      "instagram": "https://www.instagram.com/shiry_avny"
+    }
+  },
+  {
     "id": "coffees-trip",
     "type": "village",
     "name": "Coffee’s Trip",
