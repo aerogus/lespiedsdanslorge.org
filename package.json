@@ -10,7 +10,7 @@
   "scripts": {
     "serve": "brunch watch --server",
     "build": "brunch build --production",
-    "deploy": "scp -P 444 -r public/* gus@ns1.adhocmusic.com:/var/www/lespiedsdanslorge.org",
+    "deploy": "rsync -av -e 'ssh -p 444' public/ gus@ns1.adhocmusic.com:/var/www/lespiedsdanslorge.org --delete",
     "clean": "rm -Rf public"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "clean-css-brunch": "2.10.0",
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-import": "2.17.2",
     "postcss-assets": "5.0.0",
     "postcss-brunch": "2.10.1",
     "stylus-brunch": "2.10.1"
