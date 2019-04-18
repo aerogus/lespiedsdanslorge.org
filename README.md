@@ -5,18 +5,8 @@ https://lespiedsdanslorge.org
 # Installation
 
 ```
-mkdir /var/www/lespiedsdanslorge.org
-cd /var/www/lespiedsdanslorge.org
-git clone git@bitbucket.org:adhocmusic/lespiedsdanslorge.org.git .
 npm install
-brunch b -p
-```
-
-# Déploiement
-
-```
 npm run build
 npm run deploy
-bpm run clean
 ```
 

@@ -11,7 +11,7 @@
     "serve": "brunch watch --server",
     "build": "brunch build --production",
     "deploy": "rsync -av -e 'ssh -p 444' public/ gus@ns1.adhocmusic.com:/var/www/lespiedsdanslorge.org --delete",
-    "clean": "rm -Rf public"
+    "clean": "rm -Rf node_modules public"
   },
   "devDependencies": {
     "after-brunch": "0.0.5",
