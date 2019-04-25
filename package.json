@@ -10,7 +10,8 @@
   "scripts": {
     "serve": "brunch watch --server",
     "build": "brunch build --production",
-    "deploy": "rsync -av -e 'ssh -p 444' public/ gus@ns1.adhocmusic.com:/var/www/lespiedsdanslorge.org --delete",
+    "deploy": "rsync -av -e 'ssh -p 444' public/ gus@rbx.adhocmusic.com:/var/www/lespiedsdanslorge.org --delete",
+    "deploy2": "rsync -av -e 'ssh -p 444' public/ gus@rbx.aerogus.net:/var/www/lespiedsdanslorge.org --delete",
     "clean": "rm -Rf node_modules public"
   },
   "devDependencies": {
