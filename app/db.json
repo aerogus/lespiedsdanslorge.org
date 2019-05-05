@@ -192,21 +192,6 @@
     }
   },
   {
-    "id": "aides",
-    "type": "village",
-    "name": "AIDES",
-    "style": "Prévention",
-    "description": "AIDES est une association française de lutte contre le VIH et les hépatites virales, créée en 1984 et reconnue d’utilité publique depuis 1990. L’association mène des actions d’information, de prévention, de soutien et de mobilisation des personnes concernées par le VIH et les hépatites.",
-    "video": "",
-    "links": {
-      "site": "https://www.aides.org",
-      "facebook": "https://www.facebook.com/aides/",
-      "twitter": "https://twitter.com/assoaides",
-      "instagram": "https://www.instagram.com/assoaides/",
-      "youtube": "https://www.youtube.com/user/AIDES/videos"
-    }
-  },
-  {
     "id": "adhoc",
     "type": "village",
     "name": "AD’HOC",

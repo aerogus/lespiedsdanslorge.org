@@ -8,10 +8,9 @@
     "url": ""
   },
   "scripts": {
-    "serve": "brunch watch --server",
-    "build": "brunch build --production",
-    "deploy": "rsync -av -e 'ssh -p 444' public/ gus@rbx.adhocmusic.com:/var/www/lespiedsdanslorge.org --delete",
-    "deploy2": "rsync -av -e 'ssh -p 444' public/ gus@rbx.aerogus.net:/var/www/lespiedsdanslorge.org --delete",
+    "serve": "./node_modules/.bin/brunch watch --server",
+    "build": "./node_modules/.bin/brunch build --production",
+    "deploy": "rsync -av -e 'ssh -p 444' public/ gus@rbx.aerogus.net:/var/www/lespiedsdanslorge.org --delete",
     "clean": "rm -Rf node_modules public"
   },
   "devDependencies": {
@@ -24,11 +23,9 @@
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.17.2",
+    "json-brunch": "1.5.4",
     "postcss-assets": "5.0.0",
     "postcss-brunch": "2.10.1",
     "stylus-brunch": "2.10.1"
-  },
-  "dependencies": {
-    "json-brunch": "1.5.4"
   }
 }
