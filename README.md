@@ -6,6 +6,7 @@ https://lespiedsdanslorge.org
 
 ```
 npm install
+npm run serve (et aller sur http://localhost:3333)
 npm run build
 npm run deploy
 ```
