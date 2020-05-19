@@ -109,31 +109,6 @@ function initArtistes() {
 }
 
 /**
- * Charge la section Village
- */
-function initVillage() {
-  var village = db.filter(obj => (obj.type === 'village'));
-  // tri alphabétique
-  // village.sort((a, b) => a.name > b.name);
-  var list = $('<div class="grid-3-small-2 has-gutter-l"/>');
-  village.forEach((e) => {
-    var div = `<div class="artiste">
-      <a data-open="${e.id}">
-        <h4 class="button">${e.name}</h4>
-        <img src="/img/village/${e.id}.jpg"/>
-        <h5 class="button">${e.style}</h5>
-      </a>
-    </div>`;
-    list.append(div);
-  });
-  $('#village-content').append(list);
-  $('.artiste a').click((e) => {
-    e.preventDefault();
-    showModal(e.currentTarget.dataset.open);
-  });
-}
-
-/**
  * gestion du scrolling doux
  */
 function initSmoothScroll() {
@@ -169,7 +144,6 @@ function init() {
   $.getJSON('/js/db.json', (json) => {
     db = json;
     initArtistes();
-    initVillage();
   });
 }
 
