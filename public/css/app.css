@@ -286,6 +286,7 @@ footer a {
 }
 
 .modal {
+  z-index: 100;
   display: none;
   position: fixed;
   background-color: #fff;

@@ -95,7 +95,7 @@ function initArtistes() {
     var div = `<div class="artiste">
       <a data-open="${e.id}">
         <h4 class="button">${e.name}</h4>
-        <img src="/img/artistes/${e.id}.jpg"/>
+        <img src="/img/artistes/${e.id}.jpg" width="400" height="400"/>
         <h5 class="button">${e.style}</h5>
       </a>
     </div>`;
