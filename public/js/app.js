@@ -139,11 +139,11 @@ function initHlsPlayer() {
 function init() {
   initResponsiveMenu();
   initSmoothScroll();
-  initHlsPlayer();
   handleModalControls();
   $.getJSON('/js/db.json', (json) => {
     db = json;
     initArtistes();
   });
+  initHlsPlayer();
 }
 
