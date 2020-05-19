@@ -2,30 +2,14 @@
   "name": "lespiedsdanslorge.org",
   "description": "Site du Festival Les Pieds dans l'Orge",
   "author": "Guillaume Seznec <guillaume@seznec.fr>",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "repository": {
     "type": "git",
     "url": ""
   },
   "scripts": {
-    "serve": "./node_modules/.bin/brunch watch --server",
-    "build": "./node_modules/.bin/brunch build --production",
+    "serve": "php -S 127.0.0.1:8000 -t public",
     "deploy": "rsync -av -e 'ssh -p 444' public/ gus@rbx.aerogus.net:/var/www/lespiedsdanslorge.org --delete",
-    "clean": "rm -Rf node_modules public"
-  },
-  "devDependencies": {
-    "after-brunch": "0.0.5",
-    "auto-reload-brunch": "2.7.1",
-    "autoprefixer": "9.5.1",
-    "babel-brunch": "7.0.1",
-    "brunch": "2.10.17",
-    "clean-css-brunch": "2.10.0",
-    "eslint": "5.16.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.17.2",
-    "json-brunch": "1.5.4",
-    "postcss-assets": "5.0.0",
-    "postcss-brunch": "2.10.1",
-    "stylus-brunch": "2.10.1"
+    "clean": "rm -Rf node_modules"
   }
 }

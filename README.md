@@ -1,13 +1,12 @@
-# Festival les Pieds dans l'Orge
+# Site du Festival les Pieds dans l'Orge
 
 https://lespiedsdanslorge.org
 
-# Installation
+## Installation
 
 ```
 npm install
-npm run serve (et aller sur http://localhost:3333)
-npm run build
+npm run serve (et aller sur http://localhost:8000)
 npm run deploy
 ```
 

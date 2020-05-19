@@ -1,11 +1,5 @@
 # merde Mac OSX
 .DS_Store
 
-# dépendances bower
-bower_components
-
 # dépendances npm
 node_modules
-
-# export brunch
-public

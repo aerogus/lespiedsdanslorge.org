@@ -1,0 +1,60 @@
+[
+  {
+    "id": "wafa-harbaoui",
+    "type": "artiste",
+    "name": "Wafa Harbaoui",
+    "style": "world pop folk",
+    "description": "Dans un univers mêlant la musique orientale et pop-folk, Wafa Harbaoui chante la liberté, l’amour et la joie. Accompagnée de sa guitare et de son bendir, elle propose un univers musical très personnel où sa musique est plurielle, à l’image de ses influences. Chanteuse, guitariste, compositrice et interprète tunisienne, Wafa Harbaoui vit en France depuis 2010. Son premier album Entre Deux est sorti en 2018.",
+    "video": "https://www.youtube-nocookie.com/embed/lMBfnADhmPQ",
+    "links": {
+      "facebook": "https://www.facebook.com/Wafa.Harbaoui",
+      "adhoc": "https://www.adhocmusic.com/wafa-harbaoui",
+      "instagram": "https://www.instagram.com/wafa.harbaoui",
+      "youtube": "https://www.youtube.com/channel/UCy5kO-cLhr37SI1PCHzQUOw"
+    }
+  },
+  {
+    "id": "wakan-tanka",
+    "type": "artiste",
+    "name": "Wakan Tanka",
+    "style": "Rock",
+    "description": "Suivez la rivière... WAKAN TANKA c‘est plus d‘une cinquantaine de dates dont la Main Stage 2 du Download Festival et la première partie du groupe Shaka Ponk. Pour cette formule acoustique inédite le groupe va chercher l‘essence même de ses compositions révélant une intimité brute, aussi douce qu‘explosive. Inspiré par l‘imagerie amérindienne le groupe voyage à travers les plaines, bercé par un rock désertique, organique et introspectif.",
+    "video": "https://www.youtube-nocookie.com/embed/93_sfeoyzMM",
+    "links": {
+      "site": "https://www.difymusic.com/wakan-tanka",
+      "adhoc": "https://www.adhocmusic.com/wakantanka",
+      "facebook": "https://www.facebook.com/wakantankaofficial",
+      "twitter": "https://twitter.com/WakanTankaMusic",
+      "instagram": "https://www.instagram.com/wakantankaofficial",
+      "youtube": "https://www.youtube.com/channel/UCE_gbg1FiQg8v4jewvc88KA"
+    }
+  },
+  {
+    "id": "son",
+    "type": "artiste",
+    "name": "SO‘N",
+    "style": "Folk",
+    "description": "Incantation, contemplation, évasion… Des mélodies qui inspirent au voyage, portées par des rythmiques hypnotiques… Guitares, voix, percussions, inspiré de voyages et de rencontres, SƠN met en musique les histoires d’hommes, de femmes et d’enfants qui se cherchent, s’interrogent sur l’existence, fuient la modernité, dans des espaces sauvages et des lieux désertés…",
+    "video": "https://www.youtube-nocookie.com/embed/RGowGYr6vHs",
+    "links": {
+      "site": "https://difymusic.com/sonmusicband",
+      "adhoc": "https://www.adhocmusic.com/son",
+      "facebook": "https://www.facebook.com/sonmusicband",
+      "youtube": "https://www.youtube.com/channel/UCOQj5Q1cjk3tZIsWa57aSPQ",
+      "bandcamp": "https://sonmusicband.bandcamp.com/"
+    }
+  },
+  {
+    "id": "pascal-pascal",
+    "type": "artiste",
+    "name": "Pascal Pascal",
+    "style": "Poésie électrique",
+    "description": "Des cordes pêle-mêle, des recueils en fouilli; on a du mal à croire qu‘enfant, Pascal Pascal boude l‘école et que la poésie est loin d‘être l‘objet culturel de base de son enfance. C’est plus tard à la lecture de poètes tels que Rimbaud, Apollinaire, Christine de Pisan et bien d’autres, qu’il devient “Piqué des Vers”. D'une esthétique à l'autre, il dévore passionnément les poèmes classiques. Il décide alors de s'approprier ces mots en musique et compose ainsi tout un répertoire autour de ces œuvres. À travers ses compositions funk, blues reggae et jazz, il offre une force nouvelle aux poèmes d’hier, réactualise ces chefs-d’œuvre et nous montre surtout que la poésie n’est pas réservée à une élite. Aimez à loisir ces poèmes que l’on a tous croisé à l’école et laissez vous entraîner avec humour par cette douce invitation au voyage.",
+    "video": "https://player.vimeo.com/video/260032192",
+    "links": {
+      "site": "https://www.pascalpascal.fr/",
+      "adhoc": "https://www.adhocmusic.com/pascalpascal",
+      "facebook": "https://www.facebook.com/PascalPascal-1019138001473166"
+    }
+  }
+]
