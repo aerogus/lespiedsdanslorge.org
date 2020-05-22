@@ -120,7 +120,7 @@ function initSmoothScroll() {
 }
 
 function initHlsPlayer() {
-  var video = document.getElementById('onair-video');
+  var video = document.getElementById('live-video');
   if (Hls.isSupported()) {
     var hls = new Hls();
     hls.loadSource('https://live.adhocmusic.com/hls/onair.m3u8');
