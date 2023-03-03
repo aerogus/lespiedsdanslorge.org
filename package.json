@@ -2,7 +2,7 @@
   "name": "lespiedsdanslorge.org",
   "description": "Site du Festival Les Pieds dans l'Orge",
   "author": "Guillaume Seznec <guillaume@seznec.fr>",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "repository": {
     "type": "git",
     "url": ""
