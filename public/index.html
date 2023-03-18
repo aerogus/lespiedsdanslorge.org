@@ -18,26 +18,43 @@
   </head>
   <body>
 
-  <header id="navbar" class="navbar-container">
-    <nav class="container-lg navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1 me-auto">
-          <a href="/" title="Voir l’édition actuelle 2023">Les Pieds dans l’Orge</a>
-        </span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">          
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/" title="Voir l’édition 2023">2023</a></li>
-            <li class="nav-item"><a class="nav-link" href="/2020.html" title="Voir l’édition 2020">2020</a></li>
-            <li class="nav-item"><a class="nav-link" href="/2019.html" title="Voir l’édition 2019">2019</a></li>
-            <li class="nav-item"><a class="nav-link" href="/2018.html" title="Voir l’édition 2018">2018</a></li>
-          </ul>
+    <div id="modal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header modal-header-dark">
+            <h5 class="modal-title">Titre de la modale</h5>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close" title="Fermer la popup"></button>
+          </div>
+          <div class="modal-body">
+            <p>Texte de la modale</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </div>
+
+    <header id="navbar" class="navbar-container">
+      <nav class="container-lg navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 me-auto">
+            <a href="/" title="Voir l’édition actuelle 2023">Les Pieds dans l’Orge</a>
+          </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="/" title="Voir l’édition 2023">2023</a></li>
+              <li class="nav-item"><a class="nav-link" href="/2020.html" title="Voir l’édition 2020">2020</a></li>
+              <li class="nav-item"><a class="nav-link" href="/2019.html" title="Voir l’édition 2019">2019</a></li>
+              <li class="nav-item"><a class="nav-link" href="/2018.html" title="Voir l’édition 2018">2018</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
       <section id="edition2023" class="container-lg">
         <h2>Édition 2023</h2>

@@ -26,6 +26,18 @@
     }
   },
   {
+    "display": false,
+    "id": "atelier-mjc-blp",
+    "type": "artiste",
+    "name": "Atelier MJC BLP",
+    "style": "Jazz Rock Pop",
+    "description": "L'atelier musiques actuelles de la MJC Boby Lapointe de Villebon-sur-Yvette",
+    "video": "",
+    "links": {
+      "site": "https://www.mjcvillebon.org"
+    }
+  },
+  {
     "display": true,
     "id": "arteca",
     "type": "artiste",
@@ -41,6 +53,48 @@
     }
   },
   {
+    "display": true,
+    "id": "menthol-moose",
+    "type": "artiste",
+    "name": "Menthol Moose",
+    "style": "Electro Groove",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=SSAhNPwTgvk",
+    "links": {
+      "facebook": "https://www.facebook.com/mentholmoosic",
+      "bandcamp": "https://mentholmoose.bandcamp.com"
+    }
+  },
+  {
+    "display": true,
+    "id": "gabriel-kroger",
+    "type": "artiste",
+    "name": "Gabriel Kröger",
+    "style": "Rock",
+    "description": "Gabriel Kröger est un auteur-compositeur-interprète originaire de banlieue parisienne. Dans un style qui croise folk alternative, rock indé et productions lo-fi, et fidèle à un esprit DIY, chaque morceau semble à la limite du journal intime.",
+    "video": "https://www.youtube.com/watch?v=ildqEmlEu_k",
+    "links": {
+      "facebook": "https://www.facebook.com/gabrielkrogermusique",
+      "bandcamp": "https://gabrielkroger.bandcamp.com",
+      "youtube": "https://www.youtube.com/@gabrielkroger",
+      "instagram": "https://www.instagram.com/gabriel_kroger/",
+      "spotify": "https://open.spotify.com/artist/4UraapnhYWoO9lbH88GboD",
+      "soundcloud": "https://soundcloud.com/gabrielkroger",
+      "deezer": "https://www.deezer.com/fr/artist/90173812"
+    }
+  },
+  {
+    "display": false,
+    "id": "zurc-tapir",
+    "type": "artiste",
+    "name": "Zurc & Tapir",
+    "style": "Electro déjanté",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=qZM0u-qiRvI",
+    "links": {
+    }
+  },
+  {
     "display": false,
     "id": "zerty",
     "type": "artiste",
@@ -52,19 +106,6 @@
       "facebook": "https://www.facebook.com/Zerty.les.scribes",
       "instagram": "https://www.instagram.com/zerty.officiel",
       "youtube": "https://www.youtube.com/@zerty-scribes8744"
-    }
-  },
-  {
-    "display": true,
-    "id": "menthol-moose",
-    "type": "artiste",
-    "name": "Menthol Moose",
-    "style": "Electro Groove",
-    "description": "",
-    "video": "https://www.youtube.com/watch?v=SSAhNPwTgvk",
-    "links": {
-      "facebook": "https://www.facebook.com/mentholmoosic",
-      "bandcamp": "https://mentholmoose.bandcamp.com"
     }
   },
   {
@@ -96,35 +137,6 @@
       "adhoc": "",
       "instagram": "",
       "youtube": "https://www.youtube.com/@thedots6260"
-    }
-  },
-  {
-    "display": false,
-    "id": "gabriel-kroger",
-    "type": "artiste",
-    "name": "Gabriel Kröger",
-    "style": "Rock",
-    "description": "Gabriel Kröger est un auteur-compositeur-interprète originaire de banlieue parisienne. Dans un style qui croise folk alternative, rock indé et productions lo-fi, et fidèle à un esprit DIY, chaque morceau semble à la limite du journal intime.",
-    "video": "https://www.youtube.com/watch?v=ildqEmlEu_k",
-    "links": {
-      "facebook": "https://www.facebook.com/gabrielkrogermusique",
-      "bandcamp": "https://gabrielkroger.bandcamp.com",
-      "youtube": "https://www.youtube.com/@gabrielkroger",
-      "instagram": "https://www.instagram.com/gabriel_kroger/",
-      "spotify": "https://open.spotify.com/artist/4UraapnhYWoO9lbH88GboD",
-      "soundcloud": "https://soundcloud.com/gabrielkroger",
-      "deezer": "https://www.deezer.com/fr/artist/90173812"
-    }
-  },
-  {
-    "display": false,
-    "id": "zurc-tapir",
-    "type": "artiste",
-    "name": "Zurc & Tapir",
-    "style": "Electro déjanté",
-    "description": "",
-    "video": "https://www.youtube.com/watch?v=qZM0u-qiRvI",
-    "links": {
     }
   }
 ]

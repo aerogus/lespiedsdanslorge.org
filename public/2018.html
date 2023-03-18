@@ -18,25 +18,22 @@
   </head>
   <body>
 
-    <div class="modal fade" id="modalToggle" aria-hidden="true" aria-labelledby="modalToggleLabel" tabindex="-1">
-      <div class="modal-dialog">
+    <div id="modal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header modal-header-dark">
             <h5 class="modal-title">Titre de la modale</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close" title="Fermer la popup"></button>
           </div>
           <div class="modal-body">
             <p>Texte de la modale</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
           </div>
         </div>
       </div>
     </div>
-    <!--
-    <a class="btn btn-primary" data-bs-toggle="modal" href="#modalToggle" role="button">Ouvrir la modale</a>
-    -->
 
     <header id="navbar" class="navbar-container">
       <nav class="container-lg navbar navbar-expand-lg">
@@ -47,7 +44,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarToggler">          
+          <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item"><a class="nav-link" href="/" title="Voir l’édition 2023">2023</a></li>
               <li class="nav-item"><a class="nav-link" href="/2020.html" title="Voir l’édition 2020">2020</a></li>

@@ -48,7 +48,7 @@ function initBlocks(year, type) {
   let list = $('<div/>');
   blocks.forEach((e) => {
     let div = `<div class="artiste">
-      <a data-open="${e.id}">
+      <a data-open="${e.id}" data-bs-toggle="modal" data-bs-target="#modal">
         <h4 class="button">${e.name}</h4>
         <img src="/img/${type}/${year}/${e.id}.jpg" width="480" height="270"/>
         <h5 class="button">${e.style}</h5>
@@ -64,6 +64,19 @@ function initBlocks(year, type) {
     myModal.show(modalToggle);
   });
 }
+
+let elmModal = document.getElementById('modal');
+
+// À l'ouverture de la modale
+elmModal.addEventListener('show.bs.modal', (e) => {
+  console.log('open');
+  console.log(e);
+});
+
+// À la fermeture de la modale
+elmModal.addEventListener('hidden.bs.modal', () => {
+  console.log('close');
+});
 
 /**
  * gestion du scrolling doux
