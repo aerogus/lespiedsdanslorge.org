@@ -6,13 +6,13 @@ var db = {};
  * Construit la fenêtre modale
  */
 function buildModal(obj) {
-  var photo;
+  let photo;
   if (obj.type === 'artiste') {
-    photo = `/img/artistes/${obj.id}.jpg`;
+    photo = `/img/artistes/${year}/${obj.id}.jpg`;
   } else {
-    photo = `/img/village/${obj.id}.jpg`;
+    photo = `/img/village/${year}/${obj.id}.jpg`;
   }
-  var content = `<div class="clearfix modal-content" id="${obj.id}">
+  let content = `<div class="clearfix modal-content" id="${obj.id}">
   <div class="bfc">
   <img src="${photo}" width="480" height="270" style="float:left;padding-right:10px;padding-bottom:10px">
   <h4>${obj.name}</h4>
@@ -36,75 +36,29 @@ function buildModal(obj) {
 }
 
 /**
- * @param {string} id
- */
-function hideModal(id) {
-  if (id) $(`#${id}`).hide();
-  $('.modal').empty();
-  $('.modal').hide();
-}
-
-function handleModalControls() {
-  // echap ferme la modale
-  $(document).keyup((e) => { if (e.keyCode === 27) hideModal(); });
-
-  // click à l'extérieur ferme la modale
-  $('.modal').click((e) => { if (e.target.id === 'artiste-content') hideModal(); });
-
-  // click bouton X
-  $('.close-button').click(e => hideModal(e.currentTarget.parentNode.id));
-}
-
-/**
- * @param {string} id
- */
-function showModal(id) {
-  if (!id) return;
-  var obj = db.filter(item => (item.id === id))[0];
-  buildModal(obj);
-  handleModalControls();
-  $('.modal').show(); // affiche le fond
-  $('.modal-content').hide(); // ferme les autres
-  $(`#${id}`).show();
-}
-
-function initResponsiveMenu() {
-  var menuOpened = false;
-  $('#btn-burger').click((e) => {
-    if (!menuOpened) {
-      $(e.currentTarget).addClass('selected');
-      $('.top-menu').addClass('selected');
-      menuOpened = true;
-    } else {
-      $(e.currentTarget).removeClass('selected');
-      $('.top-menu').removeClass('selected');
-      menuOpened = false;
-    }
-  });
-}
-
-/**
  * Charge la section Artistes
  */
-function initArtistes() {
-  var artistes = db.filter(obj => (obj.type === 'artiste'));
+function initBlocks(year, type) {
+  var blocks = db.filter(obj => (obj.type === type));
   // tri alphabétique
-  // artistes.sort((a, b) => a.name > b.name);
-  var list = $('<div class="grid-4-small-2 has-gutter-l"/>');
-  artistes.forEach((e) => {
-    var div = `<div class="artiste">
+  // block.sort((a, b) => a.name > b.name);
+  let list = $('<div/>');
+  blocks.forEach((e) => {
+    let div = `<div class="artiste">
       <a data-open="${e.id}">
         <h4 class="button">${e.name}</h4>
-        <img src="/img/artistes/${e.id}.jpg" width="400" height="400"/>
+        <img src="/img/${type}/${year}/${e.id}.jpg" width="480" height="270"/>
         <h5 class="button">${e.style}</h5>
       </a>
     </div>`;
     list.append(div);
   });
-  $('#artistes-content').append(list);
+  $('#' + type + '-content').append(list);
   $('.artiste a').click((e) => {
     e.preventDefault();
-    showModal(e.currentTarget.dataset.open);
+    const myModal = new bootstrap.Modal(document.getElementById('modalToggle'));
+    const modalToggle = document.getElementById('modalToggle');
+    myModal.show(modalToggle);
   });
 }
 
@@ -119,13 +73,14 @@ function initSmoothScroll() {
   });
 }
 
-function init() {
-  initResponsiveMenu();
+function init(year) {
   initSmoothScroll();
-  handleModalControls();
-  $.getJSON('/js/db.json', (json) => {
+  $.getJSON(`/db/${year}.json`, (json) => {
     db = json;
-    initArtistes();
+    initBlocks(year, 'artiste');
+    if (year == 2018 || year == 2019) {
+      initBlocks(year, 'village');
+    }
   });
 }
 

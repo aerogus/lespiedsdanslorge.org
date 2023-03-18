@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'DK Longreach';
+  src: url("../fonts/dk-longreach.woff2") format('woff2'),
+       url("../fonts/dk-longreach.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+    --color-white: #fefefe;
+    --color-black: #292933;
+  
+    --color-medium-blue: #0d58a1;
+    --color-dark-blue: #253041;
+  
+    --color-light-yellow: #f8f4ba;
+    --color-light-blue:#d6f0f0;
+    --color-light-pink: #f3cfbf;
+    --color-light-green: #c8e8c1;
+  }
+
+html,
+body {
+  background-color: var(--color-light-yellow);
+  background-image: url(/img/aquarelle.jpg);
+  color: #292933;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased /* fix bold mac osx */;
+}
+
+/**
+ * Barre du haut + menu
+ */
+
+#navbar {
+  background-color: var(--color-dark-blue) !important;
+  font-family: 'DK Longreach';
+}
+#navbar .navbar-brand {
+  color: var(--color-light-yellow);
+  margin: 0;
+  padding: 0 0.5rem;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-family: 'DK Longreach';
+}
+#navbar .navbar-brand a {
+  color: var(--color-light-yellow);
+}
+#navbar .nav-link {
+  font-size: 1.4rem;
+  color: var(--color-light-green);
+}
+#navbar .nav-link.disabled {
+  color: #fff;
+}
+#navbar .nav-link.active {
+  color: #fff;
+  text-decoration: underline dashed;
+}
+#navbar .nav-link:hover {
+    color: #fff;
+}
+.navbar-toggler {
+  /*padding: 0;*/
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+section {
+  padding: 1.6rem 0.5rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'DK Longreach', sans-serif;
+  color: var(--color-medium-blue);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * Galeries
+ **/
+
+.gallery {
+  font-size: 0;
+  text-align: center;
+}
+.gallery img {
+  background-color: #fff;
+  display: inline-block;
+  margin: .5rem;
+  padding: .5rem;
+  width: 410px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: .5rem .5rem 1rem #000;
+  transition: transform .1s;
+}
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+/**
+ * Bloc artiste
+ */
+
+#artistes-content {
+  text-align: center;
+}
+.artiste {
+  margin: .5rem;
+  text-align: center;
+  max-width: 300px;
+  display: inline-block;
+}
+.artiste a {
+  cursor: pointer;
+}
+.artiste a img {
+  width: 100%;
+  height: auto;
+}
+.artiste h4.button,
+.artiste h5.button {
+  font-family: 'DK Longreach', sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: transparent;
+  background-image: url(/img/trace.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.artiste h4.button {
+  font-size: 1.4rem;
+  color: var(--color-light-yellow);
+  background-position: 0 0;
+  padding: 1.6rem 2.5rem 0.5rem 2.5rem;
+}
+.artiste h5.button {
+  font-size: 1.6rem;
+  color: #fff;
+  background-position: 0 100%;
+  padding: 0.5rem 2.5rem 2rem 2.5rem;
+}
+
+/**
+ * Pratique
+ */
+
+.rer,
+.rerc {
+  display: inline-flex;
+  border-radius: 50%;
+  border: 2px solid;
+  font-weight: bold;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+}
+.rer {
+  color: #164b9c;
+  font-size: 14px;
+  padding: 0 1px;
+  font-size: 13px;
+  line-height: 28px;
+}
+.rerc {
+  color: #eac81c;
+  padding: 0 8px;
+  font-size: 16px;
+  line-height: 28px;
+}
+#planning-table a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/**
+ * Pied de page
+ */
+
+footer {
+  background-color: var(--color-dark-blue);
+  color: #fefefe;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+}
+footer a {
+  color: #fefefe;
+}
+
+/**
+ * Réseaux sociaux
+ */
+
+.social {
+  margin: 1rem;
+}
+.social img {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+.site {
+  background-color: #56ae34;
+}
+.site img {
+  padding: 4px;
+}
+.adhoc {
+  background-color: #292933;
+}
+.peertube {
+  background-color: #fce8db;
+}
+
+.facebook {
+  background-color: #3b579d;
+}
+.twitter {
+  background-color: #00aced;
+}
+.youtube {
+  background-color: #cf2200;
+}
+.instagram {
+  background-color: #e6347e;
+  background-image: linear-gradient(180deg, #ffd676 0, #f2a454 20%, #f05c3c 30%, #c22f86 80%, #6666ad);
+}
+.bandcamp {
+  background-color: #477987;
+}
+.soundcloud {
+  background-color: #f97637;
+}
+.etsy {
+  background-color: #e65300;
+}
+.spotify {
+  /*background-color #1ed760*/
+  background-color: #fff;
+}
+.itunes {
+  background-color: #ea4cc0;
+}
+
+/**
+ * Player vidéo
+ */
+
+.fluid-video-player {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  margin: 20px auto;
+  box-shadow: 1px 1px 5px #292933;
+}
+.fluid-video-player.ratio-16-9 {
+  padding-top: 56.25%;
+}
+.fluid-video-player.ratio-4-3 {
+  padding-top: 75%;
+}
+.fluid-video-player iframe,
+.fluid-video-player video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
