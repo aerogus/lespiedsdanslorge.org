@@ -9,7 +9,7 @@
   },
   "scripts": {
     "serve": "php -S 127.0.0.1:8000 -t public",
-    "deploy": "rsync -av -e 'ssh -p 444' public/ gus@rbx.aerogus.net:/var/www/lespiedsdanslorge.org --delete",
+    "deploy": "rsync -av -e 'ssh -p 22' public/ gus@vps.aerogus.net:/var/www/lespiedsdanslorge.org --delete",
     "clean": "rm -Rf node_modules"
   }
 }
