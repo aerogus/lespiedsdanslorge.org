@@ -5,34 +5,41 @@ let db = {};
 /**
  * Construit la fenêtre modale
  */
-function buildModal(obj) {
+function buildModal(year, obj) {
   let photo;
   if (obj.type === 'artiste') {
-    photo = `/img/artistes/${year}/${obj.id}.jpg`;
+    photo = `/img/artiste/${year}/${obj.id}.jpg`;
   } else {
     photo = `/img/village/${year}/${obj.id}.jpg`;
   }
-  let content = `<div class="clearfix modal-content" id="${obj.id}">
-  <div class="bfc">
-  <img src="${photo}" width="480" height="270" style="float:left;padding-right:10px;padding-bottom:10px">
-  <h4>${obj.name}</h4>
-  <p><strong>${obj.style}</strong></p>`;
+  let content = `
+  <img class="main-picture" src="${photo}" width="480" height="270" alt="">
+  <div class="row">
+    <div class="col py-3 text-start">
+      <span class="style">${obj.style}</span>
+    </div>
+    <div class="col py-3 text-end">
+  <ul class="list-inline mb-0">`;
 
   Object.keys(obj.links).forEach((key) => {
-    content += `<a class="badge social ${key}" href="${obj.links[key]}" target="_blank" title="lien vers ${key}"><img src="/img/social/${key}.svg" alt=""/></a>`;
+    content += `<li class="list-inline-item"><a class="badge social ${key}" href="${obj.links[key]}" target="_blank" title="lien vers ${key}"><img src="/img/social/${key}.svg" alt=""/></a></li>`;
   });
 
-  content += `<p>${obj.description.replace('\n', '<br>')}</p></div>
-    <button class="close-button">X</button>`;
+  content += `</ul></div>`;
+  content += `<p>${obj.description.replace('\n', '<br>')}</p>`;
 
   if (obj.video) {
-    content += `<div class="fluid-video">
+    content += `<div class="fluid-video-player ratio-16-9">
       <iframe width="1280" height="720" src="${obj.video}" frameborder="0" allowfullscreen></iframe>
     </div>`;
   }
 
-  content += '</div>';
-  $('#artiste-content').append(content);
+  $('.modal-title').empty().text(obj.name);
+  $('.modal-body').empty().append(content);
+}
+
+function getObj(type, id) {
+  return db.filter(obj => (obj.type === type) && (obj.id === id));
 }
 
 /**
@@ -48,7 +55,7 @@ function initBlocks(year, type) {
   let list = $('<div/>');
   blocks.forEach((e) => {
     let div = `<div class="artiste">
-      <a data-open="${e.id}" data-bs-toggle="modal" data-bs-target="#modal">
+      <a data-id="${e.id}" data-bs-toggle="modal" data-bs-target="#modal">
         <h4 class="button">${e.name}</h4>
         <img src="/img/${type}/${year}/${e.id}.jpg" width="480" height="270"/>
         <h5 class="button">${e.style}</h5>
@@ -58,25 +65,12 @@ function initBlocks(year, type) {
   });
   $('#' + type + '-content').append(list);
   $('.artiste a').click((e) => {
+    let id = e.currentTarget.dataset.id;
+    let obj = db.filter(obj => (obj.id === id))[0];
+    buildModal(year, obj);
     e.preventDefault();
-    const myModal = new bootstrap.Modal(document.getElementById('modalToggle'));
-    const modalToggle = document.getElementById('modalToggle');
-    myModal.show(modalToggle);
   });
 }
-
-let elmModal = document.getElementById('modal');
-
-// À l'ouverture de la modale
-elmModal.addEventListener('show.bs.modal', (e) => {
-  console.log('open');
-  console.log(e);
-});
-
-// À la fermeture de la modale
-elmModal.addEventListener('hidden.bs.modal', () => {
-  console.log('close');
-});
 
 /**
  * gestion du scrolling doux

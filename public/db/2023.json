@@ -44,7 +44,7 @@
     "name": "Arteca",
     "style": "Jazz Fusion",
     "description": "Davelfe fonde en janvier 2022 le projet Artéca : un trio composé de Davelfe au piano, Nick au saxophone et Hermann à la batterie. S’inspirant d’univers visuels : jeux vidéos, animés et différents univers médiévaux fantastiques. Le fantastique et le voyage sont au centre de ce projet musical, se laissant porter par leurs âmes d’enfants, le trio s’évade dans un jazz rock minimaliste influencé par des artistes comme Gogo Penguin, Totorro ou encore Nobuo Uematsu.",
-    "video": "https://www.youtube.com/watch?v=2SoqMV0CWfM",
+    "video": "https://www.youtube-nocookie.com/embed/2SoqMV0CWfM",
     "links": {
       "facebook": "https://www.facebook.com/Artecamusic",
       "instagram": "https://www.instagram.com/artecamusic",
@@ -59,7 +59,7 @@
     "name": "Menthol Moose",
     "style": "Electro Groove",
     "description": "",
-    "video": "https://www.youtube.com/watch?v=SSAhNPwTgvk",
+    "video": "https://www.youtube-nocookie.com/embed/SSAhNPwTgvk",
     "links": {
       "facebook": "https://www.facebook.com/mentholmoosic",
       "bandcamp": "https://mentholmoose.bandcamp.com"
@@ -72,7 +72,7 @@
     "name": "Gabriel Kröger",
     "style": "Rock",
     "description": "Gabriel Kröger est un auteur-compositeur-interprète originaire de banlieue parisienne. Dans un style qui croise folk alternative, rock indé et productions lo-fi, et fidèle à un esprit DIY, chaque morceau semble à la limite du journal intime.",
-    "video": "https://www.youtube.com/watch?v=ildqEmlEu_k",
+    "video": "https://www.youtube-nocookie.com/embed/ildqEmlEu_k",
     "links": {
       "facebook": "https://www.facebook.com/gabrielkrogermusique",
       "bandcamp": "https://gabrielkroger.bandcamp.com",
@@ -90,7 +90,7 @@
     "name": "Zurc & Tapir",
     "style": "Electro déjanté",
     "description": "",
-    "video": "https://www.youtube.com/watch?v=qZM0u-qiRvI",
+    "video": "https://www.youtube-nocookie.com/embed/qZM0u-qiRvI",
     "links": {
     }
   },
@@ -101,7 +101,7 @@
     "name": "Zerty",
     "style": "Rap",
     "description": "Son nom est ZERTY, comme pour marquer son décalage. Il aurait pu s’appeler AZERTY, pareil à la suite de lettres que l’on retrouve sur le clavier. Blason tout trouvé pour cet amoureux des mots, issu du slam et des scènes ouvertes de son quartier en région parisienne. Son nom est ZERTY, comme pour marquer son décalage. Car ZERTY est dyslexique. Et c’est là toute la magie de ce rappeur dandy du verbe. La dyslexie lui offre alors à un rapport intuitif à la langue qu’il manipule. Son écriture rend compte dune poésie ciselée, tout en sensibilité. ZERTY nous mène au bord d’une transe poétique, fédératrice et universelle. ZERTY navigue sur les remous d’un boom bap aux rythmes modérés. Il nous dit ses questionnements, sa mélancolie et ses désillusions. Il fait le récit des récifs sur lesquels il s’est échoué. De retour d’un voyage houleux, ZERTY tente maintenant de trouver la paix. Influences: OXMO PUCCINO, MC SOLAAR, ASSASSINS, ATK, KERY JAMES, ANTON SERRA, CESARIA EVORA...",
-    "video": "https://www.youtube.com/watch?v=KGWmAuRGTDQ",
+    "video": "https://www.youtube-nocookie.com/embed/KGWmAuRGTDQ",
     "links": {
       "facebook": "https://www.facebook.com/Zerty.les.scribes",
       "instagram": "https://www.instagram.com/zerty.officiel",
@@ -115,7 +115,7 @@
     "name": "NR",
     "style": "Fat Fuzz",
     "description": "NR est, à l’instar de Noflipe, un autre groupe de la sombre ville de Dulltown ! Sur scène, Flash, Natch & Flush, énergumènes énergiques, énervés et allergiques au sérieux s’amusent en musique. Bref, du débile indélébile pour ton cerveau subtil à base de Punk-Rock, rap et ambiance planante... si, si !",
-    "video": "https://www.youtube.com/watch?v=ED8Khzn2yY4",
+    "video": "https://www.youtube-nocookie.com/embed/ED8Khzn2yY4",
     "links": {
       "facebook": "https://www.facebook.com/NR.fatfuzz/",
       "adhoc": "",
@@ -131,11 +131,9 @@
     "name": "The Dot’s",
     "style": "Rock",
     "description": "",
-    "video": "https://www.youtube.com/watch?v=OqDMF3B6VoM",
+    "video": "https://www.youtube-nocookie.com/embed/OqDMF3B6VoM",
     "links": {
       "facebook": "https://www.facebook.com/the4dotss",
-      "adhoc": "",
-      "instagram": "",
       "youtube": "https://www.youtube.com/@thedots6260"
     }
   }
