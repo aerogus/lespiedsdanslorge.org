@@ -1,0 +1,128 @@
+[
+  {
+    "id": "conservatoire",
+    "type": "artiste",
+    "name": "Conservatoire d’Épinay",
+    "style": "Jazz Rock Pop",
+    "description": "L’atelier musiques actuelles du conservatoire proposera un set qu’il a travaillé durant l’année.",
+    "video": "",
+    "links": {
+      "site": "https://sites.google.com/site/conservatoireepinaysurorge2/",
+      "facebook": "https://www.facebook.com/ConservatoireEpinaySurOrge/"
+    }
+  },
+  {
+    "id": "sozik",
+    "type": "artiste",
+    "name": "SOZIK",
+    "style": "Jazz Rock Pop",
+    "description": "SOZIK propose un enseignement musical inédit, axé sur la création. Venez apprendre un instrument, à composer et à enregistrer vos propres morceaux !",
+    "video": "",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "facebook": "https://www.facebook.com/sozik91/"
+    }
+  },
+  {
+    "id": "arteca",
+    "type": "artiste",
+    "name": "Arteca",
+    "style": "Jazz Fusion",
+    "description": "Davelfe fonde en janvier 2022 le projet Artéca : un trio composé de Davelfe au piano, Nick au saxophone et Hermann à la batterie. S’inspirant d’univers visuels : jeux vidéos, animés et différents univers médiévaux fantastiques. Le fantastique et le voyage sont au centre de ce projet musical, se laissant porter par leurs âmes d’enfants, le trio s’évade dans un jazz rock minimaliste influencé par des artistes comme Gogo Penguin, Totorro ou encore Nobuo Uematsu.",
+    "video": "https://www.youtube.com/watch?v=2SoqMV0CWfM",
+    "links": {
+      "facebook": "https://www.facebook.com/Artecamusic",
+      "adhoc": "",
+      "instagram": "https://www.instagram.com/artecamusic",
+      "youtube": "https://www.youtube.com/channel/UC2q8Os0Gq2qKuCd86YtcQyA",
+      "site": "https://linktr.ee/artecamusic"
+    }
+  },
+  {
+    "id": "zerty",
+    "type": "artiste",
+    "name": "Zerty",
+    "style": "Rap",
+    "description": "Son nom est ZERTY, comme pour marquer son décalage. Il aurait pu s'appeler AZERTY, pareil à la suite de lettres que l'on retrouve sur le clavier. Blason tout trouvé pour cet amoureux des mots, issu du slam et des scènes ouvertes de son quartier en région parisienne. Son nom est ZERTY, comme pour marquer son décalage. Car ZERTY est dyslexique. Et c'est là toute la magie de ce rappeur dandy du verbe. La dyslexie lui offre alors à un rapport intuitif à la langue qu'il manipule. Son écriture rend compte d'une poésie ciselée, tout en sensibilité. ZERTY nous mène au bord d'une transe poétique, fédératrice et universelle. ZERTY navigue sur les remous d'un boom bap aux rythmes modérés. Il nous dit ses questionnements, sa mélancolie et ses désillusions. Il fait le récit des récifs sur lesquels il s'est échoué. De retour d'un voyage houleux, ZERTY tente maintenant de trouver la paix. Influences: OXMO PUCCINO, MC SOLAAR, ASSASSINS, ATK, KERY JAMES, ANTON SERRA, CESARIA EVORA...",
+    "video": "https://www.youtube.com/watch?v=KGWmAuRGTDQ",
+    "links": {
+      "facebook": "https://www.facebook.com/Zerty.les.scribes",
+      "adhoc": "",
+      "instagram": "https://www.instagram.com/zerty.officiel",
+      "youtube": "https://www.youtube.com/@zerty-scribes8744"
+    }
+  },
+  {
+    "id": "menthol-moose",
+    "type": "artiste",
+    "name": "Menthol Moose",
+    "style": "Electro Groove",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=SSAhNPwTgvk",
+    "links": {
+      "facebook": "https://www.facebook.com/mentholmoosic",
+      "adhoc": "",
+      "instagram": "",
+      "youtube": "",
+      "bandcamp": "https://mentholmoose.bandcamp.com"
+    }
+  },
+  {
+    "id": "nr",
+    "type": "artiste",
+    "name": "NR",
+    "style": "Fat Fuzz",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=ED8Khzn2yY4",
+    "links": {
+      "facebook": "https://www.facebook.com/NR.fatfuzz/",
+      "adhoc": "",
+      "instagram": "https://www.instagram.com/nr.fatfuzz",
+      "youtube": "https://www.youtube.com/channel/UChSeusIiCVJGNkzRpDIV6SQ",
+      "bandcamp": "https://nrfatfuzz.bandcamp.com"
+    }
+  },
+  {
+    "id": "the-dots",
+    "type": "artiste",
+    "name": "The Dot's",
+    "style": "Rock",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=OqDMF3B6VoM",
+    "links": {
+      "facebook": "https://www.facebook.com/the4dotss",
+      "adhoc": "",
+      "instagram": "",
+      "youtube": "https://www.youtube.com/@thedots6260"
+    }
+  },
+  {
+    "id": "berlin-heart",
+    "type": "artiste",
+    "name": "Berlin Heart",
+    "style": "Rock Progressif",
+    "description": "",
+    "video": "",
+    "links": {
+      "facebook": "",
+      "adhoc": "",
+      "instagram": "",
+      "youtube": ""
+    }
+  },
+  {
+    "id": "horizon-desert",
+    "type": "",
+    "name": "Horizon Desert",
+    "style": "Rock en colère",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=Znzfo6PxIto",
+    "links": {
+      "facebook": "",
+      "adhoc": "",
+      "instagram": "",
+      "youtube": ""
+    }
+  }
+]
+

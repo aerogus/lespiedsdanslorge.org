@@ -1,0 +1,175 @@
+[
+  {
+    "id": "conservatoire",
+    "type": "artiste",
+    "name": "Conservatoire d’Épinay",
+    "style": "Jazz Rock Pop",
+    "description": "L’atelier musiques actuelles du conservatoire proposera un set qu’il a travaillé durant l’année.",
+    "video": "",
+    "links": {
+      "site": "https://sites.google.com/site/conservatoireepinaysurorge2/",
+      "facebook": "https://www.facebook.com/ConservatoireEpinaySurOrge/"
+    }
+  },
+  {
+    "id": "sozik",
+    "type": "artiste",
+    "name": "SOZIK",
+    "style": "Jazz Rock Pop",
+    "description": "SOZIK propose un enseignement musical inédit, axé sur la création. Venez apprendre un instrument, à composer et à enregistrer vos propres morceaux !",
+    "video": "",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "facebook": "https://www.facebook.com/sozik91/"
+    }
+  },
+  {
+    "id": "resonance",
+    "type": "artiste",
+    "name": "Résonance",
+    "style": "Pop rock alternatif",
+    "description": "Ce groupe féminin de Palaiseau ne s’encombre pas d’un quatuor rock classique. Ni de textes anglais pour imiter les modèles du genre. A elles seules, Virginie et Cécilia forment un duo guitare-chant/batterie de pop française grungy, doux-amer et électrique. A l’image de ses rythmiques déterminées, Résonance n’y va pas par quatre chemins pour faire entendre ses histoires du quotidien. Le chant francophone trouve un équilibre délicat sur des accords à la Cobain.",
+    "video": "https://www.youtube-nocookie.com/embed/1HfFqDTr5A4",
+    "links": {
+      "site": "https://resonance-fr.bandcamp.com",
+      "facebook": "https://www.facebook.com/resonancerock",
+      "twitter": "https://twitter.com/Resonancerock"
+    }
+  },
+  {
+    "id": "seriousstuff",
+    "type": "artiste",
+    "name": "Serious Stuff",
+    "style": "Groove",
+    "description": "La chanteuse Jaya à la voix très Soul et ses musiciens éclectiques forment Serious Stuff, un groupe créé en 2011 et basé à Savigny-sur-Orge. Ils reviennent sur scène avec leurs dernières compositions pour vous faire vibrer et danser ! Serious Stuff joue une musique Groovy de qualité qui plaira autant aux danseurs qu’aux plus mélomanes d’entre vous. Leur répertoire essentiellement Funk-Soul, mais aussi Blues-Jazz, rassemble autour d’un dénominateur commun : le GROOVE. Vous savez, ce petit quelque chose qui vous donne inconsciemment envie de bouger votre corps !",
+    "video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fseriousstuffmusic%2Fvideos%2F608402309350030%2F&show_text=0&width=560&mute=0",
+    "links": {
+      "facebook": "https://www.facebook.com/seriousstuffmusic/"
+    }
+  },
+  {
+    "id": "pricklypearl",
+    "type": "artiste",
+    "name": "Prickly Pearl",
+    "style": "Pop Folk",
+    "description": "Le Projet Prickly Pearl débute en 2011. Loïc, après diverses expériences, veut revenir à ses premières amours aux sources de la musique populaire américaine. Sa rencontre avec Carole, à la voix grave et aux accents Soul, est comme une évidence. Ensemble, ils vont ciseler et modeler les morceaux et définir les bases de la musique de Prickly Pearl: une Folk hybride aux racines multiples Country, Jazz, Blues, Soul. Dès leurs premiers passages dans les clubs, ils rencontrent un public enthousiaste, qui les encourage à poursuivre, et leur fait prendre conscience de l’aspect fédérateur de leur musique. Puis les salles de concert s’agrandissent : le Sentier des Halles et le Batofar. Afin d’accompagner le développement de ce projet, l’association Prickly Records voit le jour en Octobre 2012. Autour de Carole et Loïc plusieurs musiciens se joignent à l’aventure et Prickly Pearl trouve un équilibre artistique avec l’arrivée de Christian à la batterie et Laurent à la basse en 2013. C’est ainsi que l’éclectisme des inspirations de Prickly Pearl prend définitivement forme, ajoutant une pointe de Rock et de Pop à cette formation qui ne s’interdit plus rien. Bien que Christian les quitte en 2015, l’univers qu’ils ont créé ensemble demeure jusqu’à aujourd’hui l’empreinte de Prickly Pearl. Les mélodies et l’émotion véhiculées par Prickly Pearl vous accompagnent longtemps à ce qu’en dit le Public. Très vite vous vous surprendrez à siffler un air de Prickly Pearl… La sortie du premier EP 6 titres de Prickly Pearl est prévu pour début 2017.",
+    "video": "https://www.youtube-nocookie.com/embed/oPEEF5zrh0I",
+    "links": {
+      "site": "http://pricklypearl.wix.com/website",
+      "soundclound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/6455041&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false",
+      "facebook": "https://www.facebook.com/PricklyPearl/",
+      "twitter": "https://twitter.com/Prickly_Pearl"
+    }
+  },
+  {
+    "id": "oddfiction",
+    "type": "artiste",
+    "name": "Odd Fiction",
+    "style": "Métal Progressif",
+    "description": "Odd Fiction est une agence de voyage spécialisée dans l’exploration de paysages sonores. Véritables aventuriers du son, nous vous offrons le choix de visiter les contrées musicales les plus diverses : Funkalousie, Métaland, Rockproguistan, Experigascar… Ainsi, il vous est possible de choisir parmi une grande variété de climats mélodiques, mais aussi d’activités : Head-Banging extrême dans les blasts glacés Métalandais, Slow romantique dans l’ambiance lumineuse de Post-Rock city, ou courses de quad à 200 BPM dans les carrières rocailleuses de la République de Noise. Alors n’hésitez pas à embarquer pour un voyage unique au monde, fort en dissonances et rythmiques ambiguës, dont personne encore n’est jamais revenu.",
+    "video": "https://www.youtube-nocookie.com/embed/BGeb9ppDMZs",
+    "links": {
+      "site": "http://www.oddfiction.fr/",
+      "facebook": "https://www.facebook.com/OddFiction/",
+      "instagram": "https://www.instagram.com/odd.fiction/"
+    }
+  },
+  {
+    "id": "abracadabra",
+    "type": "artiste",
+    "name": "Abracadabra",
+    "style": "Jazz Fusion",
+    "description": "Les membres du groupe/collectif se sont rencontré naturellement dans differentes JAM sessions (du nord de l’Essonne), dans les théatre, les salles municipales, des salles à manger, des duplex, des soirées garage... FARID et TRISTAN jouaient ensemble de l’afro-reggae music dans le groupe Djame Salam (gagnant de differents concours LADIAM, passages FR3 etc...) Tristan, chanteur a réalisé une centaine de videoclips dans les années 2000. La musique ouverte d’esprit est le dénominateur commun et ce qui motive chaque musicien c’est donc fort de notre expérience à tous, surtout en region parisienne, que nous avons décidé de porter un projet ensemble.",
+    "video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1689859227982570%2Fvideos%2F1775594402742385%2F&show_text=0&width=560&mute=0",
+    "links": {
+      "facebook": "https://www.facebook.com/Abracadabra-1689859227982570"
+    }
+  },
+  {
+    "id": "imparfait",
+    "type": "artiste",
+    "name": "Imparfait",
+    "style": "Rock Urbain",
+    "description": "IMPARFAIT c’est quatre personnalités, un groupe, une énergie fédératrice. Sur scène le quatuor délivre un rock brut et sans concession.",
+    "video": "https://www.youtube-nocookie.com/embed/ADdyuhP2beA",
+    "links": {
+      "facebook": "https://www.facebook.com/imparfait.musique/",
+      "instagram": "https://www.instagram.com/imparfait.musique/",
+      "youtube": "https://www.youtube.com/channel/UCy64QcCYWahu4CA8xchSHWA"
+    }
+  },
+  {
+    "id": "martycanfly",
+    "type": "artiste",
+    "name": "Marty Can Fly",
+    "style": "8bits Cheap Tunes",
+    "description": "Marty Can Fly mélange Power-Pop et 8-Bit-Rock, et vous propose un spectacle bon-enfant qui vous plongera dans une ambiance musicale décalée, inspirée du cinéma, de la télévision et des jeux vidéo. Ce cocktail sonore délirant mélangeant retro et Rock-Chiptune est assurément joyeux et surprenant.",
+    "video": "https://www.youtube-nocookie.com/embed/MbP5cJEDHsk",
+    "links": {
+      "facebook": "https://www.facebook.com/martycanfly/",
+      "bandcamp": "https://martycanfly.bandcamp.com/",
+      "twitter": "https://twitter.com/marty_can_fly",
+      "youtube": "https://www.youtube.com/channel/UC8SIiHIw-A4_siEiCdh_fBg"
+    }
+  },
+  {
+    "id": "thestalls",
+    "type": "artiste",
+    "name": "The Stalls",
+    "style": "Hard Rock",
+    "description": "The Stalls a choisi de fouiller les racines du rock en privilégiant les bons vieux sons vintages des guitares et des drums pour s’exprimer. Halte aux synthés et aux ordinateurs, place aux riffs saignants et à l’énergie pure. Fans d’authenticité, venez d’urgence découvrir The Stalls…",
+    "video": "https://www.youtube-nocookie.com/embed/2hyDJ8sSnkU",
+    "links": {
+      "site": "http://the-stalls.com/",
+      "facebook": "https://www.facebook.com/thestalls/",
+      "twitter": "https://twitter.com/tweetthestalls",
+      "instagram": "https://www.instagram.com/thestalls/",
+      "soundcloud": "https://soundcloud.com/the-stalls-official/",
+      "youtube": "https://www.youtube.com/user/TheStallsOfficial"
+    }
+  },
+  {
+    "id": "drinedraw",
+    "type": "village",
+    "name": "DrineDraw",
+    "style": "Peinture contemporaine",
+    "description": "Spinolienne depuis 2 ans, Sandrine Rozier est pianiste et professeur au Conservatoire de Musique de Saulx les Chartreux. Peintre depuis 2006, c’est à la demande d’une amie qui venait de perdre son fils d’une tumeur cérébrale qu’elle a décidé d’aider l’ARTC (Association pour la Recherche sur les Tumeurs Cérébrales), en se procurant des toiles, des pinceaux, en exposant lors des manifestations et en reversant une partie de la recette à l’Association. Ses plus grandes inspirations: les voyages où chaque pays lui offre de fabuleuses couleurs. La musique qui l’accompagne chaque jour dans son travail, et l’homme ... La plus belle création avec lequel elle aime communiquer, échanger, partager. Sandrine a toujours aimé peindre, dessiner, bricoler, cuisiner, jardiner. En 1 mot: CRÉER. Elle utilise l’huile, l’acrylique, des cernes relief, du sable, des pierres, ainsi que des motifs à coller, des pochoirs, du papier de soie marouflé... Ses toiles peuvent servir de décoration contemporaine.",
+    "links": {
+      "site": "http://fr.artquid.com/artist/drinedraw/sandrine-r-drinedraw.html",
+      "facebook": "https://www.facebook.com/Drinedraw-1948756922052140/"
+    }
+  },
+  {
+    "id": "roseline-scoupe",
+    "type": "village",
+    "name": "Roseline Scoupe",
+    "style": "Peinture, fusain, masques",
+    "description": "À propos de son travail : « Ma peinture est plutôt instinctive, intuitive, symbolique. Comme la poésie ou bien la musique pour certains, la peinture est pour moi un voyage où les sentiments se mêlent et s’emmêlent… se posent ! Le parcours de vie avec ses douleurs et ses joies, la beauté que la nature offre à notre regard, tout cela me touche profondément et le besoin se ressent de transposer sur la toile. »",
+    "links": {
+      "site": "http://www.atelier-enilesor.fr/"
+    }
+  },
+  {
+    "id": "plis-foss",
+    "type": "village",
+    "name": "Plis Foss",
+    "style": "Restauration",
+    "description": "L’association a pour objet de promouvoir, d’entretenir des liens d’amitié entre les membres et la population environnante quelle que soit leur nationalité. D’autre part faire connaître et valoriser la culture antillaise, guyannaise et africaine par le biais de leurs différentes spécialités culinaires et artistiques. Organiser différents événements, rencontres et débats à thème, voyages, sorties, pique-nique, ateliers et travaux manuels, journées portes ouvertes, venir en aide à ses membres dans la mesure de ses possibilités. Pour le festival, l’association tiendra un stand de restauration.",
+    "links": {
+    }
+  },
+  {
+    "id": "aides",
+    "type": "village",
+    "name": "AIDES",
+    "style": "Prévention",
+    "description": "AIDES est une association française de lutte contre le VIH et les hépatites virales, créée en 1984 et reconnue d’utilité publique depuis 1990. L’association mène des actions d’information, de prévention, de soutien et de mobilisation des personnes concernées par le VIH et les hépatites.",
+    "links": {
+      "site": "https://www.aides.org",
+      "facebook": "https://www.facebook.com/aides/",
+      "twitter": "https://twitter.com/assoaides",
+      "instagram": "https://www.instagram.com/assoaides/",
+      "youtube": "https://www.youtube.com/user/AIDES/videos"
+    }
+  }
+]
