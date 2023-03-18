@@ -1,6 +1,6 @@
 /* globals $, document */
 
-var db = {};
+let db = {};
 
 /**
  * Construit la fenêtre modale
@@ -39,7 +39,10 @@ function buildModal(obj) {
  * Charge la section Artistes
  */
 function initBlocks(year, type) {
-  var blocks = db.filter(obj => (obj.type === type));
+  let blocks = db.filter(obj => (obj.type === type));
+  if (year === 2023) {
+    blocks = blocks.filter(obj => (obj.display === true));
+  }
   // tri alphabétique
   // block.sort((a, b) => a.name > b.name);
   let list = $('<div/>');

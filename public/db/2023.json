@@ -1,5 +1,6 @@
 [
   {
+    "display": true,
     "id": "conservatoire",
     "type": "artiste",
     "name": "Conservatoire d’Épinay",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "display": true,
     "id": "sozik",
     "type": "artiste",
     "name": "SOZIK",
@@ -24,6 +26,7 @@
     }
   },
   {
+    "display": true,
     "id": "arteca",
     "type": "artiste",
     "name": "Arteca",
@@ -32,27 +35,27 @@
     "video": "https://www.youtube.com/watch?v=2SoqMV0CWfM",
     "links": {
       "facebook": "https://www.facebook.com/Artecamusic",
-      "adhoc": "",
       "instagram": "https://www.instagram.com/artecamusic",
       "youtube": "https://www.youtube.com/channel/UC2q8Os0Gq2qKuCd86YtcQyA",
       "site": "https://linktr.ee/artecamusic"
     }
   },
   {
+    "display": false,
     "id": "zerty",
     "type": "artiste",
     "name": "Zerty",
     "style": "Rap",
-    "description": "Son nom est ZERTY, comme pour marquer son décalage. Il aurait pu s'appeler AZERTY, pareil à la suite de lettres que l'on retrouve sur le clavier. Blason tout trouvé pour cet amoureux des mots, issu du slam et des scènes ouvertes de son quartier en région parisienne. Son nom est ZERTY, comme pour marquer son décalage. Car ZERTY est dyslexique. Et c'est là toute la magie de ce rappeur dandy du verbe. La dyslexie lui offre alors à un rapport intuitif à la langue qu'il manipule. Son écriture rend compte d'une poésie ciselée, tout en sensibilité. ZERTY nous mène au bord d'une transe poétique, fédératrice et universelle. ZERTY navigue sur les remous d'un boom bap aux rythmes modérés. Il nous dit ses questionnements, sa mélancolie et ses désillusions. Il fait le récit des récifs sur lesquels il s'est échoué. De retour d'un voyage houleux, ZERTY tente maintenant de trouver la paix. Influences: OXMO PUCCINO, MC SOLAAR, ASSASSINS, ATK, KERY JAMES, ANTON SERRA, CESARIA EVORA...",
+    "description": "Son nom est ZERTY, comme pour marquer son décalage. Il aurait pu s’appeler AZERTY, pareil à la suite de lettres que l’on retrouve sur le clavier. Blason tout trouvé pour cet amoureux des mots, issu du slam et des scènes ouvertes de son quartier en région parisienne. Son nom est ZERTY, comme pour marquer son décalage. Car ZERTY est dyslexique. Et c’est là toute la magie de ce rappeur dandy du verbe. La dyslexie lui offre alors à un rapport intuitif à la langue qu’il manipule. Son écriture rend compte dune poésie ciselée, tout en sensibilité. ZERTY nous mène au bord d’une transe poétique, fédératrice et universelle. ZERTY navigue sur les remous d’un boom bap aux rythmes modérés. Il nous dit ses questionnements, sa mélancolie et ses désillusions. Il fait le récit des récifs sur lesquels il s’est échoué. De retour d’un voyage houleux, ZERTY tente maintenant de trouver la paix. Influences: OXMO PUCCINO, MC SOLAAR, ASSASSINS, ATK, KERY JAMES, ANTON SERRA, CESARIA EVORA...",
     "video": "https://www.youtube.com/watch?v=KGWmAuRGTDQ",
     "links": {
       "facebook": "https://www.facebook.com/Zerty.les.scribes",
-      "adhoc": "",
       "instagram": "https://www.instagram.com/zerty.officiel",
       "youtube": "https://www.youtube.com/@zerty-scribes8744"
     }
   },
   {
+    "display": true,
     "id": "menthol-moose",
     "type": "artiste",
     "name": "Menthol Moose",
@@ -61,18 +64,16 @@
     "video": "https://www.youtube.com/watch?v=SSAhNPwTgvk",
     "links": {
       "facebook": "https://www.facebook.com/mentholmoosic",
-      "adhoc": "",
-      "instagram": "",
-      "youtube": "",
       "bandcamp": "https://mentholmoose.bandcamp.com"
     }
   },
   {
+    "display": true,
     "id": "nr",
     "type": "artiste",
     "name": "NR",
     "style": "Fat Fuzz",
-    "description": "",
+    "description": "NR est, à l’instar de Noflipe, un autre groupe de la sombre ville de Dulltown ! Sur scène, Flash, Natch & Flush, énergumènes énergiques, énervés et allergiques au sérieux s’amusent en musique. Bref, du débile indélébile pour ton cerveau subtil à base de Punk-Rock, rap et ambiance planante... si, si !",
     "video": "https://www.youtube.com/watch?v=ED8Khzn2yY4",
     "links": {
       "facebook": "https://www.facebook.com/NR.fatfuzz/",
@@ -83,9 +84,10 @@
     }
   },
   {
+    "display": true,
     "id": "the-dots",
     "type": "artiste",
-    "name": "The Dot's",
+    "name": "The Dot’s",
     "style": "Rock",
     "description": "",
     "video": "https://www.youtube.com/watch?v=OqDMF3B6VoM",
@@ -97,32 +99,32 @@
     }
   },
   {
-    "id": "berlin-heart",
+    "display": false,
+    "id": "gabriel-kroger",
     "type": "artiste",
-    "name": "Berlin Heart",
-    "style": "Rock Progressif",
-    "description": "",
-    "video": "",
+    "name": "Gabriel Kröger",
+    "style": "Rock",
+    "description": "Gabriel Kröger est un auteur-compositeur-interprète originaire de banlieue parisienne. Dans un style qui croise folk alternative, rock indé et productions lo-fi, et fidèle à un esprit DIY, chaque morceau semble à la limite du journal intime.",
+    "video": "https://www.youtube.com/watch?v=ildqEmlEu_k",
     "links": {
-      "facebook": "",
-      "adhoc": "",
-      "instagram": "",
-      "youtube": ""
+      "facebook": "https://www.facebook.com/gabrielkrogermusique",
+      "bandcamp": "https://gabrielkroger.bandcamp.com",
+      "youtube": "https://www.youtube.com/@gabrielkroger",
+      "instagram": "https://www.instagram.com/gabriel_kroger/",
+      "spotify": "https://open.spotify.com/artist/4UraapnhYWoO9lbH88GboD",
+      "soundcloud": "https://soundcloud.com/gabrielkroger",
+      "deezer": "https://www.deezer.com/fr/artist/90173812"
     }
   },
   {
-    "id": "horizon-desert",
-    "type": "",
-    "name": "Horizon Desert",
-    "style": "Rock en colère",
+    "display": false,
+    "id": "zurc-tapir",
+    "type": "artiste",
+    "name": "Zurc & Tapir",
+    "style": "Electro déjanté",
     "description": "",
-    "video": "https://www.youtube.com/watch?v=Znzfo6PxIto",
+    "video": "https://www.youtube.com/watch?v=qZM0u-qiRvI",
     "links": {
-      "facebook": "",
-      "adhoc": "",
-      "instagram": "",
-      "youtube": ""
     }
   }
 ]
-
