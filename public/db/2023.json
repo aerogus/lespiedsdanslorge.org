@@ -26,10 +26,10 @@
     }
   },
   {
-    "display": false,
-    "id": "atelier-mjc-blp",
+    "display": true,
+    "id": "atelier-boby-rocks",
     "type": "artiste",
-    "name": "Atelier MJC BLP",
+    "name": "Atelier BOBY Rocks",
     "style": "Jazz Rock Pop",
     "description": "L'atelier musiques actuelles de la MJC Boby Lapointe de Villebon-sur-Yvette",
     "video": "",
@@ -41,7 +41,7 @@
     "display": true,
     "id": "arteca",
     "type": "artiste",
-    "name": "Arteca",
+    "name": "Artéca",
     "style": "Rock Narratif",
     "description": "Davelfe fonde en janvier 2022 le projet Artéca : un trio composé de Davelfe au piano, Nick au saxophone et Hermann à la batterie. S’inspirant d’univers visuels : jeux vidéos, animés et différents univers médiévaux fantastiques. Le fantastique et le voyage sont au centre de ce projet musical, se laissant porter par leurs âmes d’enfants, le trio s’évade dans un jazz rock minimaliste influencé par des artistes comme Gogo Penguin, Totorro ou encore Nobuo Uematsu.",
     "video": "https://www.youtube-nocookie.com/embed/2SoqMV0CWfM",
