@@ -66,21 +66,19 @@
     }
   },
   {
-    "display": false,
-    "id": "gabriel-kroger",
+    "display": true,
+    "id": "brave-bete",
     "type": "artiste",
-    "name": "Gabriel Kröger",
-    "style": "Rock",
-    "description": "Gabriel Kröger est un auteur-compositeur-interprète originaire de banlieue parisienne. Dans un style qui croise folk alternative, rock indé et productions lo-fi, et fidèle à un esprit DIY, chaque morceau semble à la limite du journal intime.",
-    "video": "https://www.youtube-nocookie.com/embed/ildqEmlEu_k",
+    "name": "Brave Bête",
+    "style": "Rock Indé",
+    "description": "Rock indé chanson, flexfluenceurs post-chrétiens, en Bretagne et à Paris !",
+    "video": "https://www.youtube-nocookie.com/embed/e_VpD6gJ6HI",
     "links": {
-      "facebook": "https://www.facebook.com/gabrielkrogermusique",
-      "bandcamp": "https://gabrielkroger.bandcamp.com",
-      "youtube": "https://www.youtube.com/@gabrielkroger",
-      "instagram": "https://www.instagram.com/gabriel_kroger/",
-      "spotify": "https://open.spotify.com/artist/4UraapnhYWoO9lbH88GboD",
-      "soundcloud": "https://soundcloud.com/gabrielkroger",
-      "deezer": "https://www.deezer.com/fr/artist/90173812"
+      "facebook": "https://www.facebook.com/bravebete1",
+      "youtube": "https://www.youtube.com/@bravebete9079",
+      "instagram": "https://www.instagram.com/brave_bete/",
+      "spotify": "https://open.spotify.com/artist/0jHBLmRgQ2nPU5JiELhDn5",
+      "deezer": "https://www.deezer.com/fr/artist/111388312"
     }
   },
   {

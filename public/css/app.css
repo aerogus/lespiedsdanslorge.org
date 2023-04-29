@@ -7,17 +7,17 @@
 }
 
 :root {
-    --color-white: #fefefe;
-    --color-black: #292933;
-  
-    --color-medium-blue: #0d58a1;
-    --color-dark-blue: #253041;
-  
-    --color-light-yellow: #f8f4ba;
-    --color-light-blue:#d6f0f0;
-    --color-light-pink: #f3cfbf;
-    --color-light-green: #c8e8c1;
-  }
+  --color-white: #fefefe;
+  --color-black: #292933;
+
+  --color-medium-blue: #0d58a1;
+  --color-dark-blue: #253041;
+
+  --color-light-yellow: #f8f4ba;
+  --color-light-blue:#d6f0f0;
+  --color-light-pink: #f3cfbf;
+  --color-light-green: #c8e8c1;
+}
 
 html,
 body {
@@ -61,9 +61,6 @@ body {
 }
 #navbar .nav-link:hover {
     color: #fff;
-}
-.navbar-toggler {
-  /*padding: 0;*/
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -242,14 +239,13 @@ footer a {
   background-color: #e65300;
 }
 .spotify {
-  /*background-color #1ed760*/
   background-color: #fff;
 }
 .itunes {
   background-color: #ea4cc0;
 }
 .deezer {
-  background-color: #fff;
+  background-color: #181822;
 }
 
 /**
@@ -278,7 +274,6 @@ footer a {
   height: 100%;
   border: 0;
 }
-
 
 /**
  * Modale
