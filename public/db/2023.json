@@ -66,7 +66,7 @@
     }
   },
   {
-    "display": true,
+    "display": false,
     "id": "gabriel-kroger",
     "type": "artiste",
     "name": "Gabriel Kröger",
@@ -87,9 +87,9 @@
     "display": true,
     "id": "zurc-tapir",
     "type": "artiste",
-    "name": "Zurc & Tapir",
+    "name": "Zurc&Tapir",
     "style": "Electro déjanté",
-    "description": "",
+    "description": "Zurc&Tapir mais quoi qu'est-ce ? Imaginez qu'un tremblement de terre en soit venu a séparer en deux Odd Fiction et que Thomas ai lâché sa guitare pour un ordinateur électronique et Pierre pour un saxophone acoustique. Dans cette chute rocambolesque, ils sont tombés sur un nouveau musicien instrumentiste au doux nom de Julien, qui était lui même équipé d'un clavier musical. Tout ceci n'est que fabulations, mais on est pas loin de ce qui s'est réellement passé. ",
     "video": "https://www.youtube-nocookie.com/embed/qZM0u-qiRvI",
     "links": {
     }
