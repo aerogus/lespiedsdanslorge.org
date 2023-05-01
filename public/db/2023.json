@@ -108,18 +108,16 @@
   },
   {
     "display": true,
-    "id": "nr",
+    "id": "animae",
     "type": "artiste",
-    "name": "NR",
-    "style": "Fatfuzz",
-    "description": "NR est, à l’instar de Noflipe, un autre groupe de la sombre ville de Dulltown ! Sur scène, Flash, Natch & Flush, énergumènes énergiques, énervés et allergiques au sérieux s’amusent en musique. Bref, du débile indélébile pour ton cerveau subtil à base de Punk-Rock, rap et ambiance planante... si, si !",
-    "video": "https://www.youtube-nocookie.com/embed/ED8Khzn2yY4",
+    "name": "ANIMÆ",
+    "style": "Rock Progressif",
+    "description": "Animæ est un groupe de rock progressif francophone. Sa musique entraîne l'auditeur dans une traver...",
+    "video": "https://www.youtube-nocookie.com/embed/O_yZw_u93kw",
     "links": {
-      "facebook": "https://www.facebook.com/NR.fatfuzz/",
-      "adhoc": "",
-      "instagram": "https://www.instagram.com/nr.fatfuzz",
-      "youtube": "https://www.youtube.com/channel/UChSeusIiCVJGNkzRpDIV6SQ",
-      "bandcamp": "https://nrfatfuzz.bandcamp.com"
+      "facebook": "https://www.facebook.com/animae.musique",
+      "instagram": "https://www.instagram.com/animae.music/",
+      "youtube": "https://www.youtube.com/@anim5676"
     }
   },
   {

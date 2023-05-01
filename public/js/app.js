@@ -85,7 +85,7 @@ function initSmoothScroll() {
 
 function init(year) {
   initSmoothScroll();
-  $.getJSON(`/db/${year}.json`, (json) => {
+  $.getJSON(`/db/${year}.json?v20230501`, (json) => {
     db = json;
     initBlocks(year, 'artiste');
     if (year == 2018 || year == 2019) {
