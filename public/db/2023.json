@@ -121,21 +121,17 @@
     }
   },
   {
-    "display": false,
-    "id": "the-dots",
+    "display": true,
+    "id": "do-you-speak-bird",
     "type": "artiste",
-    "name": "The Dot’s",
-    "style": "Rock",
-    "description": "",
-    "video": "https://www.youtube-nocookie.com/embed/OqDMF3B6VoM",
+    "name": "Do You Speak Bird",
+    "style": "Folk",
+    "description": "Envolez-vous vers le monde des rêves, Do You Speak Bird vous emmène en voyage sur sa folk onirique",
+    "video": "https://www.youtube-nocookie.com/embed/1iFDWO55ynI",
     "links": {
-      "site": "https://linktr.ee/thedots.off",
-      "spotify": "https://open.spotify.com/artist/2DWoznibO13686tUF1yA3U",
-      "deezer": "https://www.deezer.com/fr/artist/100134672",
-      "apple": "https://music.apple.com/fr/artist/the-dots/293466765",
-      "instagram": "https://www.instagram.com/thedots.off/",
-      "facebook": "https://www.facebook.com/the4dotss",
-      "youtube": "https://www.youtube.com/@thedots6260"
+      "instagram": "https://www.instagram.com/DoYouSpeakBird/",
+      "facebook": "https://www.facebook.com/DoYouSpeakBird",
+      "youtube": "https://www.youtube.com/@doyouspeakbird"
     }
   }
 ]
