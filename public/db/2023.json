@@ -121,7 +121,7 @@
     }
   },
   {
-    "display": true,
+    "display": false,
     "id": "the-dots",
     "type": "artiste",
     "name": "The Dot’s",
