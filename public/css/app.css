@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'DK Longreach';
-  src: url("../fonts/dk-longreach.woff2") format('woff2'),
-       url("../fonts/dk-longreach.woff") format('woff');
+  font-family: 'Longreach';
+  src: url("../fonts/longreach.woff2") format('woff2'),
+       url("../fonts/longreach.woff") format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -34,7 +34,7 @@ body {
 
 #navbar {
   background-color: var(--color-dark-blue) !important;
-  font-family: 'DK Longreach';
+  font-family: 'Longreach';
 }
 #navbar .navbar-brand {
   color: var(--color-light-yellow);
@@ -43,7 +43,7 @@ body {
   text-decoration: inherit;
   text-transform: uppercase;
   font-size: 1.6rem;
-  font-family: 'DK Longreach';
+  font-family: 'Longreach';
 }
 #navbar .navbar-brand a {
   color: var(--color-light-yellow);
@@ -72,7 +72,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'DK Longreach', sans-serif;
+  font-family: 'Longreach', sans-serif;
   color: var(--color-medium-blue);
 }
 
@@ -126,7 +126,7 @@ img {
 }
 .artiste h4.button,
 .artiste h5.button {
-  font-family: 'DK Longreach', sans-serif;
+  font-family: 'Longreach', sans-serif;
   text-transform: uppercase;
   width: 100%;
   background-color: transparent;
@@ -283,7 +283,7 @@ footer a {
   background-color: var(--color-dark-blue);
 }
 .modal-header h4 {
-  font-family: 'DK Longreach', sans-serif;
+  font-family: 'Longreach', sans-serif;
   color: var(--color-light-yellow);
 }
 .modal-header .btn-close {
@@ -298,7 +298,7 @@ footer a {
   width: 100%;
 }
 .modal-body .style {
-  font-family: 'DK Longreach', sans-serif;
+  font-family: 'Longreach', sans-serif;
   font-size: 1.4rem;
   color: var(--color-dark-blue);
 }

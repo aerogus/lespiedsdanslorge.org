@@ -1,0 +1,138 @@
+[
+  {
+    "display": true,
+    "id": "spinayz-band",
+    "type": "artiste",
+    "name": "Spinayz Band",
+    "style": "Jazz Rock Pop",
+    "description": "L’atelier musiques actuelles du conservatoire proposera un set qu’il a travaillé durant l’année.",
+    "video": "",
+    "links": {
+      "site": "https://sites.google.com/site/conservatoireepinaysurorge2/",
+      "facebook": "https://www.facebook.com/ConservatoireEpinaySurOrge/"
+    }
+  },
+  {
+    "display": true,
+    "id": "sozik",
+    "type": "artiste",
+    "name": "SOZIK",
+    "style": "Jazz Rock Pop",
+    "description": "SOZIK propose un enseignement musical inédit, axé sur la création. Venez apprendre un instrument, à composer et à enregistrer vos propres morceaux !",
+    "video": "",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "facebook": "https://www.facebook.com/sozik91/"
+    }
+  },
+  {
+    "display": true,
+    "id": "nr",
+    "type": "artiste",
+    "name": "NR",
+    "style": "FatFuzz",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=ED8Khzn2yY4",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "youtube": "https://www.youtube.com/channel/UChSeusIiCVJGNkzRpDIV6SQ/featured",
+      "facebook": "https://www.facebook.com/NR.fatfuzz",
+      "spotify": "https://open.spotify.com/intl-fr/album/56ChrH5EpZVQuFxGDmp4Eq",
+      "bandcamp": "https://nrfatfuzz.bandcamp.com/",
+      "instragram": "https://www.instagram.com/nr.fatfuzz/"
+    }
+  },
+  {
+    "display": true,
+    "id": "micky-mic-and-the-essonnians",
+    "type": "artiste",
+    "name": "Micky Mic & The Essonnians",
+    "style": "Reggae, Rocksteady",
+    "description": "Le chanteur Micky Mic s’est associé avec le groupe d’ile-de-France the Essonnians pour présenter son premier album « cahier de roots » d’influence reggae. Les textes en français de cet artiste sensible sont authentiques et inspirants et ont souvent créé une forte connexion avec le public. La musique des Essonnians portée par une solide rythmique reggae roots traditionnelle et une section de cuivres offre des ambiances variées et souvent festives.",
+    "video": "",
+    "links": {
+      "site": "https://mickymic.fr/",
+      "facebook": "https://www.facebook.com/theessonnians/"
+    }
+  },
+  {
+    "display": true,
+    "id": "cinetiqua",
+    "type": "artiste",
+    "name": "Cinetiqua",
+    "style": "Rock Prog",
+    "description": "",
+    "video": "",
+    "links": {
+      "instagram": "https://www.instagram.com/cinetiqua/",
+      "facebook": "https://www.facebook.com/cinetiqua"
+    }
+  },
+  {
+    "display": true,
+    "id": "horizon-desert",
+    "type": "artiste",
+    "name": "Horizon Desert",
+    "style": "Rock",
+    "description": "",
+    "video": "",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "facebook": "https://www.facebook.com/sozik91/"
+    }
+  },
+  {
+    "display": true,
+    "id": "cordes-sans-cibles",
+    "type": "artiste",
+    "name": "Cordes sans Cibles",
+    "style": "Rock",
+    "description": "Quelque part dans Epinay, tous les mercredis, les enfants vont au lit tôt et ont intérêt à s'endormir vite, car c'est le moment des parents indignes...\nGuitare dans la place, micros à fond, on sort la caisse de petites percus des gosses and the saloon is on fire! Enfin pas trop, faut pas exagérer... Le tout autour d'une bonne tisane au miel et au citron.\n3 sans cibles, c'est trois passionnés de musique qui ont décidé de se retrouver toutes les semaines pour kiffer la musique, expérimenter autour de reprises qu'on adore, échanger et surtout rigoler entre copains.\nOn se laisse simplement guider par nos âmes sensibles pour aller on ne sait où mais quelle importance puisqu'on est tous ensemble.",
+    "video": "",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "facebook": "https://www.facebook.com/sozik91/"
+    }
+  },
+  {
+    "display": true,
+    "id": "major-and-the-brb",
+    "type": "artiste",
+    "name": "Major & The BRB",
+    "style": "Rock",
+    "description": "",
+    "video": "",
+    "links": {
+      "istagram": "https://www.instagram.com/major.and.the.brb/",
+      "facebook": "https://www.facebook.com/majorandthebrb/",
+      "youtube": "https://www.youtube.com/@majorandthebrb",
+      "soundcloud": "https://soundcloud.com/majorandthebigrubberband"
+    }
+  },
+  {
+    "display": true,
+    "id": "hopfield",
+    "type": "artiste",
+    "name": "Hopfield",
+    "style": "Rock",
+    "description": "",
+    "video": "",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "facebook": "https://www.facebook.com/sozik91/"
+    }
+  },
+  {
+    "display": true,
+    "id": "15-45",
+    "type": "artiste",
+    "name": "15-45",
+    "style": "Rock",
+    "description": "",
+    "video": "",
+    "links": {
+      "site": "http://www.so-zik.fr/",
+      "facebook": "https://www.facebook.com/sozik91/"
+    }
+  }
+]
