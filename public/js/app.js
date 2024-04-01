@@ -42,12 +42,24 @@ function getObj(type, id) {
   return db.filter(obj => (obj.type === type) && (obj.id === id));
 }
 
+function initFlyer(year) {
+  let flyer_recto = document.getElementById('flyer-recto');
+  flyer_recto.src = '/img/affiches/' + year + '/affiche-recto.jpg';
+  flyer_recto.alt = "Flyer recto " + year;
+  flyer_recto.classList.remove('visually-hidden');
+
+  let flyer_verso = document.getElementById('flyer-verso');
+  flyer_verso.src = '/img/affiches/' + year + '/affiche-verso.jpg';
+  flyer_verso.alt = "Flyer verso " + year;
+  flyer_verso.classList.remove('visually-hidden');
+}
+
 /**
  * Charge la section Artistes
  */
 function initBlocks(year, type) {
   let blocks = db.filter(obj => (obj.type === type));
-  if (year === 2023) {
+  if (year === 2023 || year == 2024) {
     blocks = blocks.filter(obj => (obj.display === true));
   }
   // tri alphabétique
@@ -63,7 +75,7 @@ function initBlocks(year, type) {
     </div>`;
     list.append(div);
   });
-  $('#' + type + '-content').append(list);
+  $('#' + type + '-content').empty().append(list);
   $('.artiste a').click((e) => {
     let id = e.currentTarget.dataset.id;
     let obj = db.filter(obj => (obj.id === id))[0];
@@ -83,10 +95,16 @@ function initSmoothScroll() {
   });
 }
 
-function init(year) {
+function init() {
+  let params = new URLSearchParams(document.location.search);
+  let year = params.get("year");
+  if (year === null) {
+    year = 2024;
+  }
   initSmoothScroll();
-  $.getJSON(`/db/${year}.json?v20230512b`, (json) => {
+  $.getJSON(`/db/${year}.json?20240401`, (json) => {
     db = json;
+    initFlyer(year);
     initBlocks(year, 'artiste');
     if (year == 2018 || year == 2019) {
       initBlocks(year, 'village');

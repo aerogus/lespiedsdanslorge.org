@@ -59,7 +59,7 @@
     "display": true,
     "id": "cinetiqua",
     "type": "artiste",
-    "name": "Cinetiqua",
+    "name": "Cinétiqua",
     "style": "Ambiant Rock Prog",
     "description": "Un rock nomade, dosé d'ambient, de post-rock et de prog. Un live nuancé de douceur et d'énergie dans un set que forgent des titres reliés les uns aux autres, formant une séance d'évasion ; un aller simple en compagnie d’une équipée téméraire, arpentant des contrées du rock encore inexplorées...\nCette couleur particulière nous entraîne dans des contrées du rock encore inexplorées : rythmes escarpées, courants de mélodies sombres et lumineuses, guitare survoltée déchirant une atmosphère que la flûte décide d’apaiser… Une musique qui s'adresse à ceux qui veulent fuir l'écoulement de notre temps.",
     "video": "https://www.youtube-nocookie.com/embed/U8HKMtuC1xI",
@@ -73,9 +73,9 @@
     "display": true,
     "id": "horizon-desert",
     "type": "artiste",
-    "name": "Horizon Desert",
+    "name": "Horizon Désert",
     "style": "Rock en colère",
-    "description": "",
+    "description": "Horizon Désert : un cri de révolte, le refus de l’horizon qu’on nous dessine – l’exploitation sans retour et gratuite de notre nature, pour créer une panoplie d’objets inutiles qui nous éloignent les uns des autres.\nHorizon Désert, du rock en français à 4, qui plante ses riffs pesants et sa colère, son désarroi à cœur ouvert, et ses rythmiques tranchantes pour exorciser le sentiment d’impuissance. On y entend l’énergie de Rival Sons, Foo Fighters, ou Last Train.",
     "video": "https://www.youtube-nocookie.com/embed/G1zezR1nd9g",
     "links": {
       "site": "http://horizondesert.fr",
@@ -97,11 +97,11 @@
   },
   {
     "display": true,
-    "id": "major-and-the-brb",
+    "id": "major-and-the-big-rubber-band",
     "type": "artiste",
-    "name": "Major & The BRB",
+    "name": "Major & The Big Rubber Band",
     "style": "Soul Funk Rock",
-    "description": "L’histoire de Major and The BRB démarre à Bezons(95) en 2015.\n5 amis et collègues d’une même usine de caoutchouc de la banlieue Ouest de Paris, commencent à jouer ensemble. Après quelques répétitions le groupe prend rapidement le nom de Big Rubber Band, il est à ce stade uniquement instrumental. Deux mois plus tard, arrive au chant Major, puis Julien au Saxophone, ce dernier venant d’une autre société mais travaillant dans le même univers. Le nom du groupe évolue en Major &amp; The Big Rubber Band. Une amitié forte se crée au sein de l’équipe ou les différences techniques se voient gommées au profit d’un travail de l’ensemble. Chacun travaillant à hauteur de son savoir faire.\nEn Mars 2017, le groupe présente sa première prestation scénique à La Basse Cour de Nanterre, une première scène pour certains. A partir de cette date, le groupe compose, enregistre 2 démos en live au studio du conservatoire de Levallois et enchaine les concerts.\nEn 2019, ils font 10 prestations scéniques dont un passage à La Clef à St Germain puis au Forum à Vauréal, se forgeant par la même occasion une bonne expérience de la scène. Ils ont déjà changé 2 fois de bassiste.\nIls vont en changer encore jusqu’à l’arrivée de Eric, qui dès son arrivée s’impose comme le chainon manquant. Line up et set list en place, ils reprennent la route des concerts en Janvier 2023 ; Année durant laquelle ils feront 8 prestations et écriront plusieurs nouveaux morceaux.\nLa machine est relancée.",
+    "description": "L’histoire de Major and The Big Rubber Band démarre à Bezons(95) en 2015.\n5 amis et collègues d’une même usine de caoutchouc de la banlieue Ouest de Paris, commencent à jouer ensemble. Après quelques répétitions le groupe prend rapidement le nom de Big Rubber Band, il est à ce stade uniquement instrumental. Deux mois plus tard, arrive au chant Major, puis Julien au Saxophone, ce dernier venant d’une autre société mais travaillant dans le même univers. Le nom du groupe évolue en Major &amp; The Big Rubber Band. Une amitié forte se crée au sein de l’équipe ou les différences techniques se voient gommées au profit d’un travail de l’ensemble. Chacun travaillant à hauteur de son savoir faire.\nEn Mars 2017, le groupe présente sa première prestation scénique à La Basse Cour de Nanterre, une première scène pour certains. A partir de cette date, le groupe compose, enregistre 2 démos en live au studio du conservatoire de Levallois et enchaine les concerts.\nEn 2019, ils font 10 prestations scéniques dont un passage à La Clef à St Germain puis au Forum à Vauréal, se forgeant par la même occasion une bonne expérience de la scène. Ils ont déjà changé 2 fois de bassiste.\nIls vont en changer encore jusqu’à l’arrivée de Eric, qui dès son arrivée s’impose comme le chainon manquant. Line up et set list en place, ils reprennent la route des concerts en Janvier 2023 ; Année durant laquelle ils feront 8 prestations et écriront plusieurs nouveaux morceaux.\nLa machine est relancée.",
     "video": "https://www.youtube-nocookie.com/embed/-d5eV_yckAE",
     "links": {
       "instagram": "https://www.instagram.com/major.and.the.brb/",
@@ -132,8 +132,6 @@
     "description": "",
     "video": "",
     "links": {
-      "site": "http://www.so-zik.fr/",
-      "facebook": "https://www.facebook.com/sozik91/"
     }
   }
 ]
