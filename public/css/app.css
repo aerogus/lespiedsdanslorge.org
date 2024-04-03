@@ -124,8 +124,8 @@ img {
 .artiste a img {
     width: 100%;
     height: auto;
-    mask-image: url(/img/mask.png);
-    mask-mode: luminance;
+    mask-image: url(/img/mask-alpha.png);
+    mask-mode: alpha;
     mask-size: contain;
 }
 .artiste h4.button,
