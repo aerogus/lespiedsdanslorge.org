@@ -133,5 +133,31 @@
     "video": "",
     "links": {
     }
+  },
+  {
+    "display": true,
+    "id": "o-ptits-oignons",
+    "type": "village",
+    "name": "Ô'ptits oignons",
+    "style": "Burgers",
+    "description": "Spécialisé dans les burgers Frais.\nNos frites maison sont délicieuses, nous utilisons des produits frais issus des circuits courts. Notre viandre est d'origine française et nos fromages, qui sont tous proposés à la coupe dans de délicieuses meules, changent régulièrement pour vous faire découvrir les différentes régions de France.\nÀ très vite pour un moment savoureux !",
+    "video": "",
+    "links": {
+      "facebook": "https://www.facebook.com/opofood",
+      "instagram": "https://www.instagram.com/optitsoignonsfoodtruck/"
+    }
+  },
+  {
+    "display": true,
+    "id": "pizz-alex",
+    "type": "village",
+    "name": "Pizz'Alex",
+    "style": "Pizzas",
+    "description": "Pizzas artisanales à emporter",
+    "video": "",
+    "links": {
+      "facebook": "https://www.facebook.com/camionpizzalex.pizzalex",
+      "site": "https://www.camion-pizzalex.fr"
+    }
   }
 ]

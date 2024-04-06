@@ -106,7 +106,7 @@ function init() {
     db = json;
     initFlyer(year);
     initBlocks(year, 'artiste');
-    if (year == 2018 || year == 2019) {
+    if (year == 2018 || year == 2019 || year == 2024) {
       initBlocks(year, 'village');
     }
   });
