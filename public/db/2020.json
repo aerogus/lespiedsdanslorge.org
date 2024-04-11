@@ -1,5 +1,19 @@
 [
   {
+    "display": true,
+    "id": "gallery",
+    "type": "gallery",
+    "video": "https://videos.adhocmusic.com/videos/embed/03376b09-ab14-426e-ace0-b8e8bfa59087?title=0&amp;warningTitle=0&amp;controls=1",
+    "photos": [
+      "00.jpg", "01.jpg", "02.jpg", "03.jpg",
+      "04.jpg", "05.jpg", "06.jpg", "07.jpg",
+      "08.jpg", "09.jpg", "10.jpg", "12.jpg",
+      "13.jpg", "14.jpg", "15.jpg", "16.jpg",
+      "17.jpg", "18.jpg"
+    ]
+  },
+  {
+    "display": true,
     "id": "wafa-harbaoui",
     "type": "artiste",
     "name": "Wafa Harbaoui",
@@ -14,6 +28,7 @@
     }
   },
   {
+    "display": true,
     "id": "wakan-tanka",
     "type": "artiste",
     "name": "Wakan Tanka",
@@ -30,6 +45,7 @@
     }
   },
   {
+    "display": true,
     "id": "son",
     "type": "artiste",
     "name": "SO‘N",
@@ -45,6 +61,7 @@
     }
   },
   {
+    "display": true,
     "id": "pascal-pascal",
     "type": "artiste",
     "name": "Pascal Pascal",

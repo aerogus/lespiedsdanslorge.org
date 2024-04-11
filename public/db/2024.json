@@ -1,6 +1,15 @@
 [
   {
     "display": true,
+    "id": "gallery",
+    "type": "gallery",
+    "video": "",
+    "photos": [
+      "08.jpg", "10.jpg", "12.jpg", "14.jpg"
+    ]
+  },
+  {
+    "display": true,
     "id": "spinayz-band",
     "type": "artiste",
     "name": "Spinayz Band",
@@ -49,7 +58,7 @@
     "name": "Micky Mic & The Essonnians",
     "style": "Reggae Rocksteady",
     "description": "Le chanteur Micky Mic s’est associé avec le groupe d’ile-de-France the Essonnians pour présenter son premier album « cahier de roots » d’influence reggae. Les textes en français de cet artiste sensible sont authentiques et inspirants et ont souvent créé une forte connexion avec le public. La musique des Essonnians portée par une solide rythmique reggae roots traditionnelle et une section de cuivres offre des ambiances variées et souvent festives.",
-    "video": "",
+    "video": "https://video.wordpress.com/embed/qU2YMbfh",
     "links": {
       "site": "https://mickymic.fr/",
       "facebook": "https://www.facebook.com/theessonnians/"
@@ -67,21 +76,6 @@
       "spotify": "https://open.spotify.com/intl-fr/artist/09R7sm1UrvqQFfhs1uI68B",
       "instagram": "https://www.instagram.com/cinetiqua/",
       "facebook": "https://www.facebook.com/cinetiqua"
-    }
-  },
-  {
-    "display": true,
-    "id": "horizon-desert",
-    "type": "artiste",
-    "name": "Horizon Désert",
-    "style": "Rock en colère",
-    "description": "Horizon Désert : un cri de révolte, le refus de l’horizon qu’on nous dessine – l’exploitation sans retour et gratuite de notre nature, pour créer une panoplie d’objets inutiles qui nous éloignent les uns des autres.\nHorizon Désert, du rock en français à 4, qui plante ses riffs pesants et sa colère, son désarroi à cœur ouvert, et ses rythmiques tranchantes pour exorciser le sentiment d’impuissance. On y entend l’énergie de Rival Sons, Foo Fighters, ou Last Train.",
-    "video": "https://www.youtube-nocookie.com/embed/G1zezR1nd9g",
-    "links": {
-      "site": "http://horizondesert.fr",
-      "facebook": "https://www.facebook.com/horizondesert",
-      "instagram": "https://www.instagram.com/horizon_desert",
-      "spotify": "https://open.spotify.com/intl-fr/artist/62pjEsixgpjFuU6cpTj7d2"
     }
   },
   {
