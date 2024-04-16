@@ -18,6 +18,7 @@
     ]
   },
   {
+    "display": true,
     "id": "arthedone",
     "type": "artiste",
     "name": "Arthédone",
@@ -33,6 +34,7 @@
     }
   },
   {
+    "display": true,
     "id": "digital-pourpre",
     "type": "artiste",
     "name": "Digital Pourpre",
@@ -46,6 +48,7 @@
     }
   },
   {
+    "display": true,
     "id": "e-core",
     "type": "artiste",
     "name": "E-Core",
@@ -60,6 +63,7 @@
     }
   },
   {
+    "display": true,
     "id": "grotte-prod",
     "type": "artiste",
     "name": "Grotte Prod",
@@ -75,6 +79,7 @@
     }
   },
   {
+    "display": true,
     "id": "kraken",
     "type": "artiste",
     "name": "Kraken",
@@ -86,6 +91,7 @@
     }
   },
   {
+    "display": true,
     "id": "les-10agers",
     "type": "artiste",
     "name": "Les 10Agers / Les Beginnerz",
@@ -98,6 +104,7 @@
     }
   },
   {
+    "display": true,
     "id": "rhymer-13x7",
     "type": "artiste",
     "name": "Rhymer13x7",
@@ -110,6 +117,7 @@
     }
   },
   {
+    "display": true,
     "id": "sozik",
     "type": "artiste",
     "name": "SOZIK",
@@ -122,6 +130,7 @@
     }
   },
   {
+    "display": true,
     "id": "salvatorium",
     "type": "artiste",
     "name": "Salvatorium",
@@ -134,6 +143,7 @@
     }
   },
   {
+    "display": true,
     "id": "whico-skyla",
     "type": "artiste",
     "name": "Whico Skyla",
@@ -149,6 +159,7 @@
     }
   },
   {
+    "display": true,
     "id": "zantek",
     "type": "artiste",
     "name": "Zantek",
@@ -164,6 +175,7 @@
     }
   },
   {
+    "display": true,
     "id": "philippe-malique",
     "type": "village",
     "name": "Philippe Malique",
@@ -176,6 +188,7 @@
     }
   },
   {
+    "display": true,
     "id": "valerie-heid",
     "type": "village",
     "name": "Valérie Heid",
@@ -186,6 +199,7 @@
     }
   },
   {
+    "display": true,
     "id": "shiry-avny",
     "type": "village",
     "name": "Shiry Avny",
@@ -199,6 +213,7 @@
     }
   },
   {
+    "display": true,
     "id": "coffees-trip",
     "type": "village",
     "name": "Coffee’s Trip",
@@ -211,6 +226,7 @@
     }
   },
   {
+    "display": true,
     "id": "adhoc",
     "type": "village",
     "name": "AD’HOC",

@@ -1,7 +1,7 @@
 /* globals $, document */
 
 let db = {};
-let version = '20240415'; // cache bust
+let version = '20240416'; // cache bust
 
 /**
  * Construit la fenêtre modale

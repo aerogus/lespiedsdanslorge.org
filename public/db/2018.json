@@ -16,6 +16,7 @@
     ]
   },
   {
+    "display": true,
     "id": "conservatoire",
     "type": "artiste",
     "name": "Conservatoire d’Épinay",
@@ -28,6 +29,7 @@
     }
   },
   {
+    "display": true,
     "id": "sozik",
     "type": "artiste",
     "name": "SOZIK",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "display": true,
     "id": "resonance",
     "type": "artiste",
     "name": "Résonance",
@@ -53,6 +56,7 @@
     }
   },
   {
+    "display": true,
     "id": "seriousstuff",
     "type": "artiste",
     "name": "Serious Stuff",
@@ -64,6 +68,7 @@
     }
   },
   {
+    "display": true,
     "id": "pricklypearl",
     "type": "artiste",
     "name": "Prickly Pearl",
@@ -78,6 +83,7 @@
     }
   },
   {
+    "display": true,
     "id": "oddfiction",
     "type": "artiste",
     "name": "Odd Fiction",
@@ -91,6 +97,7 @@
     }
   },
   {
+    "display": true,
     "id": "abracadabra",
     "type": "artiste",
     "name": "Abracadabra",
@@ -102,6 +109,7 @@
     }
   },
   {
+    "display": true,
     "id": "imparfait",
     "type": "artiste",
     "name": "Imparfait",
@@ -115,6 +123,7 @@
     }
   },
   {
+    "display": true,
     "id": "martycanfly",
     "type": "artiste",
     "name": "Marty Can Fly",
@@ -129,6 +138,7 @@
     }
   },
   {
+    "display": true,
     "id": "thestalls",
     "type": "artiste",
     "name": "The Stalls",
@@ -145,6 +155,7 @@
     }
   },
   {
+    "display": true,
     "id": "drinedraw",
     "type": "village",
     "name": "DrineDraw",
@@ -156,6 +167,7 @@
     }
   },
   {
+    "display": true,
     "id": "roseline-scoupe",
     "type": "village",
     "name": "Roseline Scoupe",
@@ -166,6 +178,7 @@
     }
   },
   {
+    "display": true,
     "id": "plis-foss",
     "type": "village",
     "name": "Plis Foss",
@@ -175,6 +188,7 @@
     }
   },
   {
+    "display": true,
     "id": "aides",
     "type": "village",
     "name": "AIDES",
