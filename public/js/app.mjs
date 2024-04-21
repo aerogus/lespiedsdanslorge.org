@@ -1,4 +1,4 @@
-/* globals $, document */
+/* globals $, document, GLightbox */
 
 let db = {};
 let version = '20240416'; // cache bust
@@ -91,7 +91,7 @@ function loadGallery(year)
   let list = $('<div/>');
   list.classList = 'd-flex flex-wrap';
   gallery.photos.forEach((e) => {
-    let img = `<img src="/img/gallery/${year}/${e}" class="w-25 p-2" loading="lazy" alt=""/>`;
+    let img = `<a class="glightbox" href="/img/gallery/${year}/${e}"><img src="/img/gallery/${year}/${e}" class="w-25 p-2" loading="lazy" alt=""/></a>`;
     list.append(img);
   });
   $('#gallery-content').empty().append(list);
@@ -123,6 +123,9 @@ function main()
     loadBlocks(year, 'artiste');
     loadBlocks(year, 'village');
     loadGallery(year);
+
+    const lightbox = GLightbox({});
+
   });
 }
 
