@@ -1,7 +1,7 @@
 /* globals $, document, GLightbox */
 
 let db = {};
-let version = '20240416'; // cache bust
+let version = '20240421'; // cache bust
 
 /**
  * Construit la fenêtre modale
@@ -10,9 +10,9 @@ function buildModal(year, obj)
 {
   let photo;
   if (obj.type === 'artiste') {
-    photo = `/img/artiste/${year}/${obj.id}.jpg`;
+    photo = `/img/artiste/${year}/${obj.id}.jpg?${version}`;
   } else {
-    photo = `/img/village/${year}/${obj.id}.jpg`;
+    photo = `/img/village/${year}/${obj.id}.jpg?${version}`;
   }
   let content = `
   <img class="main-picture" src="${photo}" width="480" height="270" alt="">
@@ -43,13 +43,13 @@ function buildModal(year, obj)
 function loadFlyers(year)
 {
   let flyer_recto = document.getElementById('flyer-recto');
-  flyer_recto.src = '/img/affiches/' + year + '/affiche-recto.jpg?' + version;
-  flyer_recto.alt = "Flyer recto " + year;
+  flyer_recto.src = `/img/affiches/${year}/affiche-recto.jpg?${version}`;
+  flyer_recto.alt = `Flyer recto ${year}`;
   flyer_recto.classList.remove('visually-hidden');
 
   let flyer_verso = document.getElementById('flyer-verso');
-  flyer_verso.src = '/img/affiches/' + year + '/affiche-verso.jpg?' + version;
-  flyer_verso.alt = "Flyer verso " + year;
+  flyer_verso.src = `/img/affiches/${year}/affiche-verso.jpg?${version}`;
+  flyer_verso.alt = `Flyer verso ${year}`;
   flyer_verso.classList.remove('visually-hidden');
 }
 
@@ -68,7 +68,7 @@ function loadBlocks(year, type)
     let div = `<div class="artiste">
       <a data-id="${e.id}" data-bs-toggle="modal" data-bs-target="#modal">
         <h4 class="button">${e.name}</h4>
-        <img src="/img/${type}/${year}/${e.id}.jpg" width="480" height="270"/>
+        <img src="/img/${type}/${year}/${e.id}.jpg?${version}" width="480" height="270"/>
         <h5 class="button">${e.style}</h5>
       </a>
     </div>`;
