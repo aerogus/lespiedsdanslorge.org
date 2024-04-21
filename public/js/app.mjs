@@ -91,7 +91,7 @@ function loadGallery(year)
   let list = $('<div/>');
   list.classList = 'd-flex flex-wrap';
   gallery.photos.forEach((e) => {
-    let img = `<a class="glightbox" href="/img/gallery/${year}/${e}"><img src="/img/gallery/${year}/${e}" class="w-25 p-2" loading="lazy" alt=""/></a>`;
+    let img = `<div class="artiste"><a class="glightbox" href="/img/gallery/${year}/${e}"><img src="/img/gallery/${year}/${e}" loading="lazy" alt=""/></a></div>`;
     list.append(img);
   });
   $('#gallery-content').empty().append(list);
