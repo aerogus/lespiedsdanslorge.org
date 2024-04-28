@@ -189,7 +189,7 @@
     "type": "village",
     "name": "Ambition Poétique",
     "style": "Art Expo",
-    "description": "Africain, protection planète",
+    "description": "« Ambition poétique » un stand d'expo d'art plongé dans l'ambiance Africaine et la protection de la planète. Vous y retrouverez beaucoup de portraits de visages et de corps en peinture tout autant originaux les uns que les autres et fait avec passion ! Envie de vous évader, alors venez et profitez !",
     "video": "",
     "links": {
       "facebook": "https://www.facebook.com/laurence.loupy"
@@ -197,10 +197,62 @@
   },
   {
     "display": true,
+    "id": "atelier-camille",
+    "type": "village",
+    "name": "L'Atelier de Camille",
+    "style": "Atelier Créatif",
+    "description": "Un atelier créatif proposé par Camille qui propose un style nouveau ; Le upcycling. A l'ère du recyclage, pourquoi se priver d'offrir une deuxième vie à un vieux vêtement. Venez exprimer votre créativité !!!",
+    "video": "",
+    "links": {}
+  },
+  {
+    "display": true,
+    "id": "crea-badges",
+    "type": "village",
+    "name": "Créa-Badges",
+    "style": "Atelier Créatif",
+    "description": "Venez découvrir et fabriquer votre propr badge, satisfaction garantie.",
+    "video": "",
+    "links": {}
+  },
+  {
+    "display": true,
+    "id": "bassine-a-bulles",
+    "type": "village",
+    "name": "Bassine à Bulles",
+    "style": "Jeu",
+    "description": "Vous voulez voir la vie en grand, alors fini les petites bulles, venez tester les grandes bulles comme vous ne les avez certainement jamais vu !",
+    "video": "",
+    "links": {}
+  },
+  {
+    "display": true,
+    "id": "maquillage",
+    "type": "village",
+    "name": "Maquillage d'un soir",
+    "style": "Maquillage",
+    "description": "On y vient pas pour une commande de maquillage Marvel mais pour papoter et créer ensemble un habillage temporaire à base de paillettes et de fête. Du plus timoré à la plus exubérante, elle fera en sorte de coller avec votre ambiance ! A prix libre et surtout à imagination libérée, faites un tour dans son monde coloré.",
+    "video": "",
+    "links": {
+      "instagram": "https://www.instagram.com/zuzute37/"
+    }
+  },
+  {
+    "display": true,
+    "id": "mur-expression",
+    "type": "village",
+    "name": "Mur d'Expression",
+    "style": "Art libre",
+    "description": "Envie d'exprimer votre créativité, alors venez essayer notre super mur d'expression.",
+    "video": "",
+    "links": {}
+  },
+  {
+    "display": true,
     "id": "blp-radio",
     "type": "village",
     "name": "BLP Radio",
-    "style": "Webradio",
+    "style": "Média",
     "description": "BLP Radio est la webradio de la MJC Boby Lapointe à Villebon-sur-Yvette.\nJamais trop loin… BLP Radio raccourcit les distances en installant son studio mobile au coeur des événements de la région. Festivals, concerts, débats… Nous vous permettons de suivre – en direct – ces instants de découverte !\nBLP RADIO sera en direct du festival LES PIEDS DANS L’ORGE #5, à Epinay s/ Orge le samedi 4 mai 2024.\nComme d’habitude, on va tenter de vous diffuser un maximum de concerts en direct, et de vous proposer des interviews des artistes.\nPrise d’antenne à 18h.",
     "video": "",
     "links": {
