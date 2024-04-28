@@ -182,5 +182,30 @@
     "description": "Joli stand orné de tableaux montrant ce que l'on peut faire avec des perles à repasser (Hama). Stand où l'on peut créer sa propre création en perle hama. Repartir avec un petit porte-clé, c'est un sourire assuré !",
     "video": "",
     "links": {}
+  },
+  {
+    "display": true,
+    "id": "ambition-poetique",
+    "type": "village",
+    "name": "Ambition Poétique",
+    "style": "Art Expo",
+    "description": "Africain, protection planète",
+    "video": "",
+    "links": {
+      "facebook": "https://www.facebook.com/laurence.loupy"
+    }
+  },
+  {
+    "display": true,
+    "id": "blp-radio",
+    "type": "village",
+    "name": "BLP Radio",
+    "style": "Webradio",
+    "description": "BLP Radio est la webradio de la MJC Boby Lapointe à Villebon-sur-Yvette.\nJamais trop loin… BLP Radio raccourcit les distances en installant son studio mobile au coeur des événements de la région. Festivals, concerts, débats… Nous vous permettons de suivre – en direct – ces instants de découverte !\nBLP RADIO sera en direct du festival LES PIEDS DANS L’ORGE #5, à Epinay s/ Orge le samedi 4 mai 2024.\nComme d’habitude, on va tenter de vous diffuser un maximum de concerts en direct, et de vous proposer des interviews des artistes.\nPrise d’antenne à 18h.",
+    "video": "",
+    "links": {
+      "site": "https://www.blpradio.fr/",
+      "facebook": "https://www.facebook.com/blpradio"
+    }
   }
 ]
