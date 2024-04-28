@@ -172,5 +172,15 @@
       "site": "https://www.camion-pizzalex.fr",
       "instagram": "https://www.instagram.com/pizzalex.camion"
     }
+  },
+  {
+    "display": true,
+    "id": "ham-attitude",
+    "type": "village",
+    "name": "Ham'Attitude",
+    "style": "Atelier créatif",
+    "description": "Joli stand orné de tableaux montrant ce que l'on peut faire avec des perles à repasser (Hama). Stand où l'on peut créer sa propre création en perle hama. Repartir avec un petit porte-clé, c'est un sourire assuré !",
+    "video": "",
+    "links": {}
   }
 ]
