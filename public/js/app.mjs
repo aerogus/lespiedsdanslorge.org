@@ -1,7 +1,7 @@
 /* globals $, document, GLightbox */
 
 let db = {};
-let version = '20240428b'; // cache bust
+let version = '20260301'; // cache bust
 
 /**
  * Construit la fenêtre modale
@@ -115,7 +115,7 @@ function main()
   let params = new URLSearchParams(document.location.search);
   let year = params.get("year");
   if (year === null) {
-    year = 2024;
+    year = 2026;
   }
   initSmoothScroll();
   $.getJSON(`/db/${year}.json?${version}`, (json) => {

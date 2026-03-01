@@ -2,13 +2,13 @@
   "name": "lespiedsdanslorge.org",
   "description": "Site du Festival Les Pieds dans l'Orge",
   "author": "Guillaume Seznec <guillaume@seznec.fr>",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "repository": {
     "type": "git",
     "url": ""
   },
   "scripts": {
-    "serve": "php -S 0.0.0.0:8000 -t public",
+    "http": "php -S 0.0.0.0:8000 -t public",
     "deploy": "rsync -av -e 'ssh -p 22' public/ gus@vps.aerogus.net:/var/www/lespiedsdanslorge.org --delete"
   }
 }
