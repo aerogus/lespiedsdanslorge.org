@@ -1,7 +1,7 @@
 /* globals $, document, GLightbox */
 
 let db = {};
-let version = '20260304'; // cache bust
+let version = '20260421'; // cache bust
 
 /**
  * Construit la fenêtre modale

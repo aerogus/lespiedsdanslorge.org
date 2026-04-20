@@ -269,6 +269,12 @@ footer a {
 .tiktok {
     background-color: #1a121f;
 }
+.threads {
+    background-color: #000;
+}
+.youtubemusic {
+    background-color: #f00;
+}
 
 /**
  * Player vidéo
