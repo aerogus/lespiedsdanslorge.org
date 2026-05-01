@@ -2,10 +2,14 @@
 
 https://lespiedsdanslorge.org
 
-## Installation
+## Tester en local
 
+```bash
+npm run http (et aller sur http://localhost:8000)
 ```
-npm install
-npm run serve (et aller sur http://localhost:8000)
+
+## Déployer
+
+```bash
 npm run deploy
 ```
