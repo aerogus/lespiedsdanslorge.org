@@ -3,6 +3,9 @@
 let db = {};
 let version = '20260421'; // cache bust
 
+// pour le compte à rebours
+const targetDate = new Date("2026-05-16T18:00:00+0200");
+
 /**
  * Construit la fenêtre modale
  */
@@ -110,6 +113,39 @@ function initSmoothScroll()
   });
 }
 
+function formatNumber(number)
+{
+    return number < 10 ? "0" + number : number;
+}
+
+/**
+ * Mise à jour du compte à rebours
+ */
+function updateCountdown()
+{
+    const currentDate = new Date();
+    const difference = targetDate - currentDate;
+
+    if (difference <= 0) {
+        return;
+    }
+
+    const seconds = Math.floor(difference / 1000) % 60;
+    const minutes = Math.floor(difference / 1000 / 60) % 60;
+    const hours = Math.floor(difference / 1000 / 60 / 60) % 24;
+    const days = Math.floor(difference / 1000 / 60 / 60 / 24);
+
+    const daysElement = document.getElementById("days");
+    const hoursElement = document.getElementById("hours");
+    const minutesElement = document.getElementById("minutes");
+    const secondsElement = document.getElementById("seconds");
+
+    daysElement.textContent = formatNumber(days);
+    hoursElement.textContent = formatNumber(hours);
+    minutesElement.textContent = formatNumber(minutes);
+    secondsElement.textContent = formatNumber(seconds);
+}
+
 function main()
 {
   let params = new URLSearchParams(document.location.search);
@@ -128,6 +164,10 @@ function main()
     const lightbox = GLightbox({});
 
   });
+
+  if (year === 2026) {
+    setInterval(updateCountdown, 1000);
+  }
 }
 
 // À la fermeture de la modale
