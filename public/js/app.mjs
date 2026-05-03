@@ -1,7 +1,7 @@
 /* globals $, document, GLightbox */
 
 let db = {};
-let version = '20260421'; // cache bust
+let version = '20260503'; // cache bust
 
 // pour le compte à rebours
 const targetDate = new Date("2026-05-16T18:00:00+0200");
