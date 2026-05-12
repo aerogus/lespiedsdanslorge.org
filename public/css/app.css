@@ -29,6 +29,10 @@ body {
     padding-top: 2rem; /* taille du header fixe */
 }
 
+a {
+    color: var(--color-medium-blue);
+}
+
 /**
  * Barre du haut + menu
  */

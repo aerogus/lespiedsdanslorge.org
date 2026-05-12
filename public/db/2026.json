@@ -154,7 +154,7 @@
   {
     "display": true,
     "id": "o-ptits-oignons",
-    "type": "village",
+    "type": "restauration",
     "name": "Ô'ptits oignons",
     "style": "Burgers",
     "description": "Spécialisé dans les burgers Frais.\nNos frites maison sont délicieuses, nous utilisons des produits frais issus des circuits courts. Notre viandre est d'origine française et nos fromages, qui sont tous proposés à la coupe dans de délicieuses meules, changent régulièrement pour vous faire découvrir les différentes régions de France.\nÀ très vite pour un moment savoureux !",
@@ -167,7 +167,7 @@
   {
     "display": true,
     "id": "pizz-alex",
-    "type": "village",
+    "type": "restauration",
     "name": "Pizz'Alex",
     "style": "Pizzas",
     "description": "Pizzas artisanales à emporter",
@@ -176,6 +176,20 @@
       "facebook": "https://www.facebook.com/camionpizzalex.pizzalex",
       "site": "https://www.camion-pizzalex.fr",
       "instagram": "https://www.instagram.com/pizzalex.camion"
+    }
+  },
+  {
+    "display": true,
+    "id": "buvette-by-adhoc",
+    "type": "restauration",
+    "name": "Buvette by AD'HOC",
+    "style": "Bar Snack",
+    "description": "Que serait un festival sans son point de ralliement préféré ? 😅 Pour vous désaltérer et grignoter entre deux pogos, passage obligé à la buvette de l'association Ad'Hoc ! 🎪\nDerrière le comptoir, notre équipe de bénévoles survoltés vous a préparé de quoi vous régaler et vous rafraîchir :\n🍺 De la bière pression avec l'excellente Ox’Bier de la brasserie artisanale de Marcoussis\n🍷 De la sangria bien fraîche pour trinquer à cette belle soirée\n🥤 Des sodas servis au verre pour satisfaire toutes les envies\n🌽 Des nachos bien croustillants à partager (ou tout garder pour vous 😉)\n🍿 Du pop-corn pour la touche festive et gourmande\nOn vous attend de pied ferme au comptoir pour trinquer à cette belle édition 2026. Santé ! 🎉",
+    "video": "",
+    "links": {
+      "facebook": "https://www.facebook.com/adhocmusic",
+      "site": "https://www.adhocmusic.com",
+      "instagram": "https://www.instagram.com/adhoc.music"
     }
   },
   {

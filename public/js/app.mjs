@@ -1,7 +1,7 @@
-/* globals $, document, GLightbox */
+/* globals $, document, window, URLSearchParams, GLightbox, modal */
 
 let db = {};
-let version = '20260503'; // cache bust
+let version = '20260511b'; // cache bust
 
 // pour le compte à rebours
 const targetDate = new Date("2026-05-16T18:00:00+0200");
@@ -12,11 +12,7 @@ const targetDate = new Date("2026-05-16T18:00:00+0200");
 function buildModal(year, obj)
 {
   let photo;
-  if (obj.type === 'artiste') {
-    photo = `/img/artiste/${year}/${obj.id}.jpg?${version}`;
-  } else {
-    photo = `/img/village/${year}/${obj.id}.jpg?${version}`;
-  }
+  photo = `/img/${obj.type}/${year}/${obj.id}.jpg?${version}`;
   let content = `
   <img class="main-picture" src="${photo}" width="480" height="270" alt="">
   <div class="row">
@@ -31,7 +27,7 @@ function buildModal(year, obj)
   });
 
   content += `</ul></div>`;
-  content += `<p>${obj.description.replace('\n', '<br>')}</p>`;
+  content += `<p>${obj.description.replaceAll('\n', '<br>')}</p>`;
 
   if (obj.video) {
     content += `<div id="modal-video-player" class="fluid-video-player ratio-16-9">
@@ -159,6 +155,7 @@ function main()
     loadFlyers(year);
     loadBlocks(year, 'artiste');
     loadBlocks(year, 'village');
+    loadBlocks(year, 'restauration');
     loadGallery(year);
 
     const lightbox = GLightbox({});
@@ -166,12 +163,12 @@ function main()
   });
 
   if (year === 2026) {
-    setInterval(updateCountdown, 1000);
+    window.setInterval(updateCountdown, 1000);
   }
 }
 
 // À la fermeture de la modale
-modal.addEventListener('hide.bs.modal', (e) => {
+modal.addEventListener('hide.bs.modal', () => {
   // on stoppe l'éventuelle vidéo en lecture
   let mvp = document.querySelector('#modal-video-player iframe');
   if (mvp) {
