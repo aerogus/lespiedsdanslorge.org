@@ -10,5 +10,9 @@
   "scripts": {
     "http": "php -S 0.0.0.0:8000 -t public",
     "deploy": "rsync -av -e 'ssh -p 22' public/ gus@vps.aerogus.net:/var/www/lespiedsdanslorge.org --delete"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.3.0"
   }
 }
